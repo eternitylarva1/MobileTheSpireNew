@@ -1,8 +1,13 @@
 package com.megacrit.cardcrawl;
 
+import android.app.AlertDialog;
+import android.content.Intent;
 import android.content.res.AssetManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.Settings;
 import android.util.Log;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
@@ -18,10 +23,54 @@ import java.lang.reflect.Field;
 public class AndroidLauncher extends AndroidApplication {
     public static AssetManager assetManager;
     public static AndroidLauncher instance;
+    private static final int REQUEST_MANAGE_STORAGE = 1001;
+    private void requestAllFilesAccess() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            if (!Environment.isExternalStorageManager()) {
+                Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                intent.setData(Uri.parse("package:" + getPackageName()));
+                startActivityForResult(intent, REQUEST_MANAGE_STORAGE);
+            } else {
+                // 已获得权限，执行文件操作
+                // 这里可以添加具体的文件操作代码
+            }
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_MANAGE_STORAGE) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                boolean hasPermission = Environment.isExternalStorageManager();
+                if (hasPermission) {
+                    // 权限已授予，执行文件操作
+                    // 这里可以添加具体的文件操作代码
+                } else {
+                    // 权限被拒绝，引导用户手动开启
+                    showPermissionGuide();
+                }
+            }
+        }
+    }
+
+    private void showPermissionGuide() {
+        new AlertDialog.Builder(this)
+                .setTitle("权限申请")
+                .setMessage("需要访问所有文件权限以完成操作")
+                .setPositiveButton("去设置", (dialog, which) -> {
+                    Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                    intent.setData(Uri.parse("package:" + getPackageName()));
+                    startActivity(intent);
+                })
+                .setNegativeButton("取消", null)
+                .show();
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+              // 在 onCreate 中调用权限申请方法
+        requestAllFilesAccess();
         instance = this;
         readFromAssets("hack_dex.jar");
         assetManager = getAssets();

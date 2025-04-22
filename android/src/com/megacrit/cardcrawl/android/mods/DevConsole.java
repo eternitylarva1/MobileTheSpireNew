@@ -140,17 +140,18 @@ public class DevConsole implements PostEnergyRechargeSubscriber, PostInitializeS
             buttonImg = ImageMaster.END_TURN_BUTTON_GLOW;
         } else {
             buttonImg = ImageMaster.END_TURN_BUTTON;
-        }
+        }/*
         sb.setColor(Color.WHITE);
         sb.draw(buttonImg, callOutHb.x, callOutHb.y - 64.0F, 128.0F, 128.0F, 256.0F, 256.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 256, 256, false, false);
-        FontHelper.renderFontCentered(sb, FontHelper.panelEndTurnFont, "Dev Console", callOutHb.x + 128.0F, callOutHb.y + 64.0F - 3.0F * Settings.scale, Settings.GOLD_COLOR);
-        callOutHb.render(sb);
+        FontHelper.renderFontCentered(sb, FontHelper.panelEndTurnFont, "dev", callOutHb.x + 128.0F, callOutHb.y + 64.0F - 3.0F * Settings.scale, Settings.GOLD_COLOR);
+        callOutHb.render(sb);*/
     }
 
     @Override
     public void receivePostUpdate() {
+        /*
         callOutHb.move(1640.0F * Settings.xScale, 810.0F * Settings.yScale);
-        callOutHb.update();
+        callOutHb.update();*/
         if (Gdx.input.justTouched()) {
             if (callOutHb.hovered) {
                 CardCrawlGame.sound.play("UI_CLICK_1");

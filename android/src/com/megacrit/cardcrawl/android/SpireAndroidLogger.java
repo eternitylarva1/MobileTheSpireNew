@@ -1,5 +1,6 @@
 package com.megacrit.cardcrawl.android;
 
+import android.media.MediaPlayer;
 import android.util.Log;
 import com.badlogic.gdx.ApplicationLogger;
 
@@ -20,6 +21,7 @@ public class SpireAndroidLogger {
         if (!loggerMap.containsKey(cls)) {
             loggerMap.put(cls, new ApplicationLogger() {
                 private String tagName = cls.getName().replace("com.megacrit.cardcrawl.", "");
+
                 @Override
                 public void log(String tag, String message) {
                     Log.i(tagName, message);

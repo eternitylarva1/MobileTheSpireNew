@@ -22,8 +22,8 @@ public class MyPreDexTransform extends Transform {
         Inject.appendClassPath(project.project(':hack').buildDir.absolutePath.concat("\\intermediates\\javac\\release\\classes"))
         Inject.appendClassPath(project.project(':android').buildDir.absolutePath.concat("\\intermediates\\javac\\release\\classes"))
 
-        Inject.appendClassPath("E:\\android-sdk\\platforms\\android-30\\android.jar")
-        Inject.appendClassPath("C:\\Users\\DELL\\.gradle\\caches\\modules-2\\files-2.1\\com.badlogicgames.gdx\\gdx\\1.9.5\\dc65bb2f51828c58b1b2b3ac585357204d54ee5f\\gdx-1.9.5.jar")
+        Inject.appendClassPath("C:\\Users\\gaoming\\AppData\\Local\\Android\\Sdk\\platforms\\android-30\\android.jar")
+        Inject.appendClassPath("\"C:\\Users\\gaoming\\Downloads\\gradle-7.0.2-bin\\gradle-7.0.2\\init.d\\caches\\modules-2\\files-2.1\\com.badlogicgames.gdx\\gdx\\1.9.5\\cd5eec61aacab35347e28eb026de358c7e83536f\\target\\gdx-1.9.5.jar\"")
     }
 
     // Transfrom在Task列表中的名字
