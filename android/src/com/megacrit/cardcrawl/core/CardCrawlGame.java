@@ -379,7 +379,9 @@ public class CardCrawlGame implements ApplicationListener {
             this.sb.setProjectionMatrix(this.camera.combined);
             psb.setProjectionMatrix(this.camera.combined);
             Gdx.gl.glClearColor(1, 1, 1, 1);
-            this.sb.begin();
+            if(!this.sb.isDrawing()) {
+                this.sb.begin();
+            }
             this.sb.setColor(Color.WHITE);
             switch(mode.name) {
                 case "SPLASH":
