@@ -28,6 +28,7 @@ https://github.com/eternitylarva1/UnlockAll
 
 可以返回主页（不要杀掉后台）然后重新进游戏即可解决
 
+如果在黑屏期间发生了闪退，注意一定要杀掉后台再重新进游戏，不然会一直闪退！
 
 ![目录2](images/6.jpg "2")
 
