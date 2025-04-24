@@ -12,6 +12,9 @@ https://github.com/eternitylarva1/randomMonsterMoblie
 全解锁mod:
 https://github.com/eternitylarva1/UnlockAll
 
+更好的动画：
+https://github.com/eternitylarva1/BetterAnimationMobile
+
 使用教程
 
 1.下载和安装
