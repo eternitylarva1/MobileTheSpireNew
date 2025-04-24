@@ -27,7 +27,6 @@ www-test/
 /android/out/
 com_crashlytics_export_strings.xml
 /android/bak/
-/android/assets/
 /android/release/
 wiki.md
 
@@ -127,3 +126,5 @@ Thumbs.db
 !/ios-moe/xcode/*.xcodeproj/xcshareddata
 !/ios-moe/xcode/*.xcodeproj/project.pbxproj
 /ios-moe/xcode/native/
+/android/debug/android-debug.apk
+/android/debug/output-metadata.json
