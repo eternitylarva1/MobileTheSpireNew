@@ -1,21 +1,29 @@
-Mod制作教程/编译教程请看
+# p.s.此版本仅供交流学习使用，如有条件请支持正版
+https://store.steampowered.com/app/646570/Slay_the_Spire/
+https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire&hl=zh
+
+## Mod制作教程/编译教程请看
 https://github.com/tldyl/ModbileTheSpire/wiki
 
-我写的mod:(可以在这个版本使用)
+<span style="color: red;">注意！！！电脑版mod和这个版本的mod并不通用！，请勿直接把电脑版mod放到这个版本</span>
 
-控制台mod:
+细节可以参考我写的几个mod
+
+我写的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
+
+控制台mod(手机版):
 https://github.com/eternitylarva1/Devconsle
 
-随机融合怪：
+随机融合怪（手机版）：
 https://github.com/eternitylarva1/randomMonsterMoblie
 
-全解锁mod:
+全解锁mod(手机版):
 https://github.com/eternitylarva1/UnlockAll
 
-更好的动画：
+更好的动画（手机版）：
 https://github.com/eternitylarva1/BetterAnimationMobile
 
-使用教程
+## 使用教程
 
 1.下载和安装
 
