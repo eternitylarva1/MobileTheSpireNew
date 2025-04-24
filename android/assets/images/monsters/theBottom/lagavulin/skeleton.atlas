@@ -1,0 +1,125 @@
+
+Lagavulin.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1B
+  rotate: true
+  xy: 827, 213
+  size: 35, 69
+  orig: 35, 69
+  offset: 0, 0
+  index: -1
+1C
+  rotate: false
+  xy: 209, 24
+  size: 60, 71
+  orig: 60, 71
+  offset: 0, 0
+  index: -1
+1F
+  rotate: true
+  xy: 731, 201
+  size: 47, 94
+  orig: 47, 94
+  offset: 0, 0
+  index: -1
+2B
+  rotate: false
+  xy: 559, 80
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+2C
+  rotate: true
+  xy: 392, 79
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+2F
+  rotate: true
+  xy: 597, 173
+  size: 20, 84
+  orig: 20, 84
+  offset: 0, 0
+  index: -1
+3B
+  rotate: false
+  xy: 683, 179
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+3C
+  rotate: false
+  xy: 898, 214
+  size: 14, 34
+  orig: 14, 34
+  offset: 0, 0
+  index: -1
+3F
+  rotate: true
+  xy: 209, 3
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+4B
+  rotate: false
+  xy: 271, 39
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+4C
+  rotate: true
+  xy: 326, 55
+  size: 40, 64
+  orig: 40, 64
+  offset: 0, 0
+  index: -1
+4F
+  rotate: false
+  xy: 559, 111
+  size: 36, 82
+  orig: 36, 82
+  offset: 0, 0
+  index: -1
+EYE
+  rotate: false
+  xy: 597, 157
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Shell1
+  rotate: false
+  xy: 209, 97
+  size: 218, 151
+  orig: 218, 151
+  offset: 0, 0
+  index: -1
+Shell2
+  rotate: false
+  xy: 2, 2
+  size: 205, 246
+  orig: 205, 246
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 429, 195
+  size: 300, 53
+  orig: 300, 53
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 429, 65
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

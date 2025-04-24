@@ -1,0 +1,39 @@
+
+scene.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene2.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+campfire
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene3.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+event
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1

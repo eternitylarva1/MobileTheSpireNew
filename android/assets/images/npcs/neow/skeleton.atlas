@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eyelid1
+  rotate: false
+  xy: 2, 2
+  size: 38, 16
+  orig: 38, 16
+  offset: 0, 0
+  index: -1
+images/eyelid2
+  rotate: true
+  xy: 739, 140
+  size: 55, 21
+  orig: 55, 21
+  offset: 0, 0
+  index: -1
+images/eyelid3
+  rotate: false
+  xy: 872, 793
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+images/headtop
+  rotate: false
+  xy: 2, 197
+  size: 779, 615
+  orig: 779, 615
+  offset: 0, 0
+  index: -1
+images/mouthbg
+  rotate: false
+  xy: 2, 20
+  size: 506, 39
+  orig: 506, 39
+  offset: 0, 0
+  index: -1
+images/mouthfg
+  rotate: false
+  xy: 2, 61
+  size: 735, 134
+  orig: 735, 134
+  offset: 0, 0
+  index: -1
+images/tongue
+  rotate: true
+  xy: 783, 210
+  size: 602, 87
+  orig: 602, 87
+  offset: 0, 0
+  index: -1

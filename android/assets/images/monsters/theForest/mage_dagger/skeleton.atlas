@@ -1,0 +1,20 @@
+
+dagger.png
+size: 375,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dagger copy
+  rotate: true
+  xy: 270, 37
+  size: 167, 103
+  orig: 167, 103
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 2
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1

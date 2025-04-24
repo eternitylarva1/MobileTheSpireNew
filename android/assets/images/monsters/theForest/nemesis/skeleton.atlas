@@ -1,0 +1,48 @@
+
+Nemesis.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloak
+  rotate: false
+  xy: 332, 213
+  size: 242, 287
+  orig: 242, 287
+  offset: 0, 0
+  index: -1
+clothShadow
+  rotate: false
+  xy: 576, 224
+  size: 199, 276
+  orig: 199, 276
+  offset: 0, 0
+  index: -1
+scythe
+  rotate: false
+  xy: 2, 157
+  size: 328, 343
+  orig: 328, 343
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 332, 182
+  size: 233, 29
+  orig: 233, 29
+  offset: 0, 0
+  index: -1
+skull
+  rotate: true
+  xy: 2, 2
+  size: 153, 174
+  orig: 153, 174
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 777, 367
+  size: 95, 133
+  orig: 95, 133
+  offset: 0, 0
+  index: -1

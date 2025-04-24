@@ -1,0 +1,650 @@
+
+achievements.png
+size: 2048,2048
+format: RGB888
+filter: Linear,Linear
+repeat: none
+locked/0
+  rotate: false
+  xy: 2, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/10
+  rotate: false
+  xy: 164, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/20
+  rotate: false
+  xy: 164, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/adrenaline
+  rotate: false
+  xy: 2, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/amethyst
+  rotate: false
+  xy: 326, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/amethyst_plus
+  rotate: false
+  xy: 2, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/automaton
+  rotate: false
+  xy: 326, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/awakenedOne
+  rotate: false
+  xy: 650, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/barricaded
+  rotate: false
+  xy: 164, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/catalyst
+  rotate: false
+  xy: 488, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/champ
+  rotate: false
+  xy: 812, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/collector
+  rotate: false
+  xy: 164, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/comeAtMe
+  rotate: false
+  xy: 488, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/commonSense
+  rotate: false
+  xy: 812, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/donut
+  rotate: false
+  xy: 2, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/emeraldPlus
+  rotate: false
+  xy: 326, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/eternal_one
+  rotate: false
+  xy: 650, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/focused
+  rotate: false
+  xy: 974, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/ghostGuardian
+  rotate: false
+  xy: 2, 488
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/guardian
+  rotate: false
+  xy: 326, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/impervious
+  rotate: false
+  xy: 650, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/infinity
+  rotate: false
+  xy: 974, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/ironclad
+  rotate: false
+  xy: 1298, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/jaxxed
+  rotate: false
+  xy: 164, 488
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/luckyDay
+  rotate: false
+  xy: 488, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/minimalist
+  rotate: false
+  xy: 812, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/neon
+  rotate: false
+  xy: 1136, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/ninja
+  rotate: false
+  xy: 1460, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/onerelic
+  rotate: false
+  xy: 164, 326
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/perfect
+  rotate: false
+  xy: 488, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/plague
+  rotate: false
+  xy: 812, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/powerful
+  rotate: false
+  xy: 1136, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/purity
+  rotate: false
+  xy: 1460, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/rubyPlus
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/sapphire
+  rotate: false
+  xy: 326, 326
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/sapphirePlus
+  rotate: false
+  xy: 650, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/shapes
+  rotate: false
+  xy: 974, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/shrugItOff
+  rotate: false
+  xy: 1298, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/silent
+  rotate: false
+  xy: 1622, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/slimeBoss
+  rotate: false
+  xy: 164, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/speed
+  rotate: false
+  xy: 488, 326
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/theEnding
+  rotate: false
+  xy: 812, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/thePact
+  rotate: false
+  xy: 1136, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/timeEater
+  rotate: false
+  xy: 1460, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/transient
+  rotate: false
+  xy: 1784, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+locked/youAreNothing
+  rotate: false
+  xy: 488, 164
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/0
+  rotate: false
+  xy: 2, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/10
+  rotate: false
+  xy: 2, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/20
+  rotate: false
+  xy: 326, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/adrenaline
+  rotate: false
+  xy: 164, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/amethyst
+  rotate: false
+  xy: 488, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/amethyst_plus
+  rotate: false
+  xy: 164, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/automaton
+  rotate: false
+  xy: 488, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/awakenedOne
+  rotate: false
+  xy: 2, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/barricaded
+  rotate: false
+  xy: 326, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/catalyst
+  rotate: false
+  xy: 650, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/champ
+  rotate: false
+  xy: 2, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/collector
+  rotate: false
+  xy: 326, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/comeAtMe
+  rotate: false
+  xy: 650, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/commonSense
+  rotate: false
+  xy: 974, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/donut
+  rotate: false
+  xy: 164, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/emeraldPlus
+  rotate: false
+  xy: 488, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/eternal_one
+  rotate: false
+  xy: 812, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/focused
+  rotate: false
+  xy: 1136, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/ghostGuardian
+  rotate: false
+  xy: 164, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/guardian
+  rotate: false
+  xy: 488, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/impervious
+  rotate: false
+  xy: 812, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/infinity
+  rotate: false
+  xy: 1136, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/ironclad
+  rotate: false
+  xy: 2, 326
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/jaxxed
+  rotate: false
+  xy: 326, 650
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/luckyDay
+  rotate: false
+  xy: 650, 974
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/minimalist
+  rotate: false
+  xy: 974, 1298
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/neon
+  rotate: false
+  xy: 1298, 1622
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/ninja
+  rotate: false
+  xy: 2, 164
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/onerelic
+  rotate: false
+  xy: 326, 488
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/perfect
+  rotate: false
+  xy: 650, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/plague
+  rotate: false
+  xy: 974, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/powerful
+  rotate: false
+  xy: 1298, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/purity
+  rotate: false
+  xy: 1622, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/rubyPlus
+  rotate: false
+  xy: 164, 164
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/sapphire
+  rotate: false
+  xy: 488, 488
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/sapphirePlus
+  rotate: false
+  xy: 812, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/shapes
+  rotate: false
+  xy: 1136, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/shrugItOff
+  rotate: false
+  xy: 1460, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/silent
+  rotate: false
+  xy: 1784, 1784
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/slimeBoss
+  rotate: false
+  xy: 326, 164
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/speed
+  rotate: false
+  xy: 650, 488
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/theEnding
+  rotate: false
+  xy: 974, 812
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/thePact
+  rotate: false
+  xy: 1298, 1136
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/timeEater
+  rotate: false
+  xy: 1622, 1460
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/transient
+  rotate: false
+  xy: 326, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+unlocked/youAreNothing
+  rotate: false
+  xy: 650, 326
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

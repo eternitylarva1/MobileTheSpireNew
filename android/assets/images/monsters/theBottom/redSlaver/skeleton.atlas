@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/armleft
+  rotate: true
+  xy: 89, 24
+  size: 33, 78
+  orig: 33, 78
+  offset: 0, 0
+  index: -1
+images/armright
+  rotate: false
+  xy: 2, 2
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/cloackred
+  rotate: true
+  xy: 492, 28
+  size: 96, 183
+  orig: 96, 183
+  offset: 0, 0
+  index: -1
+images/cloakbackred
+  rotate: false
+  xy: 951, 57
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+images/eyelidred
+  rotate: false
+  xy: 272, 49
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+images/eyered
+  rotate: false
+  xy: 29, 21
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+images/headred
+  rotate: false
+  xy: 223, 16
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+images/hoodred
+  rotate: true
+  xy: 169, 16
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+images/jaw
+  rotate: false
+  xy: 677, 39
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+images/legleft
+  rotate: true
+  xy: 2, 29
+  size: 28, 85
+  orig: 28, 85
+  offset: 0, 0
+  index: -1
+images/legright
+  rotate: true
+  xy: 951, 102
+  size: 22, 71
+  orig: 22, 71
+  offset: 0, 0
+  index: -1
+images/net
+  rotate: false
+  xy: 677, 51
+  size: 153, 73
+  orig: 153, 73
+  offset: 0, 0
+  index: -1
+images/netback
+  rotate: false
+  xy: 832, 54
+  size: 117, 70
+  orig: 117, 70
+  offset: 0, 0
+  index: -1
+images/netshadow
+  rotate: false
+  xy: 284, 95
+  size: 206, 29
+  orig: 206, 29
+  offset: 0, 0
+  index: -1
+images/shadowred
+  rotate: false
+  xy: 2, 59
+  size: 219, 29
+  orig: 219, 29
+  offset: 0, 0
+  index: -1
+images/shoulderred
+  rotate: true
+  xy: 223, 58
+  size: 30, 63
+  orig: 30, 63
+  offset: 0, 0
+  index: -1
+images/weponred
+  rotate: false
+  xy: 2, 90
+  size: 280, 34
+  orig: 280, 34
+  offset: 0, 0
+  index: -1

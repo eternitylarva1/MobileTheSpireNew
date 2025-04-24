@@ -1,0 +1,83 @@
+
+OrbWalker.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head_bg
+  rotate: true
+  xy: 174, 9
+  size: 157, 179
+  orig: 157, 179
+  offset: 0, 0
+  index: -1
+head_ne
+  rotate: false
+  xy: 501, 114
+  size: 111, 128
+  orig: 111, 128
+  offset: 0, 0
+  index: -1
+head_nw
+  rotate: false
+  xy: 614, 125
+  size: 88, 117
+  orig: 88, 117
+  offset: 0, 0
+  index: -1
+head_se
+  rotate: false
+  xy: 2, 2
+  size: 110, 65
+  orig: 110, 65
+  offset: 0, 0
+  index: -1
+head_sw
+  rotate: false
+  xy: 501, 26
+  size: 64, 86
+  orig: 64, 86
+  offset: 0, 0
+  index: -1
+leg_left
+  rotate: false
+  xy: 764, 167
+  size: 56, 75
+  orig: 56, 75
+  offset: 0, 0
+  index: -1
+leg_right
+  rotate: false
+  xy: 704, 154
+  size: 58, 88
+  orig: 58, 88
+  offset: 0, 0
+  index: -1
+leg_right_bg
+  rotate: false
+  xy: 114, 25
+  size: 26, 42
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+orb
+  rotate: false
+  xy: 355, 20
+  size: 144, 146
+  orig: 144, 146
+  offset: 0, 0
+  index: -1
+outline
+  rotate: false
+  xy: 2, 69
+  size: 170, 173
+  orig: 170, 173
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 174, 168
+  size: 263, 74
+  orig: 263, 74
+  offset: 0, 0
+  index: -1

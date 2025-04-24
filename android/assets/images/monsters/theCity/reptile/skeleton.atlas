@@ -1,0 +1,83 @@
+
+Snecko.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 34
+  size: 217, 255
+  orig: 217, 255
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 711, 200
+  size: 34, 51
+  orig: 34, 51
+  offset: 0, 0
+  index: -1
+iris
+  rotate: false
+  xy: 421, 109
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+leftLegBG
+  rotate: false
+  xy: 2, 2
+  size: 61, 30
+  orig: 61, 30
+  offset: 0, 0
+  index: -1
+leftLegFG
+  rotate: true
+  xy: 259, 39
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+pupil
+  rotate: false
+  xy: 489, 154
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+rightLegBG
+  rotate: false
+  xy: 421, 129
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+rightLegFG
+  rotate: true
+  xy: 614, 185
+  size: 66, 95
+  orig: 66, 95
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 259, 184
+  size: 353, 67
+  orig: 353, 67
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 259, 106
+  size: 160, 76
+  orig: 160, 76
+  offset: 0, 0
+  index: -1
+tongue
+  rotate: false
+  xy: 337, 49
+  size: 16, 55
+  orig: 16, 55
+  offset: 0, 0
+  index: -1

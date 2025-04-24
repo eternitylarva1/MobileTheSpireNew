@@ -1,0 +1,62 @@
+
+orb.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue
+  rotate: false
+  xy: 2, 27
+  size: 24, 23
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 26, 2
+  size: 16, 23
+  orig: 24, 24
+  offset: 4, 1
+  index: -1
+green
+  rotate: false
+  xy: 2, 3
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+potion
+  rotate: false
+  xy: 28, 28
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+purple
+  rotate: false
+  xy: 44, 2
+  size: 20, 24
+  orig: 24, 24
+  offset: 2, 0
+  index: -1
+red
+  rotate: false
+  xy: 52, 28
+  size: 22, 22
+  orig: 24, 24
+  offset: 1, 1
+  index: -1
+relic
+  rotate: false
+  xy: 76, 31
+  size: 24, 19
+  orig: 24, 24
+  offset: 0, 2
+  index: -1
+special
+  rotate: false
+  xy: 102, 29
+  size: 22, 21
+  orig: 24, 24
+  offset: 1, 1
+  index: -1

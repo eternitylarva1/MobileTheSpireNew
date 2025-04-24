@@ -1,0 +1,675 @@
+
+cardui.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1024/banner_common
+  rotate: false
+  xy: 540, 200
+  size: 648, 153
+  orig: 1024, 1024
+  offset: 191, 741
+  index: -1
+1024/banner_rare
+  rotate: false
+  xy: 538, 45
+  size: 648, 153
+  orig: 1024, 1024
+  offset: 188, 741
+  index: -1
+1024/bg_attack_colorless
+  rotate: false
+  xy: 2, 1196
+  size: 618, 839
+  orig: 1024, 1024
+  offset: 210, 90
+  index: -1
+1024/bg_attack_red
+  rotate: false
+  xy: 1224, 1197
+  size: 608, 838
+  orig: 1024, 1024
+  offset: 211, 91
+  index: -1
+1024/bg_power_colorless
+  rotate: false
+  xy: 540, 355
+  size: 600, 839
+  orig: 1024, 1024
+  offset: 210, 92
+  index: -1
+1024/bg_skill_black
+  rotate: false
+  xy: 622, 1196
+  size: 600, 839
+  orig: 1024, 1024
+  offset: 210, 91
+  index: -1
+1024/bg_skill_colorless
+  rotate: false
+  xy: 1142, 355
+  size: 600, 839
+  orig: 1024, 1024
+  offset: 210, 91
+  index: -1
+1024/card_blue_orb
+  rotate: false
+  xy: 1834, 1318
+  size: 132, 132
+  orig: 164, 164
+  offset: 19, 13
+  index: -1
+1024/card_colorless_orb
+  rotate: false
+  xy: 1834, 1748
+  size: 143, 143
+  orig: 164, 164
+  offset: 14, 8
+  index: -1
+1024/card_green_orb
+  rotate: false
+  xy: 1834, 1893
+  size: 145, 142
+  orig: 164, 164
+  offset: 12, 9
+  index: -1
+1024/card_purple_orb
+  rotate: false
+  xy: 1834, 1452
+  size: 142, 152
+  orig: 164, 164
+  offset: 14, 5
+  index: -1
+1024/card_red_orb
+  rotate: false
+  xy: 1834, 1606
+  size: 143, 140
+  orig: 164, 164
+  offset: 12, 8
+  index: -1
+1024/common_center
+  rotate: false
+  xy: 1905, 1198
+  size: 62, 45
+  orig: 1024, 1024
+  offset: 483, 449
+  index: -1
+1024/common_left
+  rotate: false
+  xy: 2012, 1489
+  size: 29, 45
+  orig: 1024, 1024
+  offset: 454, 449
+  index: -1
+1024/common_right
+  rotate: false
+  xy: 1981, 1990
+  size: 28, 45
+  orig: 1024, 1024
+  offset: 545, 449
+  index: -1
+1024/frame_power_common
+  rotate: false
+  xy: 2, 719
+  size: 536, 475
+  orig: 1024, 1024
+  offset: 246, 448
+  index: -1
+1024/frame_power_rare
+  rotate: false
+  xy: 2, 242
+  size: 536, 475
+  orig: 1024, 1024
+  offset: 246, 448
+  index: -1
+1024/rare_center
+  rotate: false
+  xy: 1969, 1198
+  size: 62, 45
+  orig: 1024, 1024
+  offset: 483, 449
+  index: -1
+1024/rare_left
+  rotate: false
+  xy: 1978, 1464
+  size: 29, 45
+  orig: 1024, 1024
+  offset: 454, 449
+  index: -1
+1024/rare_right
+  rotate: false
+  xy: 1981, 1943
+  size: 28, 45
+  orig: 1024, 1024
+  offset: 545, 449
+  index: -1
+1024/uncommon_center
+  rotate: false
+  xy: 1979, 1263
+  size: 62, 45
+  orig: 1024, 1024
+  offset: 483, 449
+  index: -1
+1024/uncommon_left
+  rotate: false
+  xy: 1979, 1846
+  size: 29, 45
+  orig: 1024, 1024
+  offset: 454, 449
+  index: -1
+1024/uncommon_right
+  rotate: false
+  xy: 1981, 1896
+  size: 28, 45
+  orig: 1024, 1024
+  offset: 545, 449
+  index: -1
+512/banner_common
+  rotate: false
+  xy: 1188, 36
+  size: 324, 77
+  orig: 512, 512
+  offset: 94, 378
+  index: -1
+512/banner_rare
+  rotate: false
+  xy: 1514, 36
+  size: 324, 77
+  orig: 512, 512
+  offset: 94, 378
+  index: -1
+512/bg_attack_blue
+  rotate: false
+  xy: 1744, 776
+  size: 302, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_attack_green
+  rotate: false
+  xy: 1744, 355
+  size: 302, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/card_blue_orb
+  rotate: false
+  xy: 1979, 1310
+  size: 67, 67
+  orig: 512, 512
+  offset: 90, 415
+  index: -1
+512/card_colorless_orb
+  rotate: false
+  xy: 1978, 1536
+  size: 68, 68
+  orig: 512, 512
+  offset: 91, 413
+  index: -1
+512/card_green_orb
+  rotate: false
+  xy: 1905, 1245
+  size: 72, 71
+  orig: 512, 512
+  offset: 88, 413
+  index: -1
+512/card_purple_orb
+  rotate: false
+  xy: 1834, 1239
+  size: 69, 77
+  orig: 512, 512
+  offset: 90, 411
+  index: -1
+512/card_red_orb
+  rotate: false
+  xy: 1968, 1379
+  size: 72, 71
+  orig: 512, 512
+  offset: 87, 412
+  index: -1
+512/common_center
+  rotate: false
+  xy: 1834, 1214
+  size: 32, 23
+  orig: 512, 512
+  offset: 241, 224
+  index: -1
+512/common_left
+  rotate: false
+  xy: 1979, 1796
+  size: 14, 23
+  orig: 512, 512
+  offset: 228, 224
+  index: -1
+512/common_right
+  rotate: false
+  xy: 2009, 1464
+  size: 15, 23
+  orig: 512, 512
+  offset: 272, 224
+  index: -1
+512/frame_attack_uncommon
+  rotate: false
+  xy: 273, 55
+  size: 263, 185
+  orig: 512, 512
+  offset: 124, 219
+  index: -1
+512/frame_power_common
+  rotate: false
+  xy: 2, 2
+  size: 269, 238
+  orig: 512, 512
+  offset: 121, 222
+  index: -1
+512/frame_power_rare
+  rotate: false
+  xy: 1190, 115
+  size: 269, 238
+  orig: 512, 512
+  offset: 121, 222
+  index: -1
+512/frame_power_uncommon
+  rotate: false
+  xy: 1461, 115
+  size: 269, 238
+  orig: 512, 512
+  offset: 121, 222
+  index: -1
+512/frame_skill_common
+  rotate: false
+  xy: 1732, 170
+  size: 263, 183
+  orig: 512, 512
+  offset: 124, 222
+  index: -1
+512/rare_center
+  rotate: false
+  xy: 1868, 1214
+  size: 32, 23
+  orig: 512, 512
+  offset: 241, 224
+  index: -1
+512/rare_left
+  rotate: false
+  xy: 1979, 1771
+  size: 14, 23
+  orig: 512, 512
+  offset: 228, 224
+  index: -1
+512/rare_right
+  rotate: false
+  xy: 2026, 1464
+  size: 15, 23
+  orig: 512, 512
+  offset: 272, 224
+  index: -1
+512/uncommon_center
+  rotate: false
+  xy: 1978, 1511
+  size: 32, 23
+  orig: 512, 512
+  offset: 241, 224
+  index: -1
+512/uncommon_left
+  rotate: false
+  xy: 1979, 1746
+  size: 14, 23
+  orig: 512, 512
+  offset: 228, 224
+  index: -1
+512/uncommon_right
+  rotate: false
+  xy: 1979, 1821
+  size: 15, 23
+  orig: 512, 512
+  offset: 272, 224
+  index: -1
+
+cardui2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1024/banner_uncommon
+  rotate: false
+  xy: 529, 212
+  size: 648, 153
+  orig: 1024, 1024
+  offset: 191, 741
+  index: -1
+1024/bg_attack_green
+  rotate: false
+  xy: 2, 1207
+  size: 607, 838
+  orig: 1024, 1024
+  offset: 212, 91
+  index: -1
+1024/bg_attack_purple
+  rotate: false
+  xy: 540, 367
+  size: 606, 838
+  orig: 1024, 1024
+  offset: 212, 91
+  index: -1
+1024/bg_power_blue
+  rotate: false
+  xy: 611, 1207
+  size: 597, 838
+  orig: 1024, 1024
+  offset: 212, 93
+  index: -1
+1024/bg_power_gray
+  rotate: false
+  xy: 1747, 784
+  size: 299, 421
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_power_gray
+  rotate: false
+  xy: 1747, 784
+  size: 299, 421
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+1024/bg_power_green
+  rotate: false
+  xy: 1148, 367
+  size: 597, 838
+  orig: 1024, 1024
+  offset: 212, 93
+  index: -1
+1024/bg_skill_green
+  rotate: false
+  xy: 1210, 1207
+  size: 597, 838
+  orig: 1024, 1024
+  offset: 212, 92
+  index: -1
+1024/frame_power_uncommon
+  rotate: false
+  xy: 2, 730
+  size: 536, 475
+  orig: 1024, 1024
+  offset: 246, 448
+  index: -1
+1024/frame_skill_common
+  rotate: false
+  xy: 1179, 2
+  size: 524, 363
+  orig: 1024, 1024
+  offset: 251, 449
+  index: -1
+1024/frame_skill_uncommon
+  rotate: false
+  xy: 2, 365
+  size: 525, 363
+  orig: 1024, 1024
+  offset: 251, 449
+  index: -1
+512/banner_uncommon
+  rotate: false
+  xy: 1705, 284
+  size: 324, 77
+  orig: 512, 512
+  offset: 94, 378
+  index: -1
+512/bg_power_blue
+  rotate: false
+  xy: 1747, 363
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/frame_attack_common
+  rotate: false
+  xy: 2, 178
+  size: 262, 185
+  orig: 512, 512
+  offset: 125, 219
+  index: -1
+512/frame_attack_rare
+  rotate: false
+  xy: 266, 25
+  size: 262, 185
+  orig: 512, 512
+  offset: 125, 219
+  index: -1
+512/frame_skill_rare
+  rotate: false
+  xy: 1705, 99
+  size: 263, 183
+  orig: 512, 512
+  offset: 124, 222
+  index: -1
+512/frame_skill_uncommon
+  rotate: false
+  xy: 530, 27
+  size: 263, 183
+  orig: 512, 512
+  offset: 124, 222
+  index: -1
+
+cardui3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1024/bg_attack_blue
+  rotate: false
+  xy: 527, 366
+  size: 608, 837
+  orig: 1024, 1024
+  offset: 211, 91
+  index: -1
+1024/bg_power_purple
+  rotate: false
+  xy: 601, 1206
+  size: 596, 837
+  orig: 1024, 1024
+  offset: 212, 93
+  index: -1
+1024/bg_power_red
+  rotate: false
+  xy: 1137, 367
+  size: 596, 837
+  orig: 1024, 1024
+  offset: 212, 93
+  index: -1
+1024/bg_skill_blue
+  rotate: false
+  xy: 1199, 1206
+  size: 596, 837
+  orig: 1024, 1024
+  offset: 212, 92
+  index: -1
+1024/bg_skill_red
+  rotate: false
+  xy: 2, 1205
+  size: 597, 838
+  orig: 1024, 1024
+  offset: 212, 92
+  index: -1
+1024/frame_attack_common
+  rotate: false
+  xy: 2, 834
+  size: 523, 369
+  orig: 1024, 1024
+  offset: 253, 442
+  index: -1
+1024/frame_attack_rare
+  rotate: false
+  xy: 2, 463
+  size: 523, 369
+  orig: 1024, 1024
+  offset: 253, 442
+  index: -1
+1024/frame_attack_uncommon
+  rotate: false
+  xy: 2, 92
+  size: 523, 369
+  orig: 1024, 1024
+  offset: 253, 442
+  index: -1
+1024/frame_skill_rare
+  rotate: false
+  xy: 1137, 2
+  size: 524, 363
+  orig: 1024, 1024
+  offset: 251, 449
+  index: -1
+512/bg_attack_gray
+  rotate: false
+  xy: 1735, 362
+  size: 308, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_attack_silhouette
+  rotate: false
+  xy: 1735, 783
+  size: 308, 421
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+
+cardui4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1024/bg_skill_purple
+  rotate: false
+  xy: 2, 1024
+  size: 596, 837
+  orig: 1024, 1024
+  offset: 212, 92
+  index: -1
+512/bg_attack_purple
+  rotate: false
+  xy: 968, 1442
+  size: 302, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_attack_red
+  rotate: false
+  xy: 1272, 1442
+  size: 302, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_power_green
+  rotate: false
+  xy: 343, 603
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_power_purple
+  rotate: false
+  xy: 343, 182
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_power_red
+  rotate: false
+  xy: 644, 951
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_power_silhouette
+  rotate: false
+  xy: 945, 951
+  size: 298, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_black
+  rotate: false
+  xy: 644, 530
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_blue
+  rotate: false
+  xy: 644, 109
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_gray
+  rotate: false
+  xy: 945, 530
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_green
+  rotate: false
+  xy: 945, 109
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_purple
+  rotate: false
+  xy: 1245, 1021
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_red
+  rotate: false
+  xy: 1546, 1020
+  size: 299, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/bg_skill_silhouette
+  rotate: false
+  xy: 1246, 600
+  size: 298, 419
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/card_back
+  rotate: false
+  xy: 2, 2
+  size: 317, 433
+  orig: 512, 512
+  offset: 106, 32
+  index: -1
+512/card_bg
+  rotate: false
+  xy: 1246, 186
+  size: 288, 412
+  orig: 512, 512
+  offset: 112, 49
+  index: -1
+512/card_flash_vfx
+  rotate: false
+  xy: 2, 437
+  size: 339, 585
+  orig: 512, 800
+  offset: 85, 86
+  index: -1
+512/card_shadow
+  rotate: false
+  xy: 1576, 1441
+  size: 300, 420
+  orig: 512, 512
+  offset: 106, 46
+  index: -1
+512/card_super_shadow
+  rotate: false
+  xy: 600, 1372
+  size: 366, 489
+  orig: 512, 512
+  offset: 73, 10
+  index: -1

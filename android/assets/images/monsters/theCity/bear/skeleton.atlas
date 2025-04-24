@@ -1,0 +1,125 @@
+
+Bear.png
+size: 681,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Torso
+  rotate: true
+  xy: 87, 19
+  size: 121, 144
+  orig: 121, 144
+  offset: 0, 0
+  index: -1
+left_eye
+  rotate: false
+  xy: 97, 9
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+left_forearm
+  rotate: false
+  xy: 499, 66
+  size: 57, 74
+  orig: 57, 74
+  offset: 0, 0
+  index: -1
+left_leg_lower
+  rotate: true
+  xy: 623, 11
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+left_leg_upper
+  rotate: false
+  xy: 302, 58
+  size: 66, 82
+  orig: 66, 82
+  offset: 0, 0
+  index: -1
+left_pant_shadow
+  rotate: true
+  xy: 507, 2
+  size: 62, 55
+  orig: 62, 55
+  offset: 0, 0
+  index: -1
+left_shoulder
+  rotate: true
+  xy: 233, 5
+  size: 44, 65
+  orig: 44, 65
+  offset: 0, 0
+  index: -1
+mask
+  rotate: true
+  xy: 564, 3
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+pants
+  rotate: true
+  xy: 2, 6
+  size: 134, 83
+  orig: 134, 83
+  offset: 0, 0
+  index: -1
+right_eye
+  rotate: true
+  xy: 87, 8
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+right_forearm
+  rotate: false
+  xy: 233, 51
+  size: 67, 89
+  orig: 67, 89
+  offset: 0, 0
+  index: -1
+right_leg_lower
+  rotate: true
+  xy: 623, 51
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+right_leg_upper
+  rotate: false
+  xy: 435, 66
+  size: 62, 74
+  orig: 62, 74
+  offset: 0, 0
+  index: -1
+right_pant_shadow
+  rotate: false
+  xy: 623, 86
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+right_shoulder
+  rotate: false
+  xy: 370, 65
+  size: 63, 75
+  orig: 63, 75
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 300, 10
+  size: 205, 39
+  orig: 205, 39
+  offset: 0, 0
+  index: -1
+top_shirt_patch
+  rotate: false
+  xy: 558, 72
+  size: 38, 68
+  orig: 38, 68
+  offset: 0, 0
+  index: -1

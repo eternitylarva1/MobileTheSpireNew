@@ -1,0 +1,139 @@
+
+tank.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armLeft
+  rotate: true
+  xy: 828, 87
+  size: 39, 83
+  orig: 39, 83
+  offset: 0, 0
+  index: -1
+armRight
+  rotate: true
+  xy: 719, 25
+  size: 55, 81
+  orig: 55, 81
+  offset: 0, 0
+  index: -1
+chestArmor
+  rotate: true
+  xy: 602, 31
+  size: 95, 115
+  orig: 95, 115
+  offset: 0, 0
+  index: -1
+forearmLeft
+  rotate: true
+  xy: 287, 21
+  size: 29, 66
+  orig: 29, 66
+  offset: 0, 0
+  index: -1
+forearmRight
+  rotate: true
+  xy: 913, 90
+  size: 36, 76
+  orig: 36, 76
+  offset: 0, 0
+  index: -1
+headTailBG
+  rotate: true
+  xy: 215, 13
+  size: 37, 70
+  orig: 37, 70
+  offset: 0, 0
+  index: -1
+headTailFG
+  rotate: true
+  xy: 991, 90
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 842, 23
+  size: 53, 62
+  orig: 53, 62
+  offset: 0, 0
+  index: -1
+legLeft
+  rotate: true
+  xy: 719, 82
+  size: 44, 107
+  orig: 44, 107
+  offset: 0, 0
+  index: -1
+legRight
+  rotate: false
+  xy: 802, 2
+  size: 38, 78
+  orig: 38, 78
+  offset: 0, 0
+  index: -1
+lowerPlates
+  rotate: false
+  xy: 492, 19
+  size: 108, 76
+  orig: 108, 76
+  offset: 0, 0
+  index: -1
+maceBody
+  rotate: false
+  xy: 215, 52
+  size: 166, 74
+  orig: 166, 74
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 897, 35
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+pants
+  rotate: true
+  xy: 383, 2
+  size: 93, 107
+  orig: 93, 107
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 383, 97
+  size: 211, 29
+  orig: 211, 29
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 2, 30
+  size: 211, 96
+  orig: 211, 96
+  offset: 0, 0
+  index: -1
+shieldHandles
+  rotate: true
+  xy: 2, 2
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+shoulderLeft
+  rotate: false
+  xy: 938, 8
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+shoulderRight
+  rotate: false
+  xy: 938, 48
+  size: 50, 40
+  orig: 50, 40
+  offset: 0, 0
+  index: -1

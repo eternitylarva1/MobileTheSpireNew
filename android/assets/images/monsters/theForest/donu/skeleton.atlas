@@ -1,0 +1,55 @@
+
+Donu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l
+  rotate: false
+  xy: 2, 2
+  size: 55, 109
+  orig: 55, 109
+  offset: 0, 0
+  index: -1
+arm_r
+  rotate: false
+  xy: 336, 340
+  size: 60, 112
+  orig: 60, 112
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 156
+  size: 332, 296
+  orig: 332, 296
+  offset: 0, 0
+  index: -1
+leg_l
+  rotate: false
+  xy: 398, 364
+  size: 37, 88
+  orig: 37, 88
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: false
+  xy: 336, 242
+  size: 45, 96
+  orig: 45, 96
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 113
+  size: 320, 41
+  orig: 320, 41
+  offset: 0, 0
+  index: -1
+shadow_arm_l
+  rotate: true
+  xy: 437, 420
+  size: 32, 73
+  orig: 32, 73
+  offset: 0, 0
+  index: -1

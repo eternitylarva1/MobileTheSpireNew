@@ -1,0 +1,188 @@
+
+Champ.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armLeft
+  rotate: false
+  xy: 174, 21
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+armRight
+  rotate: false
+  xy: 661, 438
+  size: 65, 72
+  orig: 65, 72
+  offset: 0, 0
+  index: -1
+crown
+  rotate: true
+  xy: 266, 41
+  size: 44, 33
+  orig: 44, 33
+  offset: 0, 0
+  index: -1
+elbowLeft
+  rotate: true
+  xy: 972, 456
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
+elbowRight
+  rotate: false
+  xy: 384, 199
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+fingersLeft
+  rotate: false
+  xy: 353, 168
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+footLeft
+  rotate: false
+  xy: 303, 128
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: -1
+footRight
+  rotate: true
+  xy: 889, 466
+  size: 44, 81
+  orig: 44, 81
+  offset: 0, 0
+  index: -1
+forearmLeft
+  rotate: true
+  xy: 193, 86
+  size: 36, 70
+  orig: 36, 70
+  offset: 0, 0
+  index: -1
+forearmRight
+  rotate: true
+  xy: 801, 465
+  size: 45, 86
+  orig: 45, 86
+  offset: 0, 0
+  index: -1
+handLeft
+  rotate: true
+  xy: 265, 87
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+handle
+  rotate: true
+  xy: 230, 21
+  size: 63, 34
+  orig: 63, 34
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 2
+  size: 93, 72
+  orig: 93, 72
+  offset: 0, 0
+  index: -1
+lowerChest
+  rotate: false
+  xy: 482, 393
+  size: 115, 117
+  orig: 115, 117
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 599, 376
+  size: 54, 45
+  orig: 54, 45
+  offset: 0, 0
+  index: -1
+neckGuard
+  rotate: false
+  xy: 728, 444
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1
+pantsLeft
+  rotate: true
+  xy: 307, 202
+  size: 55, 75
+  orig: 55, 75
+  offset: 0, 0
+  index: -1
+quadRight
+  rotate: false
+  xy: 599, 423
+  size: 60, 87
+  orig: 60, 87
+  offset: 0, 0
+  index: -1
+rightHand
+  rotate: true
+  xy: 305, 91
+  size: 35, 42
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 223
+  size: 303, 287
+  orig: 303, 287
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 2, 97
+  size: 189, 124
+  orig: 189, 124
+  offset: 0, 0
+  index: -1
+shoulderLeft
+  rotate: false
+  xy: 76, 5
+  size: 96, 90
+  orig: 96, 90
+  offset: 0, 0
+  index: -1
+shoulderRight
+  rotate: false
+  xy: 193, 124
+  size: 108, 97
+  orig: 108, 97
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 307, 259
+  size: 161, 129
+  orig: 161, 129
+  offset: 0, 0
+  index: -1
+swordHilt
+  rotate: false
+  xy: 801, 444
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+topChest
+  rotate: false
+  xy: 307, 390
+  size: 173, 120
+  orig: 173, 120
+  offset: 0, 0
+  index: -1

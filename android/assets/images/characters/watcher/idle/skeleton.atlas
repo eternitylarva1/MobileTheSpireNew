@@ -1,0 +1,202 @@
+
+the_watcher.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ear
+  rotate: false
+  xy: 571, 212
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+eye_anchor
+  rotate: false
+  xy: 810, 208
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 847, 219
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+fingers
+  rotate: false
+  xy: 124, 1
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+hair_accessory copy
+  rotate: false
+  xy: 878, 225
+  size: 28, 30
+  orig: 28, 30
+  offset: 0, 0
+  index: -1
+hair_bg
+  rotate: false
+  xy: 810, 215
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+hair_fg
+  rotate: false
+  xy: 760, 196
+  size: 49, 59
+  orig: 49, 59
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 98, 1
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+leg_left
+  rotate: true
+  xy: 514, 223
+  size: 32, 104
+  orig: 32, 104
+  offset: 0, 0
+  index: -1
+leg_right
+  rotate: true
+  xy: 1, 6
+  size: 24, 96
+  orig: 24, 96
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 431, 175
+  size: 18, 33
+  orig: 18, 33
+  offset: 0, 0
+  index: -1
+pattern
+  rotate: true
+  xy: 431, 194
+  size: 61, 82
+  orig: 61, 82
+  offset: 0, 0
+  index: -1
+robe_bg
+  rotate: true
+  xy: 325, 1
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+robe_lower_bg
+  rotate: true
+  xy: 98, 17
+  size: 13, 41
+  orig: 13, 41
+  offset: 0, 0
+  index: -1
+robe_upper
+  rotate: false
+  xy: 351, 175
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+sash
+  rotate: false
+  xy: 693, 194
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 31
+  size: 152, 28
+  orig: 152, 28
+  offset: 0, 0
+  index: -1
+shoulder
+  rotate: true
+  xy: 277, 23
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+sleeve_left
+  rotate: false
+  xy: 351, 94
+  size: 70, 80
+  orig: 70, 80
+  offset: 0, 0
+  index: -1
+sleeve_right
+  rotate: false
+  xy: 514, 197
+  size: 56, 25
+  orig: 56, 25
+  offset: 0, 0
+  index: -1
+staff
+  rotate: false
+  xy: 1, 60
+  size: 349, 195
+  orig: 349, 195
+  offset: 0, 0
+  index: -1
+threads_left_1
+  rotate: false
+  xy: 200, 14
+  size: 76, 45
+  orig: 76, 45
+  offset: 0, 0
+  index: -1
+threads_left_2
+  rotate: false
+  xy: 351, 63
+  size: 54, 30
+  orig: 54, 30
+  offset: 0, 0
+  index: -1
+threads_left_3
+  rotate: false
+  xy: 422, 146
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+threads_right_1
+  rotate: false
+  xy: 619, 192
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+threads_right_2
+  rotate: true
+  xy: 154, 1
+  size: 58, 45
+  orig: 58, 45
+  offset: 0, 0
+  index: -1
+threads_right_3
+  rotate: true
+  xy: 325, 27
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+thumb
+  rotate: false
+  xy: 406, 83
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1

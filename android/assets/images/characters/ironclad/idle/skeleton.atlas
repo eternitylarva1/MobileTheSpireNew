@@ -1,0 +1,132 @@
+
+ironclad.png
+size: 611,113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boot_left
+  rotate: true
+  xy: 542, 11
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+boot_right
+  rotate: true
+  xy: 542, 60
+  size: 51, 67
+  orig: 51, 67
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 147, 5
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+glove_left
+  rotate: false
+  xy: 66, 6
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+glove_right
+  rotate: true
+  xy: 169, 2
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 211, 12
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 96, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: false
+  xy: 121, 6
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: false
+  xy: 380, 28
+  size: 51, 46
+  orig: 51, 46
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 327, 10
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+pants
+  rotate: false
+  xy: 2, 27
+  size: 132, 84
+  orig: 132, 84
+  offset: 0, 0
+  index: -1
+pauldron_left
+  rotate: true
+  xy: 292, 6
+  size: 37, 33
+  orig: 37, 33
+  offset: 0, 0
+  index: -1
+pauldron_low_left
+  rotate: false
+  xy: 2, 5
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1
+pauldron_low_right
+  rotate: false
+  xy: 34, 5
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1
+pauldron_right
+  rotate: true
+  xy: 259, 3
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 136, 76
+  size: 306, 35
+  orig: 306, 35
+  offset: 0, 0
+  index: -1
+shirt
+  rotate: false
+  xy: 444, 13
+  size: 96, 98
+  orig: 96, 98
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 136, 45
+  size: 242, 29
+  orig: 242, 29
+  offset: 0, 0
+  index: -1

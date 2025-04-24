@@ -1,0 +1,139 @@
+
+SnakePlant.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 52
+  size: 116, 205
+  orig: 116, 205
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 696, 178
+  size: 96, 76
+  orig: 96, 76
+  offset: 0, 0
+  index: -1
+leafCenter
+  rotate: true
+  xy: 978, 205
+  size: 49, 29
+  orig: 49, 29
+  offset: 0, 0
+  index: -1
+leafFront
+  rotate: true
+  xy: 577, 167
+  size: 87, 117
+  orig: 87, 117
+  offset: 0, 0
+  index: -1
+leafLeftBack
+  rotate: true
+  xy: 241, 69
+  size: 99, 35
+  orig: 99, 35
+  offset: 0, 0
+  index: -1
+leafLeftFront
+  rotate: true
+  xy: 897, 126
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+leafRightBack
+  rotate: false
+  xy: 794, 198
+  size: 95, 56
+  orig: 95, 56
+  offset: 0, 0
+  index: -1
+leafRightBack2
+  rotate: true
+  xy: 696, 145
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+leafRightFront
+  rotate: false
+  xy: 794, 167
+  size: 101, 29
+  orig: 101, 29
+  offset: 0, 0
+  index: -1
+leafShadow
+  rotate: true
+  xy: 891, 200
+  size: 54, 85
+  orig: 54, 85
+  offset: 0, 0
+  index: -1
+rootFront
+  rotate: false
+  xy: 530, 181
+  size: 42, 32
+  orig: 42, 32
+  offset: 0, 0
+  index: -1
+rootLeft
+  rotate: false
+  xy: 745, 156
+  size: 47, 20
+  orig: 47, 20
+  offset: 0, 0
+  index: -1
+rootLeftBack
+  rotate: false
+  xy: 745, 134
+  size: 39, 20
+  orig: 39, 20
+  offset: 0, 0
+  index: -1
+rootRight
+  rotate: true
+  xy: 209, 52
+  size: 116, 30
+  orig: 116, 30
+  offset: 0, 0
+  index: -1
+rootRightBack
+  rotate: false
+  xy: 794, 147
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 170
+  size: 277, 84
+  orig: 277, 84
+  offset: 0, 0
+  index: -1
+t1
+  rotate: true
+  xy: 2, 2
+  size: 48, 273
+  orig: 48, 273
+  offset: 0, 0
+  index: -1
+t2
+  rotate: true
+  xy: 281, 173
+  size: 40, 247
+  orig: 40, 247
+  offset: 0, 0
+  index: -1
+t3
+  rotate: true
+  xy: 281, 215
+  size: 39, 294
+  orig: 39, 294
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+{
+"skeleton": { "hash": "fidClB9c1yC+7sPcMfJGpjMhSQc", "spine": "3.4.02", "width": 112.9, "height": 128.7, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "controlbone", "parent": "root", "x": 1.88, "y": 63.64, "color": "000000ff" },
+	{ "name": "head", "parent": "controlbone", "x": -41.78, "y": -2.7, "color": "d3f500ff" },
+	{ "name": "orb", "parent": "controlbone", "x": 24.54, "y": 4.53 },
+	{ "name": "rib1", "parent": "controlbone", "x": -11.03, "y": 0.31 },
+	{ "name": "rib2", "parent": "controlbone", "x": 11.88, "y": 2.12 },
+	{ "name": "shadow", "parent": "root", "x": -0.5, "y": -11 },
+	{ "name": "tailback", "parent": "orb", "x": 9.23, "y": 10.2 },
+	{ "name": "tailfront", "parent": "orb", "x": 9.41, "y": -0.27 }
+],
+"slots": [
+	{ "name": "images/shadow", "bone": "shadow", "attachment": "images/shadow" },
+	{ "name": "images/tailback", "bone": "tailback", "attachment": "images/tailback" },
+	{ "name": "images/orb", "bone": "orb", "attachment": "images/orb" },
+	{ "name": "images/tailfront", "bone": "tailfront", "attachment": "images/tailfront" },
+	{ "name": "images/rib2", "bone": "rib2", "attachment": "images/rib2" },
+	{ "name": "images/rib1", "bone": "rib1", "attachment": "images/rib1" },
+	{ "name": "images/head", "bone": "head", "attachment": "images/head" }
+],
+"skins": {
+	"default": {
+		"images/head": {
+			"images/head": { "x": 16.28, "y": 7.23, "width": 69, "height": 102 }
+		},
+		"images/orb": {
+			"images/orb": { "width": 29, "height": 39 }
+		},
+		"images/rib1": {
+			"images/rib1": { "x": -2.41, "width": 21, "height": 73 }
+		},
+		"images/rib2": {
+			"images/rib2": { "x": -1.8, "width": 28, "height": 90 }
+		},
+		"images/shadow": {
+			"images/shadow": { "y": 7.97, "width": 55, "height": 13 }
+		},
+		"images/tailback": {
+			"images/tailback": { "x": 4.89, "width": 18, "height": 9 }
+		},
+		"images/tailfront": {
+			"images/tailfront": { "x": 6.93, "width": 24, "height": 13 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"controlbone": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.4,
+						"x": 0,
+						"y": -10.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"head": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.17, 0.1, 0.45, 1.25 ]
+					},
+					{ "time": 0.6, "x": -19.1, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2333,
+						"x": -19.1,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.9, "x": 0, "y": 0 }
+				]
+			},
+			"rib1": {
+				"translate": [
+					{
+						"time": 0.1333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.618, 1 ]
+					},
+					{ "time": 0.7, "x": -16.57, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2333,
+						"x": -16.57,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.7333, "x": 0, "y": 0 }
+				]
+			},
+			"rib2": {
+				"translate": [
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.618, 1 ]
+					},
+					{ "time": 0.7666, "x": -18.67, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2333,
+						"x": -18.67,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.4666, "x": 0, "y": 0 }
+				]
+			},
+			"orb": {
+				"translate": [
+					{
+						"time": 0.2666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9, "x": -18.19, "y": 0, "curve": "stepped" },
+					{
+						"time": 1.2333,
+						"x": -18.19,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.1333, "x": 0, "y": 0 }
+				]
+			},
+			"shadow": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.222, 0.11, 0.542, 0.99 ]
+					},
+					{
+						"time": 0.7666,
+						"x": -16.31,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

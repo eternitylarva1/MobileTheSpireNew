@@ -1,0 +1,104 @@
+
+FungiBeast.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 3
+  size: 197, 123
+  orig: 197, 123
+  offset: 0, 0
+  index: -1
+capBehind
+  rotate: false
+  xy: 201, 3
+  size: 94, 21
+  orig: 94, 21
+  offset: 0, 0
+  index: -1
+capFront
+  rotate: false
+  xy: 201, 26
+  size: 94, 42
+  orig: 94, 42
+  offset: 0, 0
+  index: -1
+largeStalk
+  rotate: true
+  xy: 461, 84
+  size: 42, 86
+  orig: 42, 86
+  offset: 0, 0
+  index: -1
+leftArm
+  rotate: true
+  xy: 654, 107
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+leftBGStalk
+  rotate: true
+  xy: 691, 110
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+leftFGStalk
+  rotate: true
+  xy: 549, 98
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+leftFoot
+  rotate: false
+  xy: 370, 36
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 370, 2
+  size: 15, 32
+  orig: 15, 32
+  offset: 0, 0
+  index: -1
+rightBGStalk
+  rotate: true
+  xy: 615, 107
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+rightFGStalk
+  rotate: false
+  xy: 403, 39
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+rightFoot
+  rotate: false
+  xy: 438, 39
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 201, 70
+  size: 258, 56
+  orig: 258, 56
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 297, 13
+  size: 55, 71
+  orig: 55, 71
+  offset: 0, 0
+  index: -1

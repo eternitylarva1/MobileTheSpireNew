@@ -1,0 +1,48 @@
+
+the_watcher_eye.png
+size: 256,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 1, 1
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+calm
+  rotate: false
+  xy: 112, 9
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+divinity
+  rotate: false
+  xy: 134, 9
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+lid_lower
+  rotate: false
+  xy: 77, 5
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+lid_upper
+  rotate: false
+  xy: 39, 3
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+wrath
+  rotate: false
+  xy: 156, 9
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1

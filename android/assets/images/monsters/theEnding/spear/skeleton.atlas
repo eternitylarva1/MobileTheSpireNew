@@ -1,0 +1,41 @@
+
+spear.png
+size: 830,249
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bodyShadow
+  rotate: false
+  xy: 798, 223
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+lower
+  rotate: true
+  xy: 437, 51
+  size: 145, 235
+  orig: 145, 235
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 437, 198
+  size: 359, 49
+  orig: 359, 49
+  offset: 0, 0
+  index: -1
+spear
+  rotate: false
+  xy: 2, 2
+  size: 433, 245
+  orig: 433, 245
+  offset: 0, 0
+  index: -1
+upper
+  rotate: true
+  xy: 674, 31
+  size: 165, 154
+  orig: 165, 154
+  offset: 0, 0
+  index: -1

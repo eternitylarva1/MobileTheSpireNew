@@ -1,0 +1,41 @@
+
+sphericGuardian.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+orb (back)
+  rotate: false
+  xy: 173, 199
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+orb (left)
+  rotate: false
+  xy: 173, 150
+  size: 53, 47
+  orig: 53, 47
+  offset: 0, 0
+  index: -1
+orb (right)
+  rotate: false
+  xy: 2, 2
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+orb_main
+  rotate: false
+  xy: 2, 82
+  size: 169, 168
+  orig: 169, 168
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 56
+  size: 143, 24
+  orig: 143, 24
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/body
+  rotate: false
+  xy: 2, 246
+  size: 346, 264
+  orig: 346, 264
+  offset: 0, 0
+  index: -1
+images/eyeleft
+  rotate: true
+  xy: 2, 2
+  size: 72, 77
+  orig: 72, 77
+  offset: 0, 0
+  index: -1
+images/eyeright
+  rotate: false
+  xy: 350, 422
+  size: 93, 88
+  orig: 93, 88
+  offset: 0, 0
+  index: -1
+images/hat
+  rotate: false
+  xy: 350, 363
+  size: 63, 57
+  orig: 63, 57
+  offset: 0, 0
+  index: -1
+images/mouth
+  rotate: false
+  xy: 2, 76
+  size: 241, 106
+  orig: 241, 106
+  offset: 0, 0
+  index: -1
+images/mouthbottomleft
+  rotate: false
+  xy: 167, 2
+  size: 53, 39
+  orig: 53, 39
+  offset: 0, 0
+  index: -1
+images/mouthbottommiddle
+  rotate: false
+  xy: 167, 43
+  size: 67, 31
+  orig: 67, 31
+  offset: 0, 0
+  index: -1
+images/mouthbottomright
+  rotate: false
+  xy: 350, 320
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+images/mouthleft
+  rotate: false
+  xy: 445, 430
+  size: 38, 80
+  orig: 38, 80
+  offset: 0, 0
+  index: -1
+images/mouthright
+  rotate: true
+  xy: 81, 34
+  size: 40, 84
+  orig: 40, 84
+  offset: 0, 0
+  index: -1
+images/mouthtopleft
+  rotate: true
+  xy: 302, 155
+  size: 27, 77
+  orig: 27, 77
+  offset: 0, 0
+  index: -1
+images/mouthtopmiddle
+  rotate: false
+  xy: 485, 453
+  size: 25, 57
+  orig: 25, 57
+  offset: 0, 0
+  index: -1
+images/mouthtopright
+  rotate: false
+  xy: 245, 108
+  size: 55, 74
+  orig: 55, 74
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 2, 184
+  size: 381, 60
+  orig: 381, 60
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/armleft
+  rotate: false
+  xy: 141, 35
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+images/armright
+  rotate: false
+  xy: 80, 35
+  size: 59, 27
+  orig: 59, 27
+  offset: 0, 0
+  index: -1
+images/body
+  rotate: true
+  xy: 188, 32
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+images/cl1
+  rotate: true
+  xy: 132, 2
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+images/cl2
+  rotate: false
+  xy: 146, 3
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+images/cl3
+  rotate: true
+  xy: 80, 25
+  size: 8, 14
+  orig: 8, 14
+  offset: 0, 0
+  index: -1
+images/cr1
+  rotate: true
+  xy: 188, 23
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+images/cr2
+  rotate: false
+  xy: 180, 19
+  size: 6, 14
+  orig: 6, 14
+  offset: 0, 0
+  index: -1
+images/cr3
+  rotate: false
+  xy: 205, 20
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+images/eyes
+  rotate: false
+  xy: 132, 20
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+images/footleft
+  rotate: true
+  xy: 156, 4
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+images/footright
+  rotate: true
+  xy: 67, 29
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+images/handleft
+  rotate: false
+  xy: 158, 18
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+images/handright
+  rotate: true
+  xy: 52, 22
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+images/head
+  rotate: true
+  xy: 96, 6
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+images/horns
+  rotate: false
+  xy: 2, 2
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+images/legleft
+  rotate: false
+  xy: 232, 22
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+images/legright
+  rotate: true
+  xy: 52, 2
+  size: 18, 42
+  orig: 18, 42
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 2, 43
+  size: 76, 19
+  orig: 76, 19
+  offset: 0, 0
+  index: -1

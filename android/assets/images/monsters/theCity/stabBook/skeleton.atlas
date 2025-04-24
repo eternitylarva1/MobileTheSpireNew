@@ -1,0 +1,76 @@
+
+BookOfStabbing.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blade
+  rotate: false
+  xy: 310, 20
+  size: 159, 227
+  orig: 159, 227
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 245, 306
+  orig: 245, 306
+  offset: 0, 0
+  index: -1
+book
+  rotate: false
+  xy: 769, 149
+  size: 86, 28
+  orig: 86, 28
+  offset: 0, 0
+  index: -1
+emp
+  rotate: false
+  xy: 471, 30
+  size: 130, 176
+  orig: 130, 176
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 603, 47
+  size: 108, 80
+  orig: 108, 80
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 603, 129
+  size: 115, 77
+  orig: 115, 77
+  offset: 0, 0
+  index: -1
+f3
+  rotate: true
+  xy: 720, 104
+  size: 102, 47
+  orig: 102, 47
+  offset: 0, 0
+  index: -1
+hilt
+  rotate: false
+  xy: 781, 179
+  size: 118, 68
+  orig: 118, 68
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 471, 208
+  size: 308, 39
+  orig: 308, 39
+  offset: 0, 0
+  index: -1
+thumb
+  rotate: true
+  xy: 901, 187
+  size: 60, 97
+  orig: 60, 97
+  offset: 0, 0
+  index: -1

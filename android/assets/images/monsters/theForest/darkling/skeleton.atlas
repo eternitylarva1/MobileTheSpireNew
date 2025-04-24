@@ -1,0 +1,55 @@
+
+Darkling.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 118
+  size: 236, 131
+  orig: 236, 131
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 2, 2
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 240, 170
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 106, 93
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+eye4
+  rotate: false
+  xy: 240, 144
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+littleBody
+  rotate: false
+  xy: 2, 33
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 240, 205
+  size: 270, 44
+  orig: 270, 44
+  offset: 0, 0
+  index: -1

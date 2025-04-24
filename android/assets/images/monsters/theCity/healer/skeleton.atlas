@@ -1,0 +1,118 @@
+
+healer.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+book
+  rotate: false
+  xy: 811, 83
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+coat
+  rotate: true
+  xy: 2, 11
+  size: 96, 224
+  orig: 96, 224
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 329, 2
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 445, 25
+  size: 54, 91
+  orig: 54, 91
+  offset: 0, 0
+  index: -1
+handBg
+  rotate: true
+  xy: 538, 41
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1
+hood
+  rotate: false
+  xy: 599, 85
+  size: 74, 41
+  orig: 74, 41
+  offset: 0, 0
+  index: -1
+hoodBg
+  rotate: true
+  xy: 746, 64
+  size: 62, 63
+  orig: 62, 63
+  offset: 0, 0
+  index: -1
+legLeft
+  rotate: true
+  xy: 364, 12
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+legRight
+  rotate: true
+  xy: 408, 16
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 445, 81
+  size: 129, 26
+  orig: 129, 26
+  offset: 0, 0
+  index: -1
+sleeveBgLeft
+  rotate: false
+  xy: 914, 94
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+sleeveLeft
+  rotate: true
+  xy: 675, 65
+  size: 61, 69
+  orig: 61, 69
+  offset: 0, 0
+  index: -1
+sleeveRight
+  rotate: true
+  xy: 228, 3
+  size: 32, 99
+  orig: 32, 99
+  offset: 0, 0
+  index: -1
+staff
+  rotate: true
+  xy: 228, 37
+  size: 70, 215
+  orig: 70, 215
+  offset: 0, 0
+  index: -1
+white_bar
+  rotate: true
+  xy: 2, 109
+  size: 17, 595
+  orig: 17, 595
+  offset: 0, 0
+  index: -1
+white_cross
+  rotate: false
+  xy: 871, 85
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1

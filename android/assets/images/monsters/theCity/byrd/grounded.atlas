@@ -1,0 +1,48 @@
+
+grounded.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grounded/eye
+  rotate: true
+  xy: 2, 2
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+grounded/leg
+  rotate: false
+  xy: 414, 218
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+grounded/shadow
+  rotate: false
+  xy: 197, 211
+  size: 215, 43
+  orig: 215, 43
+  offset: 0, 0
+  index: -1
+grounded/torso
+  rotate: false
+  xy: 2, 106
+  size: 193, 148
+  orig: 193, 148
+  offset: 0, 0
+  index: -1
+grounded/wingback
+  rotate: false
+  xy: 197, 154
+  size: 107, 55
+  orig: 107, 55
+  offset: 0, 0
+  index: -1
+grounded/wingfront
+  rotate: false
+  xy: 2, 11
+  size: 107, 93
+  orig: 107, 93
+  offset: 0, 0
+  index: -1

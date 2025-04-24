@@ -1,0 +1,1781 @@
+12-18-2022
+BUG FIX: Fixed crash on start for Windows usernames with non-English characters
+
+12-01-2022
+BUG FIX: Fixed skills/powers becoming unplayable if you enter/exit controller mode during combat
+
+10-04-2022
+BUG FIX: Fixed crash introduced in OSX 12.6.
+LOC: Updates for FIN, SPA
+
+03-07-2022
+UX: Changed Steamworks4j to use the newly released 1.9.0 version
+BUG FIX: Fixed issue where game was crashing for 32bit users
+
+02-24-2022
+UX: Keyboard opens when renaming or entering a seed (Steam Deck only).
+BUG FIX: Fix for Steam Input disconnecting on profile switch.
+LOC: Updates for FIN, ITA.
+MISC: Update to latest Steamworks4j version.
+
+02-07-2022
+BUG FIX: Fix for potential race condition when initializing Steam Input.
+BUG FIX: Fix for JPN crashing on boot.
+LOC: Updates for DUT, FIN.
+
+01-24-2022
+BUG FIX: Fix for a crash using Steam Input
+LOC: Update for SRB, SRP
+
+01-19-2022
+LOC: Credits added for Finnish.
+LOC: Updates for RUS.
+
+01-11-2022
+BUG FIX: Removed excessive display config loading.
+UX: Added Steam Input support for better compatibility with upcoming Steam Deck.
+LOC: Added Finnish language.
+LOC: Serbian language support for main branch (beta already had them on).
+LOC: Updates for DUT, EPO, ITA, JPN, POL, RUS, SPA, SRB, SRP, TUR, VIE.
+
+12-18-2020
+BUG FIX: Fix for lowest resolution selected in settings for users on screens wider than 21:9.
+BUG FIX: Fix for some off by one letterboxes rendering when screen is wider than 21:9.
+
+12-17-2020
+BUG FIX: Fixed an issue where selecting borderless fullscreen may not show the native resolution in the resolution dropdown.
+
+12-07-2020
+BUG FIX: Fixed button placements for confirmation and rename popup UI in Ultrawide.
+BUG FIX: Fixed button prompt to open shop screen rendering behind merchant.
+BUG FIX: Fixed crash when pressing select button on controllers twice when selecting boss chest relics/blights.
+BUG FIX: Fixed LB/RB buttons in card library screen misplaced in Ultrawide.
+BUG FIX: Fixed placement for button prompt to access Map Legend.
+BUG FIX: Fixed save slots looking kinda tall. 
+UX: Allowing fullscreen resolutions to change the monitor's resolution. Previously, fullscreen was only for the current resolution.
+UX: Fullscreen resolutions now show the aspect ratio which the game will change to.
+UX: Resolution dropdowns now show all available resolutions based on which display mode you're toggled to.
+LOC: Updates for POL.
+
+11-27-2020
+GAMEPLAY: Blade Dance card buffed. 2 -> 3 shivs.
+GAMEPLAY: Blade Dance+ card buffed. 3 -> 4 shivs.
+GAMEPLAY: Sadistic Nature card buffed. Damage increased from 3 -> 5.
+GAMEPLAY: Sadistic Nature+ card buffed. Damage increased from 4 -> 7.
+REFACTOR: Some more cleanup for gameover screens.
+LOC: Updates for JPN and SPA.
+
+11-17-2020
+GAMEPLAY: Slice card buffed. Damage increased from 5 -> 6.
+GAMEPLAY: Slice+ card buffed. Damage increased from 8 -> 9.
+GAMEPLAY: Storm of Steel card buffed. Cost lowered from 2 -> 1.
+GAMEPLAY: Storm of Steel+ card buffed. Cost lowered from 2 -> 1.
+GAMEPLAY: Swift Strike card buffed. Damage increased from 6 -> 7.
+GAMEPLAY: Swift Strike+ card buffed. Damage increased from 9 -> 10.
+GAMEPLAY: Good Instincts card buffed. Block increased from 5 -> 6.
+GAMEPLAY: Good Instincts+ card buffed. Block increased from 8 -> 9.
+GAMEPLAY: Dramatic Entrance card buffed. Damage increased from 6 -> 8.
+GAMEPLAY: Dramatic Entrance+ card buffed. Damage increased from 8 -> 12.
+BUG FIX: Fixed minor issue where line below scores were always rendered (instead of fading in).
+BUG FIX: Ultrawide: Event backgrounds now encase dialog button and event portrait.
+BUG FIX: Ultrawide: Fix for single card view popups' energy and keyword tips.
+BUG FIX: Ultrawide: Fixed death screen stats not being centered.
+BUG FIX: Ultrawide: Fixed Game Settings tab misplaced when in Input Settings screen.
+BUG FIX: Ultrawide: Fixed scrollbar placed incorrectly in Input Settings.
+BUG FIX: Ultrawide: Fixes boss relic select screen positioning.
+BUG FIX: Ultrawide: Map contents are now centered.
+BUG FIX: Ultrawide: Updated monster/player hitboxes so intents are placed better and cards are easier to target..
+BUG FIX: Ultrawide: While at rest sites, players are no longer rendered stretched out.
+BUG FIX: Ultrawide: While at rest sites, text and options are placed correctly.
+REFACTOR: Some code cleanup/sharing for death/victory screens. 
+UX: Ultrawide: Aspect ratios wider than 21:9 are now letterboxed, preventing insane resolutions.
+UX: Ultrawide: Updating position of map legend hover tips.
+
+11-12-2020v2
+BUG FIX: Reverting healing actions fix as it may be the cause of some crashes.
+
+11-12-2020
+GAMEPLAY: Hemokinesis+ card nerfed. HP Loss 1 -> 2.
+BUG FIX: Bursts can now be Bursted properly.
+BUG FIX: Fixed Dropkick card not glowing under some conditions.
+BUG FIX: Fixed Foreign Influence card messing up card rewards by affecting the seed.
+BUG FIX: Fixed Grand Finale card not glowing under some conditions.
+BUG FIX: Fixed Heel Hook card not glowing under some conditions.
+BUG FIX: Fixed issue where Watcher couldn't receive Stuffed or Well Fed bonus scores.
+BUG FIX: Fixed No Block power allowing players to gain Block with Dexterity.
+BUG FIX: Fixed Sneaky Strike card not glowing under some conditions.
+BUG FIX: Fixed Spirit Shield's Block value not changing under some conditions.
+BUG FIX: If many actions are queued at the end of combat, actions such as healing were ignored.
+BUG FIX: Keys for the final act could be skipped if you proceed extremely fast.
+BUG FIX: Pluralizing Reflex card's description from draw 1 card -> draw 2 cards.
+LOC: Updates for EPO.
+
+11-10-2020
+GAMEPLAY: Accuracy card buffed. Damage increased from 3 -> 4.
+GAMEPLAY: Accuracy+ card buffed. Damage increased from 5 -> 6.
+GAMEPLAY: Aggregate card buffed. Energy gained every 6 -> 4 cards.
+GAMEPLAY: Aggregate+ card buffed. Energy gained every 5 -> 3 cards.
+GAMEPLAY: Bloodletting card buffed. Energy gain increased from 1 -> 2.
+GAMEPLAY: Bloodletting+ card buffed. Energy gain increased from 2 -> 3.
+GAMEPLAY: Reprogram card Focus loss decreased from 2 -> 1.
+GAMEPLAY: Reprogram+ card changed. Focus loss, Strength, and Dexterity changed from 1 -> 2.
+GAMEPLAY: Eviscerate card buffed. Damage increased from 6 -> 7.
+GAMEPLAY: Eviscerate+ card buffed. Damage increased from 8 -> 9.
+GAMEPLAY: Hemokinesis card buffed. Damage increased from 14 -> 15.
+GAMEPLAY: Hemokinesis card buffed. HP loss decreased from 3 -> 2.
+GAMEPLAY: Hemokinesis+ card buffed. Damage increased from 18 -> 20.
+GAMEPLAY: Hemokinesis+ card buffed. HP loss decreased from 2 -> 1.
+GAMEPLAY: Phantasmal Killer card buffed. Cost reduced from 2 -> 1.
+GAMEPLAY: Phantasmal Killer+ card buffed. Cost reduced from 1 -> 0.
+GAMEPLAY: Reflex card buffed. Card draw increased from 1 -> 2.
+GAMEPLAY: Reflex+ card buffed. Card draw increased from 2 -> 3.
+GAMEPLAY: Rupture+ card nerfed. Energy cost 0 -> 1.
+GAMEPLAY: Rupture+ card buffed. Strength gain increased from 1 -> 2.
+GAMEPLAY: Scrape card draws 3 -> 4 cards.
+GAMEPLAY: Scrape+ card draws 4 -> 5 cards.
+GAMEPLAY: Scrape+ card buffed. Damage increased from 9 -> 10.
+GAMEPLAY: Sneaky Strike card buffed. Damage increased from 10 -> 12.
+GAMEPLAY: Sneaky Strike+ card buffed. Damage increased from 14 -> 16.
+UX: Adjusting many fonts to improve legibility.
+UX: Increased line spacing in events when bigger text mode is on.
+UX: Main menu panel buttons now have a wider space for text to fit in (accomodates bigger text mode).
+UX: SteelSeries GameSense support.
+UX: Ultra widescreen resolution support.
+PERF: Removed applyPowerFont. Using eventBodyText font instead. 
+PERF: Removed bannerFont. Using losePowerFont instead.
+PERF: Removed cardTitleFont_small font. Using cardTitleFont scaled down instead.
+PERF: Removed eventBodyText font. Using panelNameFont instead.
+PERF: Removed SCP_cardTypeFont. Using panelNameFont instead.
+PERF: Removed speech_font. Using turnNumFont instead.
+PERF: Removed textOnlyEventTitleFont. Using losePowerFont instead.
+PERF: dungeonTitleFont quality changed to save memory.
+PERF: When closing a Single Card popup or Single Relic Popup, the font texture is cleared to save memory.
+PERF: When closing the Leaderboard screen, the font texture is cleared to save memory.
+PERF: Some unused variables from the Settings class were removed.
+LOC: Updated FRA credits.
+LOC: Updates for DEU, POL, SPA, TUR, VIE.
+
+07-30-2020
+LOC: Indonesian enabled for non-beta builds.
+LOC: Updates for JPN, TUR.
+
+07-24-2020
+UX: In touchscreen mode, when dragging cards- the cards are now offset from the touchpoint.
+UX: In touchscreen mode, target-based cards are in targeting mode, they are now rendered larger and slightly higher.
+UX: In touchscreen mode, main menu text buttons are now larger and spaced twice as far apart.
+LOC: Updates for EPO, IND, VIE, TUR.
+
+07-08-2020
+COMPATIBILITY: Fix for Mac audio crashes on Mac OS versions earlier than 10.15
+LOC: Updates for DEU, DUT, IND, ITA, JPN, RUS, SPA, THA, TUR, VIE, ZHS, ZHT
+
+06-22-2020
+COMPAT: MacOS LibGDX 1.9.5 version is now notarized, allowing both engine versions for MacOS again.
+LOC: Updates for DUT, KOR, PTB, SPA, VIE, UKR, ZHS.
+
+05-27-2020
+BUG FIX: Fixed a startup crash for one of the languages.
+LOC: Updates for EPO, FRA, ITA, RUS, THA, TUR.
+LOC: Updates to KOR and SPA credits.
+UX: Reverting support for ultra high resolutions as large bitmap fonts were causing performance issues.
+
+05-25-2020
+COMPAT: Even more MacOS notarization-related updates so future builds will run on MacOS Catalina and beyond.
+BUG FIX: Fixed issue where Watcher data may not delete properly upon deleting a profile slot.
+BUG FIX: Fixing highlight asset for View Upgrade button in card library when using controllers.
+LOC: Updates for DEU, IND, ITA, JPN, RUS, SPA, THA, TUR, and VIE.
+UX: Adding support for ultra high resolutions for various aspect ratios. NOTE: Font textures scale to resolution, increasing memory use.
+UX: Dropdowns in Run History screen are now left aligned so it works with Bigger Text mode better.
+UX: Shifted much of the Run History screen slightly right so it's more spacious for some languages.
+UX: Seed shown in the Run History Screen is now anchored in a specific location.
+UX: Re-adding longpress support for mouse and touchscreen modes (enabled in Settings), off by default.
+UX: Updating credits to show end message a bit later (as credits are longer now).
+UX: While in touchscreen mode, certain strings now say tap instead of click.
+
+03-05-2020
+COMPAT: MacOS builds now utilize latest notarization rules.
+BUG FIX: Fixed bug where continuing a save at the event after the 3rd boss would resume the game timer if not going to the final act.
+BUG FIX: Fixed bug where Controlled Chaos mod would give you Unknown cards.
+BUG FIX: Fixed letterboxing asset placed above Gremlin Wheel spin button.
+BUG FIX: If Bigger Text mode is on, the main tutorial's text is raised slightly so it is not behind the Next button.
+LOC: Fixing issue with Fairy Potion displaying incorrect value for VIE.
+LOC: Increasing card width space for CJK languages in Bigger Text mode.
+LOC: Updates for DEU, DUT, FRA, IND, ITA, JPN, KOR, RUS, SPA, TUR, VIE, ZHT.
+LOC: Updating credits for SPA.
+UX: Locked characters are now displayed in grayscale in custom mode screen.
+UX: Updating credits screen timing as there's more credits.
+UX: Updating Gremlin Wheel event so arrow is placed better based on aspect ratio.
+UX: Updating rich presence string so that Ascension and Floor number can be seen.
+
+01-27-2020
+UX: Removing Upgraded tooltip from Cunning Potion as the Upgraded keyword isn't in the description.
+BUG FIX: Fixed Vietnamese displaying Ukrainian in the main branch.
+LOC: Adding updated logic so Fasting power's description works properly in various languages.
+LOC: Turkish now uses Kreon instead of Roboto font.
+LOC: Updated the main English font from Kreon v1 to Kreon v2.
+LOC: Updates for ITA, POL, PTB, TUR.
+
+01-21-2020
+BUG FIX: Weave is no longered the unlocked card in the second set of cards.
+BUG FIX: Foreign Influence is now properly counted for stats screens in unlock count.
+LOC: Updates for ITA, JPN, TUR, 
+
+01-20-2020
+ART: New power icons for Fasting and Pressure Points. Thanks Kassyndra!
+BUG FIX: Fixing total unlock count for cards and relics on the stats screen (didn't count for Watcher).
+GAMEPLAY: Weave card is now locked for the Watcher as the second set of unlocks contained a deprecated card.
+LOC: Turkish is now available for the new content. A huge thanks to Ertürk Yılmaz who helped out.
+LOC: Updating credits for Turkish.
+
+01-16-2020
+GAMEPLAY: Amethyst achievement now unlocks if you achieved Amethyst+ via opening Stats screen.
+GAMEPLAY: If AMETHYST+ achievement is unlocked, Amethyst is now also unlocked simultaneously.
+MODDABILITY: Adding back old ExhaustAction constructors (backwards mod compatibility). 
+MODDABILITY: Adding getColor() helper method for CardHelper.
+LOC: Adding localization support for Brazilian Portuguese.
+LOC: Updates for THA, RUS.
+
+01-14-2020 (Release Candidate 1)
+GAMEPLAY: Eternal One Achievement unlock requires 45 achievements now
+LOC: Updates for DEU, EPO, JPN, UKR.
+PERF: Improved performance when rendering card type text. 
+PERF: Slight improvement to card initialization time.
+UX: Calling Bell, Chemical X, Cauldron, Membership Card, Charons Ashes now all play SFX when pressing 0 - 9 in relic view screens.
+
+01-03-2020
+BUG FIX: Title casing fix for Flurry of Blows.
+GAMEPLAY: Simplifying Watcher unlock code in prep for main branch release.
+MODDING: Returning functionality of any number select for grid select screens (auto-confirms when count is reached).
+MODDING: Heartbreaker score bonus no longer appears/calculates for modded Act 4s.
+UX: Speed of various card manipulating actions are now the same and are affected by fast mode (if not before).
+VFX: Adding a light bulb VFX whenever you play an Insight card.
+LOC: Updates for EPO, ITA, JPN, POL, SPA, UKR, VIE, ZHS.
+LOC: Updating UKR credits.
+
+12-21-2019
+BUG FIX: Expunger card now displays correct description if it will hit once.
+BUG FIX: Fixed peek button controller button prompt appearing even if you can't peek.
+BUG FIX: Fixed Run History screens run paths having offset rows in some instances.
+BUG FIX: Fixed Run History's Watcher sort not working.
+GAMEPLAY: Brilliance card buffed 10 -> 12 damage.
+GAMEPLAY: Brilliance+ card buffed 14 -> 16 damage.
+GAMEPLAY: Protect card nerfed from 13 -> 12 Block. 
+GAMEPLAY: Protect+ card nerfed from 17 -> 16 Block.
+GAMEPLAY: Simmering Fury card reworked.
+PERF: Removing texture atlas for potions as it isn't used.
+VFX: Adding some SFX/VFX to Expunger card.
+LOC: Updates for DEU, ITA, KOR, RUS, THA, ZHS, ZHT.
+
+12-19-2019
+VFX: Adding VFX for Watcher Empty cards if the effects trigger.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fixed Establishment not working with Well-Laid Plans and Equilibrium.
+BUG FIX: Fixed Omega power vfx appearing on dead enemies.
+BUG FIX: Fixed Rebound card not working with Strange Spoon relic.
+BUG FIX: Stasis move from Bronze Automaton's Orbs is now seeded.
+REFACTOR: Unhardcoded egg relic checks for better moddability.
+UX: Egg relics update card previews on Pandora's Box confirmation screen.
+UX: Sneaky Strike glows yellow when the player has discarded a card this turn.
+
+12-17-2019
+BUG FIX: No SFX will play if the game is backgrounded now (if the option is on of course).
+LOC: Updates for ITA.
+MODDABILITY: Adding some null checks to cards so they're more robust for modding.
+UX: Eternal One achievement now requires Amethyst & Amethyst+ achievements.
+
+12-16-2019
+BUG FIX: Slime and Heart enemy SFX no longer play when game is backgrounded.
+UX: Flame Barrier card resolves 0.4s faster in fast mode.
+VFX: Adding VFX to Wreathe of Flame card. 
+VFX: If Follow-Up card effect triggers, there's an additional blue glow VFX + SFX.
+VFX: When Sanctity card triggers a yellow border effect also appears.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fixed double-played Sunder gaining energy twice on Darklings and Awakened One.
+BUG FIX: Fixed egg relics not upgrading card received from A Note To Yourself.
+BUG FIX: Fixed Establishment card not reducing cost of cards that cost 0 for turn.
+BUG FIX: Fixed Eviscerate card having the wrong cost when drawn during enemy turn.
+BUG FIX: Fixed Eviscerate card not setting its cost when generated in combat.
+UX: Egg relics now update card rewards in reward screens upon pickup.
+
+12-11-20190
+ART: Adding polished card portrait for Study card.
+BUG FIX: Fixed elites slain score not showing up properly in Endless mode.
+
+12-10-2019
+ART: Added new Watcher cutscene assets upon completing Act 4.
+ART: Updating Slaver Collar asset.
+BUG FIX: Fixed Watcher victory screen VFX blinking framerate dependent. 
+LOC: Updates for DEU.
+MODDING: Ading a txt file to explain how outlines are created in relics/outlines folder.
+UX: Changing SFX used when seeing Watcher Act 4 victory scene.
+
+12-06-2019v2
+HOTFIX: Fixed sources of healing not working if Fast Mode is not enabled.
+BUG FIX: Fixed Watcher victory screen assets being squished.
+
+12-06-2019
+UX: Updating asset for Duality relic to match flavor better.
+UX: Updating Violet Lotus relic asset to be polished.
+UX: Adding a VFX for attacking the Heart when playing the Watcher.
+UX: Adding a VFX for Carnage card.
+UX: Adding a VFX for Omega power when it deals damage.
+UX: Adding SFX for Spit Web attack by Louse enemy.
+UX: Adding VFX for Devotion card.
+UX: Adding VFX for Flying Sleeves card.
+UX: Adding VFX for Through Violence card.
+UX: Cloak Clasp relic asset updated. 
+UX: Creating a VFX for the Watcher's heart victory screen.
+UX: Duality relic asset adjustments.
+UX: Gremlin Horn relic now has polished art asset.
+UX: Mushroom relic asset enlarged + polished.
+UX: Oddly Smooth Stone relic gets updated to be smoother + high-res version when clicked.
+UX: Updating assets for Golden Eye relic.
+BUG FIX: Fixed Flurry of Blows card typo.
+BUG FIX: Fixed Unknown keyword being misspelled in French.
+BUG FIX: Removing 3 unused sound assets.
+LOC: Updates for DEU, DUT, FRA, ITA, SPA, ZHS, ZHT.
+MODDING: Putting back old constructor of GainBlockAction.
+MODDING: Ascension level increments even if you lose on Act 4+ instead of specifically Act 4 as mods may allow higher Acts.
+
+Thanks to BDWSSBB for the following:
+GAMEPLAY: Powers that gain Block at end of turn activate before cards like Burn play themselves.
+BUG FIX: Adding hand update after card and potion use to fix general card information and glow issues.
+BUG FIX: Fixed Confusion card not affecting cards reduced by Setup or Forethought.
+BUG FIX: Fixed Judgement card not bypassing Intangible and Invincible powers.
+BUG FIX: Fixed Necronomicon not activating on cost-X cards when played from effects (e.g. Mayhem).
+BUG FIX: Fixed Tantrum card not exhausting when played by Omniscience.
+UX: Barrage card resolves 0.25s faster.
+UX: Bite card VFX resolves 0.2s faster in fast mode.
+UX: Charon's Ashes resolves 0.15s faster per hit in fast mode.
+UX: Claw card resolves 0.25s faster.
+UX: Feel No Pain power resolves 0.15s faster per exhaust in fast mode.
+UX: Fiend Fire card resolves 0.25s faster and 0.15s faster per card exhausted in fast mode.
+UX: Fission card resolves 0.25s faster.
+UX: Healing resolves 0.25s faster in fast mode. Blood Vial resolves 0.5s faster.
+UX: Looter death speech bubble before combat end resolves 1.5s faster in fast mode.
+UX: Recursion card card resolves 0.15s faster in fast mode.
+UX: Sneaky Strike card resolves 0.25s faster.
+UX: Talk to the Hand power resolves 0.15s faster per hit in fast mode.
+
+11-12-2019
+UX: Violet Lotus relic asset polished.
+UX: Cloak Clasp relic asset polished.
+UX: Duality relic asset adjusted + polished.
+UX: Gremlin Horn relic asset polished.
+UX: Mushroom relic asset enlarged + polished.
+UX: Golden Eye relic asset polished.
+LOC: Updates for ITA, ZHT.
+
+11-11-2019v2
+HOT FIX: Fixed softlock caused when utilizing Judgement card against Darkling enemy.
+UX: Oddly Smooth Stone relic gets updated to be smoother + high-res version when clicked.
+
+11-11-2019
+BUG FIX: Fixed Confusion not affecting card costs reduced by Setup or Forethought.
+BUG FIX: Fixed Judgement not bypassing Intangible and Invincible.
+GAMEPLAY: Powers that gain Block at end of turn activate before cards like Burn play themselves.
+UX: Adding VFX for Carnage card.
+UX: Adding SFX for Spit Web attack by Louse enemy.
+UX: Adding VFX for Devotion card.
+UX: Adding VFX for Flying Sleeves card.
+UX: Adding VFX for Through Violence card.
+UX: Barrage card resolves 0.25s faster.
+UX: Bite card resolves 0.2s faster in fast mode.
+UX: Claw card resolves 0.25s faster.
+UX: Fission card resolves 0.25s faster.
+UX: Looter death speech bubble before combat end resolves 1.5s faster in fast mode.
+UX: Recursion card resolves 0.15s faster in fast mode.
+UX: Sneaky Strike card resolves 0.25s faster.
+LOC: Updates for SPA.
+PERF: Removing 3 unused sound assets.
+
+11-08-2019
+ART: Updating beta art for Omniscience card.
+LOC: Updates for DEU.
+UX: Adding VFX for Wallop card.
+UX: Adding VFX for Sanctity card.
+UX: Pressing 0 - 9 keys in some relic view screens can now play some SFX.
+
+11-07-2019
+ART: Updating icon for Master Reality power.
+ART: Updating icon for Mental Fortress power.
+ART: Cleaning up icon for Heatsinks power.
+LOC: Updates for DUT, ITA.
+UX: Bowling Bash now plays a special sound if 3 or more enemies are present.
+UX: Adding a VFX for Vault card.
+UX: Adding VFX for Foresight card.
+UX: Adding VFX for Third Eye card.
+UX: Become Almighty and Live Forever cards get updated VFX.
+UX: Damaru relic now has a special SFX when opening up the relic popup.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fixed Escape Plan gaining Block when card drawn is blocked by No Draw.
+
+11-05-2019
+ART: Adding polished card portrait for Blasphemy.
+ART: Adding polished card portrait for Deceive Reality.
+ART: Adding polished card portrait for Deus Ex Machina.
+ART: Adding polished card portrait for Establishment.
+ART: Adding polished card portrait for Fear No Evil.
+ART: Adding polished card portrait for Foreign Influence.
+ART: Adding polished card portrait for Indignation.
+ART: Adding polished card portrait for Perseverance.
+ART: Adding polished card portrait for Pressure Points.
+ART: Adding polished card portrait for Protect.
+ART: Adding polished card portrait for Rushdown.
+BUG FIX: Fixed controller support for Potion Lab screen. 
+BUG FIX: Utilizing 4:3 offset y in scene render.
+UX: Adding VFX for Fasting card.
+UX: Adding VFX for Pressure Points card.
+UX: Adding VFX for Ragnarok card.
+UX: Bag of Marbles relic no longer grays out when its effect is triggered.
+UX: Bag of Preparation relic no longer grays out when its effect is triggered.
+UX: Blood Vial relic no longer grays out when its effect is triggered.
+UX: Disabling scrollbar for Potion Lab screen as no scrolling is required.
+UX: Lantern relic no longer grays out when its effect is triggered.
+UX: Mutagenic Strength relic no longer grays out when its effect is triggered.
+UX: Ninja Scroll relic no longer grays out when its effect is triggered.
+UX: Nuclear Battery relic no longer grays out when its effect is triggered.
+UX: Red Mask relic no longer grays out when its effect is triggered.
+LOC: Fixing purple text not working for some languages. 
+LOC: Updates for DEU, EPO, JPN, KOR, VIE.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Dropkick card now resolves its actions in order of its description.
+BUG FIX: Fixed cards sometimes glowing even when they cannot be played.
+BUG FIX: Fixed Entropic Brew filling potions slots with Sozu.
+BUG FIX: Fixed exiting Divinity from last turn if Damaru makes the player enter Divinity again.
+BUG FIX: Fixed Fear No Evil + Mental Fortress not gaining Block before Beat of Death.
+BUG FIX: Fixed Ink Bottle drawing a card when activated by playing Battle Trance or Bullet Time.
+BUG FIX: Fixed Juggernaut damage not changing targets if original target is dead.
+BUG FIX: Fixed Mayhem, Havoc, Distilled Chaos, and Omniscience sometimes not playing cards if original target is dead.
+BUG FIX: Fixed on-enter-room relics activating again when loading post-combat.
+BUG FIX: Fixed Wave of the Hand removing itself too early for effects like Like Water and Plated Armor.
+BUG FIX: Heel Hook card now resolves its actions in order of its description.
+BUG FIX: Transmorgrifier and The Designer transform options are now seeded.
+UX: After Image card's Block gain effect resolves 0.15s faster in fast mode.
+UX: Catalyst card resolves 0.25s faster.
+UX: Heel Hook card resolves 0.25s faster.
+UX: Powers reducing themselves resolve 0.15s faster in fast mode.
+UX: Storm of Steel card resolves 0.25s faster.
+
+11-01-2019v2
+HOTFIX: Updating letterboxing logic to work again with ultra wide.
+UX: Square/vertical displays now utilize the largest possible 4:3 instead of 16:10.
+
+11-01-2019
+UX: An experimental 4:3 aspect ratio is now available. Just set the resolution to utilize.
+BUG FIX: Updated map assets to work with all aspect ratios better.
+UX: Brilliance card no longer has the Mantra count in its description + damage it will deal is now shown properly.
+UX: Increased font size of tips when unlocking cards/relics.
+UX: Moved the 'Restart game for changes' text reminder as tabs for settings screens are taller.
+UX: Unlock tip text is now larger for relic unlock screens.
+LOC: Updates for RUS.
+
+10-31-2019
+LOC: Updates for KOR, POL, THA, VIE.
+WORDING: Brilliance wording improvements.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fixed Discovery showing skip button when reopening screen from another menu.
+BUG FIX: Pressing escape no longer exits the card reward screen from another menu.
+BUG FIX: Fixed Stance Potion and Wish sometimes not showing the Peek button.
+BUG FIX: Fixed stance SFX lingering on death and returning to main menu.
+BUG FIX: Fixed infinite energy exploit with Slaver's Collar and save and load post-combat.
+BUG FIX: Slaver's Collar now works in event-based Elite and Boss combats.
+BUG FIX: Fixed Armaments and Blessing of the Forge not updating descriptions of upgraded cards.
+BUG FIX: Fixed Pocketwatch activating too early for effects like Foresight.
+BUG FIX: Fixed Tingsha damage not changing targets if original target is dead.
+UX: Tingsha resolves 0.1s faster per hit.
+
+10-30-2019
+ART: Adding beta art for Live Forever and Pressure Points cards.
+BUG FIX: Brilliance card portraits now fit the Attack type template.
+BUG FIX: Plated Armor text on Live Forever is now gold color.
+GAMEPLAY: Brilliance reworked.
+RENAME: Yang relic renamed to Duality.
+UX: Adding flavor text for Damaru relic.
+UX: Adding flavor text for Golden Eye relic.
+UX: Adding flavor text for Holy Water relic.
+UX: New Fatal keyword used by Feed, Lesson Learned, Hand of Greed, and Ritual Dagger.
+UX: Singing Bowl's button changed from Y to RB, allows players to inspect cards and Skip card.
+LOC: Updates for KOR, VIE, RUS, ZHS, ZHT.
+
+10-29-2019
+ART: Updating some card portraits: Master Reality, Mental Fortress, Brilliance.
+BUG FIX: Fixed Bigger Text option not being available mid-run.
+BUG FIX: Fixing up Live Forever and Like Water card portraits not showing up.
+GAMEPLAY: Reworked Brilliance card. (Portrait will be fixed tomorrow)
+LOC: Updates for DEU, DUT, ITA, RUS, THA, ZHS, ZHT.
+
+10-28-2019
+ART: Adding asset for Damaru relic.
+ART: Adding polished card portrait for Become Almighty.
+ART: Adding polished card portrait for Conclude.
+ART: Adding polished card portrait for Conjure Blade.
+ART: Adding polished card portrait for Devotion.
+ART: Adding polished card portrait for Expunger.
+ART: Adding polished card portrait for Fame and Fortune.
+ART: Adding polished card portrait for Fasting.
+ART: Adding polished card portrait for Lesson Learned.
+ART: Adding polished card portrait for Like Water.
+ART: Adding polished card portrait for Live Forever.
+ART: Adding polished card portrait for Master Reality.
+ART: Adding polished card portrait for Mental Fortress.
+ART: Adding polished card portrait for Safety.
+ART: Adding polisehd card portrait for Omniscience.
+ART: Adding polisehd card portrait for Worship.
+ART: Adding polisehd card portrait for Crescendo.
+ART: Adding polisehd card portrait for Simmering Fury.
+ART: Adding polisehd card portrait for Brilliance.
+ART: Adding polished card portrait for Wrath (Stance Potion option).
+BUG FIX: Battle Hymn typos fixed.
+GAMEPLAY: Cloak Clasp is now Watcher only.
+LOC: Updates for DUT, ITA.
+UX: Mutagenic Strength relic now grays out after it's used in combat.
+
+10-25-2019 V3
+LOC: Updates for DEU, EPO, JPN.
+
+10-25-2019 V2
+HOTFIX: Fix for game crashing when picking up potions with new art.
+
+10-25-2019
+BUG FIX: Fix for JPN crash on startup.
+ART: Ambrosia is now eye-shaped.
+ART: Blessing of the Forge is now anvil-shaped.
+ART: Cultist potion is now moon-shaped.
+ART: Cunning potion is now spiky-shaped and gray.
+ART: Distilled Chaos is now rainbow color.
+ART: Duplication potion is now rainbow color.
+ART: Entroic Brew is now flask-shaped and rainbow color.
+ART: Essence of Darkness is now moon-shaped.
+ART: Essence of Steel is now anvil-shaped and teal color.
+ART: Liquid Bronze is now spiky-shaped.
+ART: Liquid Memories is now eye-shaped.
+ART: Poison potion is now flask-shaped.
+GAMEPLAY: Mental Fortress card block increased from 3 -> 4.
+GAMEPLAY: Mental Fortress+ card block increased from 4 -> 6.
+GAMEPLAY: Nirvana card block lowered from 4 -> 3.
+GAMEPLAY: Nirvana+ card block lowered from 6 -> 4.
+LOC: Updates for ITA, VIE.
+
+BUG FIX: Missed Patch Notes yesterday, see the bottom half of 10-24-2019.
+
+10-24-2019
+CONTENT: Adding common Watcher relic. Damaru.
+GAMEPLAY: Chimera mod now accounts for the Watcher.
+GAMEPLAY: Dodecahedron relic deprecated.
+GAMEPLAY: My True Form mod now accounts for the Watcher.
+GAMEPLAY: Nunchaku relic is now Common.
+GAMEPLAY: Tiny Chest relic reworked.
+LOC: Updates for KOR, RUS, THA, VIE, ZHS, ZHT.
+
+GAMEPLAY: Reprogram card cost lowered from 2 -> 1.
+GAMEPLAY: Reprogram+ card now lowers 1 Focus instead of 2.
+GAMEPLAY: Scrawl card cost lowered from 2 -> 1.
+GAMEPLAY: Scrawl card rarity changed from Uncommon -> Rare.
+GAMEPLAY: Scrawl+ card cost lowered from 1 -> 0.
+GAMEPLAY: Spirit Shield and Spirit Shield+ now gain 1 more Block per card.
+GAMEPLAY: Spirit Shield card rarity changed from Uncommon -> Rare.
+
+10-23-2019
+ART: Removing Pressure Points beta art as it was for Path To Victory.
+BUG FIX: Fixed in-combat card select screens not working with other screens.
+BUG FIX: Toolbox relic is now seeded.
+CONTENT: New common potion - Blessing of the Forge.
+CONTENT: New Common Potion - Colorless Potion.
+LOC: Updates for EPO, ITA, SPA, VIE, ZHT.
+PERF: Removed unused variables from an old unused feature.
+UX: Testing out Bigger Text. Can be toggled on/off in Game Settings.
+
+10-22-2019
+ART: Adding beta art for Indignation, Study, and Like Water cards.
+BUG FIX: Fixed card tips not showing up correctly when the left card is hovered during card upgrade.
+BUG FIX: Go For the Eyes and Spot Weakness cards no longer have a gold border on the first turn of combat.
+BUG FIX: Mark power description updated as it referred to the former card name.
+RENAME: Path to Victory card renamed to Pressure Points. (this happened last patch)
+VFX: Adding VFX for Miracle card.
+LOC: Adding a string to loc for a possible future feature.
+LOC: Updates for DEU, DUT, EPO, ITA, RUS, THA, VIE, ZHS, ZHT.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Bouncing Flask's effects now happen in order.
+BUG FIX: Fixed Bouncing Flasks's VFX location starting at the wrong place.
+BUG FIX: Fixed Burns and related cards changing last card played for Crush Joints and similar cards.
+BUG FIX: Fixed Liquid Memories not updating damage and block values on card descriptions.
+BUG FIX: Fixed Mayhem and Distilled Chaos making certain cards disappear if end turn effects are called.
+BUG FIX: Fixed Storm of Steel prompting to discard cards after Ink Bottle draws a card.
+BUG FIX: Fixed Tungsten Rod not affecting Shelled Parasite's lifesteal heal amount.
+BUG FIX: Fixed Velvet Choker not interacting correctly with Curses.
+BUG FIX: Horn Cleat can no longer trigger at the start of the second Colosseum fight.
+BUG FIX: Picking up Sacred Bark now updates Power/Skill potion descriptions properly.
+MODDABILITY: In-combat card selection screens now use a generalized method (Codex, Discovery, Attack Potion, etc)
+REFACTOR: Sacred Bark relic unhardcoding for most potions.
+UX: Horn Cleat and Captain's Wheel relics now display turn numbers until triggered.
+
+Thanks to JohnnyDevo for the following:
+MODDABIILITY: Overload damage calculation methods to pass instance of AbstractCard.
+
+10-21-2019
+BUG FIX: Expunger card description now correctly works when upgraded.
+GAMEPLAY: Corruption card rarity changed from Uncommon -> Rare.
+GAMEPLAY: Dark Embrace card rarity changed from Rare -> Uncommon.
+GAMEPLAY: Evaluate card rarity changed from Uncommon -> Common.
+GAMEPLAY: Eviscerate card cost lowered from 4 -> 3.
+GAMEPLAY: Foresight+ card changed from gaining Innate to upgrading Scry amount from 3 -> 4.
+GAMEPLAY: Reprogram card reworked.
+GAMEPLAY: Sanctity card rarity changed from Common -> Uncommon.
+GAMEPLAY: Well Laid Plans card cost increased from 0 -> 1
+GAMEPLAY: Wish's Live Forever option now gives Plated Armor (instead of Plated Armor each turn).
+GAMEPLAY: Knowing Skull event HP costs increase as the same option is continuously chosen. Additionally, the starting HP cost is now 6.
+GAMEPLAY: Mind Bloom event now gives less gold 100 -> 50 when fighting the boss and 25 gold above Ascension 13+.
+LOC: Updates for DEU, DUT, EPO, ITA, KOR, RUS, THA, VIE, ZHS, ZHT.
+UX: Damage value for Fire Breathing power's description is now blue.
+UX: Meat on the Bone now pulses when it will trigger at the end of combat.
+UX: Red Mask relic now grays out when its effect is triggered.
+
+10-18-2019
+GAMEPLAY: Common potion droprate decreased from 70% -> 65%.
+GAMEPLAY: Rare potion droprate increased from 5% -> 10%.
+GAMEPLAY: Blasphemy+ card now gives Retain on upgrade, cost remains at 1.
+GAMEPLAY: Empty Fist card damage buffed from 8 -> 9.
+GAMEPLAY: Empty Fist+ card damage buffed from 12 -> 14.
+GAMEPLAY: Reach Heaven card damage buffed from 8 -> 10.
+GAMEPLAY: Reach Heaven+ card damage buffed from 12 -> 15.
+GAMEPLAY: Retroactive patch notes for changes applied to Beta+ card (see 10-16-2019 notes).
+UX: Bag of Marbles relic now grays out when its effect is triggered.
+UX: Bag of Preparation relic now grays out when its effect is triggered.
+UX: Blood Vial relic now grays out when its effect is triggered.
+UX: Centennial Puzzle relic now grays out when its effect is triggered.
+UX: Fossilized Helix relic now grays out when its effect is triggered.
+UX: Lantern relic now grays out when its effect is triggered.
+UX: Ninja Scroll relic now grays out when its effect is triggered.
+UX: Nuclear Battery relic now grays out when its effect is triggered.
+VFX: Champ enemy now recognizes if you have his belt.
+LOC: Blanked out UPGRADE_DESCRIPTION for Beta card as it's unused.
+LOC: Localizability added for Statistics screen's fastest and total playtimes.
+LOC: Updates for EPO, POL, RUS, THA, VIE, ZHT.
+
+10-17-2019
+BUG FIX: When using Wish card, cards shown in the Choose One screen are now marked as seen (for Card Library).
+GAMEPLAY: Conjure Blade+ and Expunger+ get slight rework.
+GAMEPLAY: Like Water card nerfed Block 7 -> 5.
+GAMEPLAY: Like Water+ card nerfed Block 9 -> 7.
+LOC: Updates for DEU, EPO, ITA, KOR, VIE, ZHS, ZHT.
+PERF: Several relics have their used up images removed & use a shader to render them grayscale instead.
+PERF: Several Rest Site options have their grayed out images removed & use a shader to render them grayscale instead.
+UX: Anchor relic now grays out when its effect has triggered.
+UX: Captain's Wheel relic now grays out when its effect has triggered.
+UX: Horn Cleat relic now grays out when its effect has triggered.
+UX: Stone Calendar relic now grays out when its effect has triggered.
+
+10-16-2019
+ART: New power icon for Wave of the Hand power.
+BUG FIX: Beta art for Vault asset updated.
+BUG FIX: Fixing Reach Heaven card portraits not fitting in card templates correctly.
+BUG FIX: Nilry's Codex now correctly works with Master Reality.
+GAMEPLAY: Beta+ card now costs 1 and generates Omega (not Omega+)
+GAMEPLAY: Toolbox relic buffed. Choose 1 of 3 Colorless cards instead of obtaining a random one.
+UX: Adding controller support for Peek UX (Left Analog Stick down).
+UX: Adding hotkey for Peeking (Spacebar) which can be reassigned in the Input Settings. 
+UX: Increased scroll speed by 3x when using mousewheel to scroll for Input Settings screen.
+UX: Reckless Charge card now utilizes the card preview UX to show Dazed.
+VFX: Adding pulsing and particle VFX for Peek button during peek.
+VFX: Fame and Fortune card gets a VFX.
+LOC: Updates for DEU, DUT, EPO, ITA, RUS, THA, ZHS, ZHT.
+
+10-15-2019
+ART: Adding a new power icon for Deva Form's power.
+ART: Adding a new power icon for Like Water's power.
+ART: Adding a new power icon for Path to Victory's Mark power.
+ART: Adding a new power icon for Rushdown's power.
+ART: Adding a new power icon for Swivel's power.
+ART: Adding a new power icon for The Bomb's power.
+ART: Adding polished card portrait for Alpha card.
+ART: Adding polished card portrait for Beta card.
+ART: Adding polished card portrait for Carve Reality card.
+ART: Adding polished card portrait for Crush Joints card.
+ART: Adding polished card portrait for Curse of the Bell card.
+ART: Adding polished card portrait for Flurry of Blows card.
+ART: Adding polished card portrait for Insight card.
+ART: Adding polished card portrait for Omega card.
+ART: Adding polished card portrait for Prostrate card. 
+ART: Adding polished card portrait for Reach Heaven card.
+ART: Adding polished card portrait for Sanctity card.
+ART: Adding polished card portrait for Sash Whip card.
+ART: Adding polished card portrait for Smite card.
+ART: Adding polished card portrait for Spirit SHield card.
+ART: Adding polished card portrait for Tantrum card.
+ART: Adding polished card portrait for Through Violence card.
+ART: Adding polished card portrait for Tranquility card.
+ART: Adding polished card portrait for Vigilance card.
+ART: Adding polished card portrait for Wave of the Hand card.
+ART: Adding polished card portrait for Wreathe of Flame card.
+BUG FIX: Fix for Distilled Memories potion description typo.
+BUG FIX: Fixed Confirm/Cancel buttons requiring two taps in touchscreen mode for Rename panel.
+GAMEPLAY: Carve Reality card damage buffed from 5 -> 6.
+GAMEPLAY: Carve Reality+ card damage buffed from 9 -> 10.
+LOC: updates for EPO, KOR, SPA.
+VFX: Cultist potion now makes the player speak.
+WORDING: Cleaned up spacing on Deva Form for improved legibility.
+
+10-14-2019
+CONTENT: New Rare Potion - Cultist Potion.
+CONTENT: New Uncommon Potion - Distilled Chaos.
+CONTENT: New Uncommon Potion - Liquid Memories.
+BUG FIX: Fixed Evaluate+ card giving Insight+ when it shouldn't be.
+BUG FIX: Fixed Reach Heaven+ incorrectly upgrading Through Violence.
+BUG FIX: Inner Peace card is no longer incorrectly capable of drawing itself.
+GAMEPLAY: Evaluate+ card block buffed from 9 -> 10.
+LOC: Updates for DEU, DUT, EPO, ITA, JPN, KOR, RUS, THA, ZHS, ZHT.
+WORDING: Halt card wording improvements.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fixed Swivel and freeToPlayOnce cards bypassing effects like Velvet Choker and Entangled.
+BUG FIX: Fixed Swivel and cost 2+ attacks triggering Necronomicon.
+BUG FIX: Fixed Swivel spending energy with cost X attacks.
+BUG FIX: Fixed rare instances of Wrist Blade affecting cost X cards.
+
+10-11-2019
+GAMEPLAY: Beta card gets buffed. Now shuffles Omega into the draw pile, rather than bottom of draw pile.
+GAMEPLAY: Flick card is Deprecated.
+UX: Testing a peek button. Should work for several selection-based screens during combat.
+WORDING: Vault description updated to clarify its effect.
+LOC: Updates for DEU, RUS, THA, VIE, ZHS, ZHT.
+
+10-10-2019
+BUG FIX: Retro-active check to make sure The Ending achievement unlocks is triggered upon opening the Stats screen.
+GAMEPLAY: Flick card's effect buffed from 40 -> 50 damage.
+GAMEPLAY: Path to Victory and Path to Victory+ gets buffed to deal 7(10) -> 8(11) HP loss.
+LOC: Updates for EPO, THA, ZHS.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fix end of turn relics activating twice if Conclude card and Time Eater's ability triggers at same time.
+BUG FIX: Fixed Omniscience card making some cards disappear on use.
+BUG FIX: Fixed several double card play interactions.
+BUG FIX: Wrist Blade was affecting attacks from double-play effects like Necronomicon.
+
+10-09-2019
+CONTENT: Adding Like Water card.
+CONTENT: Adding Study card.
+GAMEPLAY: Brilliance+ card buffed 4 -> 5.
+GAMEPLAY: Carve Reality card damage buffed 4 -> 5.
+GAMEPLAY: Carve Reality+ card damage buffed 7 -> 9.
+GAMEPLAY: Discipline card is deprecated.
+GAMEPLAY: Flick card damage buffed 1 -> 4.
+GAMEPLAY: Flow State card is deprecated.
+GAMEPLAY: Follow Up+ damage increased by 1.
+GAMEPLAY: Master Reality card cost lowered from 2 -> 1.
+GAMEPLAY: Master Reality+ card cost lowered from 1 -> 0.
+GAMEPLAY: Path To Victory card buffed. Now applies Mark and the effect is triggered after.
+GAMEPLAY: Path to Victory card's Mark amount increased from 5 -> 7.
+GAMEPLAY: Path to Victory+ card's Mark amount increased from 7 -> 10.
+GAMEPLAY: Scrawl card cost nerfed from 1 -> 2.
+GAMEPLAY: Scrawl+ card cost nerfed from 0 -> 1.
+GAMEPLAY: Through Violence+ card damage buffed from 25 -> 30.
+GAMEPLAY: Smite+ card damage buffed from 15 -> 16.
+GAMEPLAY: Safety+ card block buffed from 15 -> 16.
+WORDING: Path To Victory gets improved wording.
+LOC: Updates for DEU, EPO, RUS, SPA, VIE, ZHS, ZHT.
+
+10-08-2019
+CONTENT: Adding Flick card.
+GAMEPLAY: Akabeko relic nerfed 9 -> 8.
+GAMEPLAY: Ceramic Fish gets a buff 7 -> 9 gold.
+GAMEPLAY: Flurry of Blows and Weave cards have their rarity swapped.
+GAMEPLAY: Ink Bottle relic is now Uncommon (was Common).
+GAMEPLAY: Prostrate card gets buffed 1 -> 2 Mantra. 
+GAMEPLAY: Prostrate+ gets buffed 2 -> 3 Mantra.
+GAMEPLAY: Reworked Path to Victory card.
+GAMEPLAY: Wish card gets nerfed. Cost 2 -> 3.
+LOC: Updates for DEU, DUT, EPO, KOR, RUS, VIE, ZHS, ZHT.
+
+Thanks to modders Reina and Blank:
+MODDING: Modding flexibility for Stances + onEndTurn trigger.
+MODDING: Vampire event now uses a standardized remove card function.
+
+10-07-2019
+ART: Akabeko relic assets updated.
+ART: Sacred Bark relic asset updated.
+ART: Teardrop Locket relic asset updated.
+ART: Ceramic fish relic asset updated.
+BUG FIX: Entropic Brew now gives all potions outside of combat.
+BUG FIX: Master Reality now works with Foreign Influence, Nilry's Codex, and Dead Branch.
+BUG FIX: Fear No Evil now correctly switches stances even if the attack causes the intent to change (eg slime split)
+BUG FIX: Potential fix for Expunger card not always working.
+GAMEPLAY: Foreign Influence card upgrade changed.
+GAMEPLAY: Master Reality card cost lowered from 3 -> 2.
+LOC: Updates for EPO, ITA, JPN, VIE, ZHT.
+
+10-04-2019
+ART: Ink Bottle relic gets polished art.
+BUG FIX: Custom Mode now unlocks even if you play a Daily Climb offline now.
+BUG FIX: In touchscreen mode, choose one card option now works.
+CONTENT: Adding Discipline card.
+GAMEPLAY: Carve Reality card upgrade reworked.
+GAMEPLAY: Deceive Reality card upgrade reworked.
+GAMEPLAY: Evaluate card upgrade reworked.
+GAMEPLAY: Fasting card nerfed 4 -> 3 Strength and Dexterity.
+GAMEPLAY: Fasting+ card nerfed 5 -> 4 Strength and Dexterity.
+GAMEPLAY: Fasting card's energy reduction is now considered a debuff.
+GAMEPLAY: Master Reality card reworked.
+GAMEPLAY: Nirvana card rarity is now uncommon.
+GAMEPLAY: Pray card upgrade reworked.
+GAMEPLAY: Reach Heaven card upgrade reworked.
+GAMEPLAY: Rushdown card rarity is now Uncommon.
+GAMEPLAY: Scrawl card reworked.
+GAMEPLAY: Wallop card damage nerfed from 10 -> 9.
+GAMEPLAY: Wallop+ card damage nerfed from 13 -> 12.
+GAMEPLAY: Weave card damage nerfed from 5 -> 4. 
+GAMEPLAY: Weave+ card damage nerfed from 8 -> 6.
+LOC: Updates for DEU, DUT, EPO, KOR, THA, ZHS.
+
+10-03-2019
+BUG FIX: Updating previous day's patch notes to be accurate (marked with *)
+GAMEPLAY: Battle Hymn+ gains Innate instead of more Smites.
+GAMEPLAY: Weave card reworked.
+LOC: Updates for DEU, EPO, ITA, JPN, KOR, RUS, VIE, ZHS, ZHT.
+PERF: Deleting two unused font files.
+
+10-02-2019
+*ART: Adding polished art for Battle Hymn.
+*ART: Adding polished art for Bowling Bash.
+*ART: Adding polished art for Collect.
+*ART: Adding polished art for Consecrate.
+*ART: Adding polished art for Evaluate.
+*ART: Adding polished art for Flying Sleeves.
+*ART: Adding polished art for Follow Up.
+*ART: Adding polished art for Foresight.
+*ART: Adding polished art for Judgment.
+*ART: Adding polished art for Nirvana.
+*ART: Adding polished art for Ragnarok.
+*ART: Adding polished art for Sands of Time.
+*ART: Adding polished art for Scrawl.
+*ART: Adding polished art for Signature Move.
+*ART: Adding polished art for Swivel.
+*ART: Adding polished art for Vault.
+*ART: Adding polished art for Wallop.
+*ART: Adding polished art for Wheel Kick.
+*ART: Adding polished art for Windmill Strike.
+*ART: Adding beta art for Become Almighty.
+*ART: Adding beta art for Calm.
+*ART: Adding beta art for Conjure Blade.
+*ART: Adding beta art for Expunger.
+*ART: Adding beta art for Fame and Fortune.
+*ART: Adding beta art for Master Reality.
+*ART: Adding beta art for Sanctity.
+*ART: Adding beta art for Weave.
+*ART: Adding beta art for Wheel Kick.
+*ART: Adding beta art for Wrath.
+BUG FIX: Fixed + at end of upgraded cards not being colored yellow.
+BUG FIX: Fixed bug where players could not return to Choose One screen (Stance Potion/Wish) after looking at map/deck/settings.
+BUG FIX: Fixed Omamori not affecting certain card obtain types including Curse of the Bell.
+BUG FIX: Fixed Wish's values being affected by STR/DEX + similar powers.
+GAMEPLAY: Blasphemy card now exhausts when played.
+GAMEPLAY: Devotion and Pray card rarities swapped.
+GAMEPLAY: Fasting B is now Fasting. Fasting has been removed.
+GAMEPLAY: Fasting card cost increased from 1 -> 2.
+GAMEPLAY: Fasting card nerfed. Stat gain lowered to 5 -> 4.
+GAMEPLAY: Fasting+ card nerfed. Stat gained lowered from 7 -> 5.
+GAMEPLAY: Signature Move card rarity changed from Rare -> Uncommon.
+GAMEPLAY: Wave of the Hand B is now Wave of the Hand. Wave of the Hand A has been removed.
+LOC: Fixing asterisk/coloring issue for JPN/ZHS/ZHT card preview words.
+LOC: Updates for DEU, DUT, EPO, ITA, JPN, KOR, THA, VIE, RUS, ZHS, ZHT.
+*UX: When hovering Map Legend items, the tips now appearing in a fixed position not blocking the map.
+WORDING: Vault card wording improvement.
+WORDING: Wave of the Hand power name gets title casing.
+WORDING: Wish card wording improvement.
+
+10-01-2019
+CONTENT: Fasting card gets two versions temporarily: Fasting A and Fasting B.
+CONTENT: Wave of the Hand card gets two versions temporarily.
+BUG FIX: Fixed ESC buttons causing unusual behavior on card reward screens (blank maps, hiding the reward screen).
+BUG FIX: Omamori relic now interacts with Calling Bell as intended and fixes controller crash.
+BUG FIX: Plated Armor now caps at 999.
+BUG FIX: Wheel Kick card was incorrectly affected by Strike Dummy/Perfected Strike.
+GAMEPLAY: Intangible now affects both attacks and HP loss as before (revert).
+GAMEPLAY: Reach Heaven card is now Uncommon (was Rare).
+GAMEPLAY: Tantrum card now deals 3 damage 3 times to the same target.
+GAMEPLAY: Unraveling card is removed from the game.
+GAMEPLAY: Vault card reworked into a Skill.
+GAMEPLAY: Wave of the Hand split into two Wave of the Hand cards. A and B.
+GAMEPLAY: Wish card no longer loses HP, costs 2, and its effects are reduced.
+LOC: Updates for DEU, DUT, EPO, ITA, JPN, KOR, THA, VIE, RUS, ZHS, ZHT.
+UX: Cards/powers/potions that generated Upgraded Cards now just describe them with a + in their name.
+WORDING: switch stance -> change stances for Mental Fortress card description.
+
+09-27-2019v2
+BUG FIX: Plated Armor wasn't being reduced. Fixed.
+BUG FIX: Fixed viewing upgrades of cards messing up descriptions.
+BUG FIX: Expunger card is now Colorless as it's a generated card.
+BUG FIX: Fixed patch note dates being 1 day off.
+
+09-27-2019
+BUG FIX: Typo fix in Golden Eye relic.
+BUG FIX: Plated Armor and Tungston Rod now correctly interact.
+CONTENT: Adding card Conjure Blade.
+GAMEPLAY: Omega card buff. Now deals its damage at end of turn.
+GAMEPLAY: Cleanse Evil card is deprecated.
+GAMEPLAY: Intangible nerfed for the player. Now only affects Attack damage.
+GAMEPLAY: Reworked Wave Of The Hand card.
+LOC: Updates for DEU, DUT, EPO, ITA, JPN, KOR, RUS, VIE, ZHS, ZHT.
+
+09-26-2019
+ART: Updating art for Watcher campfire asset.
+BUG FIX: Centennial Puzzle and Tungsten Rod relics now interact correctly.
+BUG FIX: Colorless card option at Neow will no longer contain duplicates.
+BUG FIX: Purple Cards custom/daily mod now actually adds purple cards.
+BUG FIX: Runic Cube and Tungsten Rod relics now interact correctly.
+BUG FIX: Rupture and Tungsten Rod relics now interact correctly.
+BUG FIX: Self Forming Clay and Tungsten Rod relics now interact correctly.
+BUG FIX: Storm of Steel+ card now shows upgrades Shivs for the card preview.
+BUG FIX: Tungsten Rod and Emotion Chip relics now correctly interact.
+CONTENT: Adding Rare Watcher relic: Golden Eye.
+CONTENT: Reworked Wish card.
+GAMEPLAY: Watcher's Max HP Increased from 65 -> 72.
+GAMEPLAY: Master Reality card buffed. Cost 2 -> 1.
+GAMEPLAY: Master Reality card rarity changed from Rare -> Uncommon. 
+GAMEPLAY: Pray now gives Insight instead of Miracle.
+GAMEPLAY: Rushdown card gets buffed 1 -> 2 cards drawn.
+GAMEPLAY: Face Trader event can no longer appear past Act 2.
+GAMEPLAY: Wish cards effects are now triggered by the Omniscience card.
+UX: When a card is in Stasis by Bronze Automaton, the card name is now Gold color in the power tip.
+LOC: Updates for DEU, DUT, EPO, FRA, ITA, KOR, RUS, ZHS, ZHT.
+
+Thanks to Blank the Evil for the following:
+Remove GlowColor Enum to allow mods to have custom card glow easier.
+
+09-25-2019
+ART: Adding beta art for Empty Body.
+ART: Adding beta art for Establishment.
+ART: Adding beta art for Halt.
+ART: Adding beta art for Perseverance.
+ART: Adding beta art for Pray.
+ART: Adding beta art for Rushdown.
+ART: Adding art for Horn Cleat relic.
+ART: Adding asset for Captain's Wheel relic.
+ART: Adding polished art for Tungsten Rod.
+BUG FIX: Fixing Path to Victory beta art not showing up.
+BUG FIX: Fixing typo in Master Reality power tip description.
+GAMEPLAY: Establishment card rarity changed Uncommon -> Rare.
+GAMEPLAY: Wheel Kick+ card nerfed. Draws 3 -> 2 cards.
+LOC: Updates for DUT, EPO, ITA, JPN, THA, VIE.
+
+09-24-2019
+ART: Cleaning up the Watcher's corpse asset.
+CONTENT: Adding Indignation card, replaces Metaphysics.
+CONTENT: Master Reality card reworked.
+CONTENT: Tantrum card reworked.
+GAMEPLAY: Mantra in excess of 10 now rolls over when you enter Divinity instead of being lost.
+GAMEPLAY: Melange relic rarity changed from Common -> Shop.
+GAMEPLAY: Neow Colorless card choices now let the player choose 1 of 3 colorless cards.
+LOC: Updates for DEU, DUT, EPO, KOR, RUS, THA, ZHS, ZHT.
+
+09-23-2019
+ART: Adding beta art for Blasphemy.
+ART: Adding beta art for Causality.
+ART: Adding beta art for Conclude.
+ART: Adding beta art for Crush Joints.
+ART: Adding beta art for Devotion.
+ART: Adding beta art for Foresight.
+ART: Adding beta art for Lessons Learned.
+ART: Adding beta art for Nirvana.
+ART: Adding beta art for Path to Victory.
+ART: Adding beta art for Sash Whip.
+ART: Adding beta art for Through Violence.
+ART: Adding beta art for Tranquility.
+ART: Adding beta art for Unraveling.
+ART: Updating Empty Fist, Mind, and Body cards to have more recognizable silhouettes.
+BUG FIX: Fixed memory leak in Blight initialization. Thanks to Quincunx.
+BUG FIX: Fixed memory leak in Merchant initialzation. Thanks to Quincunx.
+BUG FIX: True Grit card now Exhausts randomly again.
+BUG FIX: Fixed Rare Potion sparkles not occurring in some instances.
+CONTENT: Step and Strike card reworked to Wheel Kick.
+CONTENT: Adaptation card reworked to Rushdown.
+GAMEPLAY: Conclude card damage increased 10 -> 12.
+GAMEPLAY: Conclude+ card damage increased 14 -> 16.
+GAMEPLAY: Halt card additional Block increased from 7 -> 9. 
+GAMEPLAY: Halt+ card additional Block increased from 9 -> 14.
+GAMEPLAY: Omniscience card reworked.
+GAMEPLAY: Step and Strike unlock is now Foreign Influence card unlock.
+(NOTE: Unlock checks occur retroactively when game is loaded, don't panic)
+GAMEPLAY: Windmill Strike card damage decreased from 8 -> 7.
+GAMEPLAY: Windmill Strike card ramp increased from 2 -> 4.
+GAMEPLAY: Windmill Strike+ card damage decreased from 12 -> 10.
+GAMEPLAY: Windmill Strike+ card ramp increased from 3 -> 5.
+LOC: Updates for DEU, DUT, ITA, JPN, KOR, VIE, RUS, ZHS, ZHT.
+VFX: Added VFX for Just Lucky card.
+
+09-21-2019
+BUG FIX: Fixed Master Reality card causing softlocks.
+BUG FIX: Fixed RUS crashing on Brilliance card.
+
+09-20-2019
+BUG FIX: Brilliance card now tagged as a Healing card (won't show up from certain potoins, relics, etc).
+GAMEPLAY: Adaptation nerfed. Cost increased by 1. No longer upgrades to Innate.
+GAMEPLAY: Battle Hymn reworked.
+GAMEPLAY: Blood potion nerfed from 25% -> 20%.
+GAMEPLAY: Brilliance card is now Ethereal.
+GAMEPLAY: Cloak Clasp relic block lowered to 1.
+GAMEPLAY: Cunning Potion buffed to give upgraded Shivs.
+GAMEPLAY: Master Reality card reworked.
+GAMEPLAY: Mental Fortress card values nerfed from 4(6)->3(4).
+LOC: Updates for DEU, ITA, JPN, RUS, VIE, ZHS.
+UX: Class-specific potions now render a colored outline in the Potion Lab screen.
+UX: Outlines for both relics and potions in the compendium are now more visible.
+UX: Potions hovered in Potion lab screen now have their tips displayed in a fixed position (rather than cursor).
+UX: Updating Sands of Time and Perseverance card descriptions to be shorter.
+VFX: Uncommon and Rare potions now emit particles in card reward and shop screens.
+
+09-19-2019
+BUG FIX: Card Library screen no longer scrolls up on first open.
+BUG FIX: Card Library screens cards were smaller for Purple, Colorless, Cursed. Fixed.
+CONTENT: New Defect Rare Potion - Essence of Darkness.
+CONTENT: New Defect Uncommon Potion - Potion of Capacity.
+CONTENT: New Ironclad Rare potion - Heart of Iron.
+CONTENT: New Ironclad Uncommon Potion - Elixir.
+CONTENT: New Silent Uncommon Potion - Cunning Potion.
+CONTENT: New Watcher Common potion - Bottled Miracle.
+CONTENT: New Watcher Rare potion - Ambrosia.
+GAMEPLAY: Blood Potion is now Common.
+GAMEPLAY: Brilliance card reworked.
+GAMEPLAY: Collect card reworked. Now gives Miracle+ instead of energy.
+GAMEPLAY: Deva Form card reworked.
+GAMEPLAY: Focus Potion is now Common.
+GAMEPLAY: Ghost in a Jar is now Rare.
+GAMEPLAY: Poison Potion is now Silent only.
+GAMEPLAY: Through Violence card now retains.
+LOC: Updates for DEU, ITA, JPN, KOR, RUS, VIE, ZHS, ZHT.
+LOC: Enable manual and auto line breaking mode for ZHT.
+WORDING: Updating Windmill Strike description so its shorter.
+
+09-18-2019
+ART: Adding beta art for Adaptation.
+ART: Adding beta art for Alpha.
+ART: Adding beta art for Beta.
+ART: Adding beta art for Carve Reality.
+ART: Adding beta art for Evaluate.
+ART: Adding beta art for Fasting.
+ART: Adding beta art for Follow Up.
+ART: Adding beta art for Foreign Influence.
+ART: Adding beta art for Mental Fortress.
+ART: Adding beta art for Metaphysics.
+ART: Adding beta art for Reach Heaven.
+ART: Adding beta art for Signature Move.
+ART: Adding beta art for Simmering Fury.
+ART: Adding beta art for Step and Strike.
+ART: Adding beta art for Swivel.
+ART: Adding beta art for Tantrum.
+ART: Adding beta art for Wallop.
+ART: Adding beta art for Wave of the Hand.
+ART: Adding beta art for Worship.
+BUG FIX: Swapping action orders for Empty Mind so it follows the card's desc.
+GAMEPLAY: Adaptation card is now rare.
+GAMEPLAY: Block Actions now still occur post-combat, allowing Blocking of Beat of Death and others.
+GAMEPLAY: Empty Mind card is now Uncommon.
+GAMEPLAY: Flow State card is now Uncommon.
+LOC: Fixed NL clashes with auto line breaks for ZHS, JPN font rendering.
+LOC: Implementing more logic to remove period-only lines from CJK languages.
+LOC: Scrawl only uses UPGRADE_DESC if it's not empty now.
+LOC: Updates for DEU, ITA, JPN, POL, RUS, ZHS, ZHT.
+
+Thanks to BDWSSBB for the following:
+BUG FIX: Fix for Power tips being offset when there are a lot of Powers.
+BUG FIX: Removing unnecessary block check due to legacy stances.
+BUG FIX: Lesson Learned can no longer spawn from card generating effects mid combat.
+BUG FIX: Fixed Halt's additional Block from Wrath Stance not being affected by Block modifiers.
+BUG FIX: Fixed Just Lucky doing its effects out of order.
+
+09-17-2019
+LOC: Updates for DUT, KOR, and POL.
+
+09-16-2019v2
+ART: Adding beta art for Adaptation.
+ART: Adding beta art for Battle Hymn.
+ART: Adding beta art for Bowling Bash.
+ART: Adding beta art for Brilliance.
+ART: Adding beta art for Cleanse Evil.
+ART: Adding beta art for Collect.
+ART: Adding beta art for Crescendo.
+ART: Adding beta art for Curse of the Bell.
+ART: Adding beta art for Cut Through Fate.
+ART: Adding beta art for Deceive Reality.
+ART: Adding beta art for Deus Ex Machina.
+ART: Adding beta art for Deva Form.
+ART: Adding beta art for Fear No Evil.
+ART: Adding beta art for Flow State.
+ART: Adding beta art for Flurry of Blows.
+ART: Adding beta art for Flying Sleeves.
+ART: Adding beta art for Inner Peace.
+ART: Adding beta art for Insight.
+ART: Adding beta art for Judgment.
+ART: Adding beta art for Just Lucky.
+ART: Adding beta art for Meditate.
+ART: Adding beta art for Never Surrender.
+ART: Adding beta art for Omega.
+ART: Adding beta art for Omniscience.
+ART: Adding beta art for Prostrate.
+ART: Adding beta art for Protect.
+ART: Adding beta art for Ragnarok.
+ART: Adding beta art for Safety.
+ART: Adding beta art for Sands of Time.
+ART: Adding beta art for Scrawl.
+ART: Adding beta art for Smite.
+ART: Adding beta art for Spirit Shield.
+ART: Adding beta art for Talk to the Hand.
+ART: Adding beta art for Third Eye.
+ART: Adding beta art for Vault.
+ART: Adding beta art for Windmill Strike.
+ART: Adding beta art for Wish.
+ART: Adding beta art for Wreathe of Flame.
+ART: Adding polished art for Calm (used by Stance Potion).
+ART: Adding polished art for Cut Through Fate.
+ART: Adding polished art for Defend.
+ART: Adding polished art for Deva Form.
+ART: Adding polished art for Empty Body.
+ART: Adding polished art for Empty Fist.
+ART: Adding polished art for Empty Mind.
+ART: Adding polished art for Eruption.
+ART: Adding polished art for Halt.
+ART: Adding polished art for Inner Peace.
+ART: Adding polished art for Just Lucky.
+ART: Adding polished art for Meditate.
+ART: Adding polished art for Miracle.
+ART: Adding polished art for Pray.
+ART: Adding polished art for Strike.
+ART: Adding polished art for Strike.
+ART: Adding polished art for Talk to the Hand.
+ART: Adding polished art for Third Eye.
+ART: Adding polished art for Unraveling.
+ART: Adding polished art for Weave.
+ART: Adding polished art for Wish.
+BUG FIX: Fixed Spirit Shield card applying wrong values when played in non-standard ways (eg Wish).
+BUG FIX: Potential fix for stance potions + touchscreens not interacting correctly.
+BUG FIX: Removing Truth nd Wisdom cards from Card Library as they're deprecated.
+GAMEPLAY: Crush Joints card damage lowered by 1.
+GAMEPLAY: Meditate card reworked.
+GAMEPLAY: Nirvana card reworked.
+GAMEPLAY: Sash Whip card damage lowered by 1.
+GAMEPLAY: Wrath+ no longer gets a damage buff. Costs 2 -> 1 instead.
+LOC: Updates for DUT, KOR, VIE, RUS, ZHS.
+MODDING: stanceName variable deprecated. Now relies on IDs. (Thanks Blank the Evil!)
+
+09-16-2019
+BUG FIX: Snecko Oil potion no longer displays the confused keyword.
+BUG FIX: Tantrum's Cannot Change Stance power now correctly flagged as a debuff.
+CONTENT: Adding Sash Whip card. Common attack.
+GAMEPLAY: Clarity card Deprecated.
+GAMEPLAY: Follow Up card damage increased from 6 -> 7.
+GAMEPLAY: Follow Up+ card damage increased from 8 -> 10.
+GAMEPLAY: Horn Cleat block icnreased to 14.
+GAMEPLAY: Slight rework of Path To Victory.
+GAMEPLAY: Wallop card is now Uncommon, costs 2, and deals 2 less damage.
+LOC: Updates for DEU, DUT, ITA, JPN, KOR, RUS, SPA, THA, VIE, ZHS, and ZHT.
+RENAME: Wireheading card renamed to Foresight.
+UX: Talk To The Hand card wording updates.
+UX: Wording improvements for 10+ cards.
+
+09-12-2019
+BUG FIX: Brilliance card no longer gets stuck when played with 0 cards.
+BUG FIX: Mental Fortress power now displays the correct name.
+BUG FIX: Tungesten Rod no longer stops Blasphemy from killing you.
+GAMEPLAY: Akabeko damage buffed from 3 -> 9.
+GAMEPLAY: Consecrate deals +1 damage. 
+GAMEPLAY: Consecrate+ deals +2 damage.
+GAMEPLAY: Snecko Oil reworked.
+GAMEPLAY: Tranquility (Previously Clear The Mind) buffed to Retain.
+GAMEPLAY: Tungsten Rod is now a rare relic.
+GAMEPLAY: Worship upgrade changed from giving Innate to Retain.
+LOC: Updates for DEU, FRA, ITA, JPN, KOR, RUS, VIE, ZHS, ZHT.
+LOC: Credits for VIE updated (not in-game yet).
+VFX: Adding a VFX for Judgement card.
+WORDING: Clear the Mind renamed to Tranquility to better differentiate from Empty Mind.
+WORDING: Fixed spelling error in Judgments name.
+
+09-11-2019v2
+BUG FIX: Smite card now appears in Card Library.
+LOC: Updates for DEU, RUS, VIE.
+WORDING: Wireheading power now states start of turn.
+
+09-11-2019
+CONTENT: Adding Captain's Wheel relic. Rare. 
+CONTENT: Adding Horn Cleat relic. Uncommon.
+CONTENT: Reworked Brilliance card.
+CONTENT: Reworked Flurry of Blows card.
+CONTENT: Reworked Prostrate card.
+CONTENT: Reworked Vengeance card -> Simmering Fury.
+CONTENT: Reworked Vigilance card.
+CONTENT: Reworked Inner Peace card.
+CONTENT: Tungsten Rod relic reworked.
+BUG FIX: Beta, Omega, and other new cards now appear in the Card Library.
+BUG FIX: Curse removal shrine will no longer incorrectly appear when you have Curse of The Bell.
+BUG FIX: Fix for Attack/Skill/Power potion extras not having its cost set to 0.
+BUG FIX: Fixed Discovery card giving two cards.
+BUG FIX: Re-adding a font that caused some text to not appear in some languages.
+GAMEPLAY: Carve Reality card gets slightly reworked.
+GAMEPLAY: Deceive Reality card gets slightly reworked.
+GAMEPLAY: Sancitity card gains 2 less Block but draws 1 additional card.
+GAMEPLAY: Smite card buffed from 10 -> 12 damage.
+GAMEPLAY: Wireheading now triggers at start of turn to better interact with Weave.
+LOC: Manual and auto line break mode for card descriptions enabled for JPN/ZHS languages.
+LOC: Updates for JPN, ZHS, and ZHT.
+PERF: Removed double initialization of card descriptions on game load.
+UX: Cards which have Mantra now show the Divinity tip as well.
+UX: Watcher leaderboards should now be working.
+UX: Worship card now also contains Divinity keyword tip.
+VFX: Lightning strikes down the Blasphemer.
+WORDING: Typo Fix for Watcher's memory in the Sensory Stone event.
+
+09-10-2019
+AUDIO: Applying the Mantra power now has a unique SFX.
+AUDIO: Updating all Watcher-related SFX (pitch/volume/etc).
+BUG FIX: Fix for banner text not showing up for JPN/KOR/ZHS/ZHT.
+BUG FIX: Fixed 10+ Devotion power not entering Divinity every turn.
+BUG FIX: Fixed issue where stance related idle sounds weren't stopped if you abandoned a run.
+BUG FIX: On grid card select screens. Picking the maximum anount of cards you can choose no longer auto confirms your selection.
+BUG FIX: Scrying Weave with a full hand now discards the extra Weave cards.
+GAMEPLAY: Consecrate and Consecrate+ deal 1 more damage.
+GAMEPLAY: Exiting a stance via cards like Empty Mind now count as stance change for cards like Adaptation and Controlled Change.
+GAMEPLAY: Followup and Folloup+ card deal 1 more damage.
+GAMEPLAY: Halt card's Wrath bonus increased by 1.
+GAMEPLAY: Halt+ card's Wrath bonus increased by 2.
+GAMEPLAY: Lesson Learned card deals 2 less damage.
+GAMEPLAY: Lesson Learned+ card deals 3 less damage.
+GAMEPLAY: Path to Victory+ now exhausts.
+GAMEPLAY: Protect card gains 2 less Block.
+GAMEPLAY: Protect+ card gains 3 less Block.
+GAMEPLAY: Sacred Bark now works with Attack, Skill, and Power potions.
+GAMEPLAY: Sacred Bark relic now works with Duplication potion.
+GAMEPLAY: Weave card deals 1 more damage.
+GAMEPLAY: Weave+ card deals 2 more damage.
+LOC: Updates for DEU, DUT, ITA, KOR, RUS, ZHT.
+UX: Empty Mind now draws cards before exiting stance to be consistent with other Empty cards.
+UX: Scrollable dropdowns now supports scroll wheel and arrow keys.
+WORDING: Completing a run -> Winning a run for Watcher unlock.
+WORDING: Tantrum description updated wording.
+
+09-09-2019v2
+BUG FIX: Foreign Influence can no longer show HEALING based cards.
+GAMEPLAY: Dying on Act 4 now unlocks Ascension for the Watcher.
+LOC: Auto-fill for potions.json updates.
+LOC: Updates for DUT, ITA, RUS (Fixes crash on Wreath of Flames/Fire Breathing)
+
+09-09-2019
+a 4th character, the Watcher is now available.
+New relics and potions were added into the game.
+Many cards, relics, and potions were adjusted or reworked.
+View potions and their effects in the new Potion Lab in the main menu.
+
+NOTE: Most of the patch notes below were not in any publicly available builds.
+
+09-08-2019
+BUG FIX: Fixed stance idle SFX not properly being stopped at certain times, causing stacking sounds.
+BUG FIX: Fixed Watcher unlocking, even if retroactively unlocked if reqs are met on update.
+BUG FIX: Fix to allow Entropic Brew, Fruit Juice, and Blood Potion to correctly work outside of combat. 
+BUG FIX: Scrollbars for card viewing screens are now rendered behind card tips.
+LOC: Updates for DEU, DUT, FRA, ITA, and SPA.
+UX: Correctly centering the character buttons.
+
+09-07-2019
+BUG FIX: Adding color Duplication power description (for the potion).
+BUG FIX: Duplication Power now properly expires when cards are played.
+BUG FIX: Omega Power -> Omega (name). 
+UX: Dropdown improvements. Larger scrollbars and controller support.
+LOC: Updates for ITA, KOR, RUS, THA, ZHS.
+UX: Set language dropdown to enable scrollbar on non-console builds.
+
+09-06-2019v2
+ART: Adding power icon for Mastery Reality (Protect) power. 
+ART: Adding power icon for Wireheading power.
+ART: Creating an icon for No Stance Change power.
+ART: Incorporating Omega power icon. 
+LOC: Updates for ZHS to work with old card desc rendering method.
+LOC: ZHS reverted to use previous method of rendering card descriptions.
+
+09-06-2019
+AUDIO: Adding logic to start/stop looping ambient SFX for stances. 
+BUG FIX: Fixed crash when rendering some cards in ZHS/ZHT.
+BUG FIX: Fixed Holy Water double obtain bug.
+LOC: Magic numbers take up slightly more width per line for CJK languages.
+LOC: Updates for ZHT.
+PERF: Improving performance of single card view and removed unnecessary logging.
+
+09-05-2019
+ART: Adding placeholder art for Eruption card.
+ART: Adding placeholder art for Miracle card.
+ART: Adding placeholder art for Vigilance card.
+ART: Created asset for Holy Water relic.
+ART: Created assets for Pure Water relic.
+BUG FIX: Color tabs in Card Library now use a different font as the current one was causing issues. 
+BUG FIX: Updating Holy Water desc to mention that Pure Water is to be replaced.
+CONTENT: Adding new boss relic Holy Water. Replaces Pure Water on pick up.
+CONTENT: Melange reworked and readded as a Watcher only common relic.
+GAMEPLAY: Orrery is now a Shop relic.
+GAMEPLAY: Yang relic is now Watcher only.
+LOC: Adding space between turn number and text for VIE.
+LOC: Created new schema for CJK fonts manualAndAutoLineBreak mode, more flexible for card descriptions.
+LOC: Updates for how Establishment and Master Reality powers will be rendered.
+LOC: Updates for ITA, JPN, KOR, ZHS.
+LOC: Updating VIE bold font.
+PERF: Deleting old stance assets.
+UX: Adding a gold glow for Impatience card if conditions are met.
+UX: Adding plurality support Adaptation power description. 
+UX: CJK fonts damaage/block/magic values no longer add as much line width, centering text better.
+UX: CJK fonts no longer have the period character add to the line width, centering text better.
+UX: Master Reality description no longer uses plural version description.
+UX: Retains keyword for cards moved to top of card and reworded to Retain.
+WORDING: Clarity card wording corrected.
+WORDING: Signature Move card wording improvements.
+WORDING: Updating BlockReturnPower description.
+
+09-04-2019
+UX: Title capitalization. Curse Of The Bell -> Curse of the Bell.
+LOC: Adding stances.json to all languages.
+LOC: Updates for ITA, VIE.
+BUG FIX: No longer calling SteamAPI.shutdown() if the SteamAPI is not initialized.
+LOC: Created a CARD_REF file for translators to give more context for card titles.
+UX: Adding Watcher support for RunHistoryScreen.
+UX: Master Reality description no longer uses plural version description.
+UX: Retains keyword for cards moved to top of card and reworded to Retain.
+WORDING: Clarity card wording corrected.
+WORDING: Signature Move wording improvements.
+
+09-03-2019
+ART: Adding placeholder Watcher Heart victory cutscenes. 
+BUG FIX: Fix for Battle Hymn description.
+BUG FIX: Fixed card art unlock messages when the beta card art was already unlocked.
+BUG FIX: Fixing addToTop/addToBot calls for actions, cards, and relics (regression).
+CONTENT: New Uncommon Potion - Duplication Potion.
+GAMEPLAY: Adding retroactive unlock for Watcher so beta players don't need to suicide to unlock.
+GAMEPLAY: Defect and Watcher can no longer unlock at the same time.
+GAMEPLAY: Defect being unlocked is now a requirement for Watcher to unlock.
+GAMEPLAY: Ragnarok card buffed (4/4 -> 5/5). Upgrades to 6/6 now.
+GAMEPLAY: Watcher unlock req changed from defeating all 3 act 3 bosses -> beat the game once.
+PERF: Potion texture atlas created, not used yet.
+REFACTOR: Some code optimizations and removal of unnecessary vars from a lot of cards.
+RENAME: Cleanse the Wicked -> Cleanse Evil.
+RENAME: Controlled Change -> Mental Fortress.
+RENAME: Emotional Turmoil -> Flow State.
+RENAME: Turn Evil -> Scrawl.
+UX: Removed the all beta art unlocked message as it was superfluous.
+UX: Removing substitution portraits for Watcher cards.
+
+08-28-2019
+AUDIO: Adding SFX for char select screen and Custom Runs for Watcher.
+AUDIO: Adding SFX when changing Stances for Watcher.
+BUG FIX: Fixed Reaper being out of the red pool when Wallop was implemented.
+BUG FIX: Regen Potion now correctly shows its keyword.
+CONTENT: Setting Watcher card and relic unlocks.
+CONTENT: New potion - Stance Potion.
+GAMEPLAY: Fairy In A Bottle buffed from 10% -> 30%.
+GAMEPLAY: Reworked Battle Hymn. Is now a Cost 1 Rare Power.
+UX: Potion Lab screen created.
+UX: Updating Sensory Stone event text for Watcher.
+
+08-26-2019
+LOC: Updates for VIE.
+LOC: VIE has relic rarity text swapped in single relic popup.
+LOC: VIE has turn number text displayed turn number first now.
+PERF: Defect lightning orb VFX is now packed into the vfx texture atlas.
+PERF: Removed the unnecessary loading of 30+ deprecated assets.
+
+08-23-2019
+BUG FIX: Certain Act 1 encounters will no longer change which enemy is being fought when saving and reloading during the fight.
+BUG FIX: Changed position of RANKING text in daily screen leaderboards so it doesn't overlap with date toggler.
+BUG FIX: Daily screen score date changing button assets now use mapped input image instead of default mapped assets.
+BUG FIX: Fixed City SFX from playing when game is backgrounded.
+BUG FIX: Fixed Eternal One unlock req for Steam users.
+BUG FIX: Fixed text in Rest Site, Unlocks, and Dynamic Banner being incorrect size in certain situations.
+BUG FIX: Fixed View my Score button asset to be dynamically placed left of View My Score text so it doesn't overlap in some languages.
+BUG FIX: Repositoned topPanel button for View My Score in daily screen so it doesn't overlap text in some languages.
+DEBUG: Improving ImageMaster messaging when attempting to load invalid assets.
+LOC: Adding in Vietnamese language support into beta.
+LOC: Updates for DEU.
+PERF: Achievement assets are now packed as a single Texture.
+
+08-20-2019
+ART: Updating rest site asset for Watcher (compositional update, not polish).
+ART: Watcher staff's eye is now animated in all stances.
+BUG FIX: Certain Act 1 encounters will no longer change which enemy is being fought when saving and reloading during the fight.
+BUG FIX: Fixed City SFX from playing when game is backgrounded.
+BUG FIX: Windmill Strike is now considered a Strike card.
+CONTENT: Adding Halt card. Common Skill.
+CONTENT: Adding Wallop card. Rare Attack.
+GAMEPLAY: Adding Amethyst and Amethyst+ achievements into the game.
+GAMEPLAY: Deprecated 5 cards: Prediction, Retreating Hand, Retribution, Survey, Torrent.
+GAMEPLAY: Signature Move card is now Rare.
+GAMEPLAY: Wrist Blade relic buffed from 3 -> 4.
+WORDING: Wreathe of Flame and Akabeko reworded to no longer use Vigor in their descriptions.
+
+08-15-2019
+BUG FIX: Controlled Chaos run mod now marks cards as seen so they do not appear as ???.
+BUG FIX: Fixed Awakened One's wing particle effects being the wrong size sometimes (scaling).
+BUG FIX: Fixed bug where hovering over enemy in extremely specific situations could cause a crash.
+BUG FIX: Fixed exploit allowing user to Return from map using a series of menu actions.
+BUG FIX: Fixed issue where dragging a hovered card from the top (post hover enlargement) would cancel the drag
+BUG FIX: Fixed LS and RS buttons being the wrong size for Xbox 360 controllers.
+BUG FIX: Fixed potions/relics being inaccessible in Draw/Discard/Exhaust pile view screens.
+BUG FIX: Fixed The Bomb power crashing in UKR.
+BUG FIX: Fixing Left and Right analog button assets for Xbox 360 controllers.
+BUG FIX: No longer setting Merchant's anim to null after disposing as it potentially caused issues.
+BUG FIX: Speech Bubble VFX have improved scaling logic and are more performant.
+BUG FIX: When your deck is 0 cards, sorting in deck view screen no longer crashes.
+GAMEPLAY: Entropic Brew and Blood Potion can now be used outside of combat.
+GAMEPLAY: If the player has 43 or more achievements on STEAM, the Eternal One achievement is now unlocked (both in-game and Steam).
+PERF: Card's colored trail VFX are now pooled, greatly reducing the CPU usage for this VFX.
+PERF: Fixing some rendering inefficiencies when rendering Act 2's assets.
+PERF: Improved rendering performance of Draw and Discard Pile view screens. 
+PERF: Improved rendering performance of Twitch voting UI.
+PERF: Improved rendering performance when viewing deck view screen tip.
+PERF: Improving rendering performance of an Act's background/foreground assets.
+PERF: Removed bannerFont (used in char select screen, color tabs for card lib, etc) and using cardEnergyFont_L in its place.
+PERF: Removed deckBannerFont and replaced all instances with panelNameFont as they're similar enough.
+PERF: Removed DeckCountFont, deck counting UI now uses the event text font. 
+PERF: Removed font rewardTipFont, cardDescFont_N is used in its place. 
+PERF: Removed levelTransitionFont now using SCP_cardDescFont in its place. 
+PERF: Removed panelNameTitleFont. tipBodyFont is used in its place. 0.5px smaller (only affects some resolutions).
+PERF: Removed saved font size variables (why keep this in RAM)
+PERF: Removed textAboveEnemyFont, text above enemies and when gaining gold now just use the button label font.
+PERF: Removed textOnlyEventBody (text seen in events like the Mushroom event). Replaced with charDescFont (slightly larger). Increased line spacing by 4px.
+PERF: Removed unnecessary texture filtering calls when initializing fonts.
+PERF: Removed unused cardSelectMsgFont.
+PERF: Removed unused mapLegendBodyFont. 
+PERF: Removed unused SCP_cardTitleFont.
+UX: Hovering cards in run history screen now shift the text a bit, rather than changing fonts to indicate highlight.
+UX: Reduced the size of relic names in relic popup screen by 10%.
+UX: When you have no Run Histories, a smaller font is now used (was ugly).
+
+08-14-2019
+ART: Battle Hymn gets a power icon.
+ART: Blasphemer gets a power icon.
+ART: Controlled Change gets a power icon.
+ART: Devotion gets a power icon.
+ART: Establishment gets a power icon.
+ART: Mastery Reality (Smite) gets a power icon.
+ART: Nirvana gets a power icon.
+ART: Talk to the Hand gets a power icon.
+ART: Vigor gets a power icon.
+BUG FIX: Fixed bug where hovering over enemy in specific situations could cause a crash.
+BUG FIX: Fixed exploit allowing user to Return from map using a series of menu actions.
+BUG FIX: Fixed issue where Scry could still occur if combat was over.
+BUG FIX: When your deck is 0 cards, sorting no longer crashes.
+LOC: Updates for TUR.
+
+08-08-2019
+BUG FIX: Fixing font spacing issue caused when merging several fonts.
+BUG FIX: Speech Bubble VFX have improved scaling logic and are more performant.
+BUG FIX: Fixing another x spacing related issue due to font merging.
+PERF: Card's colored trail VFX are now pooled, greatly reducing the CPU usage for this VFX.
+
+08-07-2019
+BUG FIX: Fixed issue where card you want to start dragging is immediately cancelled if you hover a card, and then attempt to drag it from the top of that card.
+PERF: Improved rendering performance of Draw and Discard Pile view screens. 
+PERF: Improved rendering performance of Twitch voting UI.
+PERF: Improved rendering performance when viewing deck view screen tip.
+
+08-06-2019
+BUG  FIX: Alpha and Beta now correctly exhaust.
+BUG FIX: Mantra said it required 5. Fixed. Now says 10.
+GAMEPLAY: Beta now places Omega on the bottom of the draw pile.
+GAMEPLAY: Omega now triggers at start of turn.
+
+07-31-2019
+CONTENT: New Card - Alpha.
+CONTENT: New card - Inner Peace.
+CONTENT: New card - Tantrum.
+CONTENT: New card - Vengeance.
+GAMEPLAY: Big Brain card deprecated.
+CONTENT: New card - Path to Victory
+
+07-30-2019
+ART: Updating the Watcher char select image.
+BUG FIX: Deus Ex Machina can no longer be played.
+BUG FIX: Strike Dummy relic now works on upgraded cards.
+GAMEPLAY: Firebreathing card reworked.
+GAMEPLAY: Hovering Kite relic reworked.
+GAMEPLAY: Sever Soul+ card damage increased from 4 -> 6.
+GAMEPLAY: Unraveling card now exhausts as described.
+GAMEPLAY: Wish card nerfed.
+
+07-26-2019
+ART: Adding initial version of the Watcher Eye.
+BUG FIX: Fixed LS and RS buttons being the wrong size for Xbox 360 controllers.
+BUG FIX: Fixed The Bomb power crashing in UKR.
+BUG FIX: Fixing Left Stick Right asset for Xbox 360 controllers.
+GAMEPLAY: Causality card buffed. Cost lowered from 1 -> 0.
+GAMEPLAY: Flurry of Blows card is now a cost 2 multi-hit attack. 
+GAMEPLAY: Polymath card deprecated.
+GAMEPLAY: Reworked Slaver's Collar relic to activate in boss/elite rooms.
+GAMEPLAY: Sacred Bark relic is now boss rarity. 
+GAMEPLAY: Spirit Shield now costs 2.
+GAMEPLAY: Swivel card gains 2 more Block (upgraded as well).
+GAMEPLAY: White Beast Statue relic is now Uncommon rarity.
+LOC: Updates for JPN2 (Console).
+PERF: Improving rendering performance of Act bg/fg assets.
+
+07-24-2019
+ART: Decreasing the size of Melange relic's asset size by about 5%.
+ART: Updating Watcher anim skeleton.
+BUG FIX: Calm stance's passive particles weren't scaled correctly.
+BUG FIX: Fixed Watcher's Strike cards showing up in Defect.
+GAMEPLAY: Deva Form and Deva Form+ nerfed by 1.
+UX: Small card in Run History Screen for Watcher is now Purple (was Pink).
+VFX: Adding a border flash when you change stances.
+VFX: Adding Particle effects when changing to Divinity stance.
+VFX: Calm passive particles updated to vary size/color more and have its duration reduced. 
+VFX: Creating Wrath enter stance VFX.
+
+07-23-2019
+ART: Adding Watcher idle animation.
+BUG FIX: Disposes were being called at the wrong time, leaking memory in certain situations.
+BUG FIX: Fixed Awakened One's wing particle effects being the wrong size sometimes (scaling).
+GAMEPLAY: Entropic Brew and Blood Potion can now be used outside of combat.
+GAMEPLAY: Removed a starting Defend card from Watcher's starter deck.
+LOC: Updates for SPA, TUR.
+PERF: Fixing some rendering inefficiencies when rendering Act 2's assets.
+
+07-20-2019
+BUG FIX: Fixed potions/relics being inaccessible in Draw/Discard/Exhaust pile view screens.
+BUG FIX: Intangible now uses atDamageReceive -> atDamageFinalReceive so it's higher priority than stance effects,
+CONTENT: New card - Wish.
+GAMEPLAY: Black Blood relic buffed.
+GAMEPLAY: Calling Bell relic reworked.
+GAMEPLAY: Prediction card is now Common rarity.
+LOC: Updates for THA.
+LOC: Updating REFERENCES.xt
+UX: When opening Draw/Discard/Exhaust piles, any card about to be played is now released.
+
+07-19-2019
+VFX: Adding additional auras to all stances. 
+VFX: Adding initial VFX for Divinity Stance.
+UX: Particle effects can now be disabled for stances. The auras remain.
+PERF: Removed textAboveEnemyFont, text above enemies and when gaining gold now just use the button label font.
+PERF: Removed textOnlyEventBody (text seen in events like the Mushroom event). Replaced with charDescFont (slightly larger).
+PERF: Removed unnecessary texture filtering calls when initializing fonts.
+PERF: Removed unused cardSelectMsg Font.
+PERF: Removed unused mapLegendBody Font. 
+PERF: Removed unused SCP_cardTitle Font.
+UX: Abacus relic description wording made consistent with Sundial.
+UX: Hovering cards in run history screen now shift the text a bit, rather than changing fonts to indicate highlight.
+UX: Reduced the size of relic names in relic popup screen by 10%.
+UX: When opening Draw/Discard/Exhaust piles, any card about to be played is now released.
+UX: When you have no Run Histories, a smaller font is now used (was ugly).
+LOC: Updates for JPN, ITA, SPA, THA, TUR, ZHT.
+
+07-18-2019
+BUG FIX: Adding comma to Tungsten Rod's description.
+GAMEPLAY: Omniscience buffed. Costs 1 now. 
+GAMEPLAY: Omniscience+ no longer exhausts.
+VFX: Wrath Stance is now VFX based.
+
+07-17-2019
+BUG FIX: Weave card now upgrades properly 4 -> 6.
+CONTENT: Adding Adaptation card. Uncommon Power. 
+GAMEPLAY: Consecrate nerfed by 1 damage (both versions).
+GAMEPLAY: Deceive Reality card nerfed Block -1 for both versions.
+GAMEPLAY: Just Lucky cost 1 -> cost 0 (was an implementation error, sorry). 
+GAMEPLAY: Metaphysics reworked. Now shuffles in a unique card into your draw pile.
+GAMEPLAY: Safety card nerfed 14 -> 12.
+GAMEPLAY: Safety+ card nerfed 18 -> 15.
+GAMEPLAY: Spirit Shield nerfed 3 -> 2 & 4 -> 3 Upgraded. 
+GAMEPLAY: Spirit Shield's Block multiplier is now a magic number and is unaffected by Dex.
+GAMEPLAY: Watcher now starts with 65 Max HP.
+GAMEPLAY: Watcher starter deck now contains 1 more Defend.
+REFACTOR: Disabled a lot of ShaderHelper's functions as it's only used to grayscale the EndTurnButton.
+REFACTOR: Removed damageFlashFrames system from AbstractCreature as it doesn't work with Spine2D animations (all enemies/characters) anyway.
+UX: Spirit Shield card now shows how much Block you'll gain.
+VFX: Calm stance is now VFX based.
+
+07-16-2019
+ART: Updating art and lore for Melange relic.
+CONTENT: Adding Just Lucky card. Common Attack.
+CONTENT: Adding Retribution v2 card. Uncommon Power.
+CONTENT: Adding Tungsten Rod relic. Common.
+CONTENT: Adding Weave card. Common Attack.
+GAMEPLAY: Changed how Slaver's Collar works. Thanks Sound of Mystery :D.
+UX: add 1 Insight -> add an Insight.
+
+07-15-2019
+ART: Energy orb art for Watcher.
+GAMEPLAY: Bowling Bash card buffed by 1.
+GAMEPLAY: Carve Reality nerfed by 1 (upgrade as well).
+GAMEPLAY: Consecrate+ nerfed 7 -> 6 damage.
+GAMEPLAY: Cut Through Fate+ nerfed. 4 -> 3 Scry.
+GAMEPLAY: Deprecating Crescent Kick card.
+GAMEPLAY: Deprecating Restraining Palm card.
+GAMEPLAY: Evaluate, Sanctity, Survey, and ThirdEye cards have Block values reworked.
+GAMEPLAY: Reach Heaven & Through Heaven damage nerfed slightly.
+GAMEPLAY: Retreating Hand nerfed (reduced Block gain by 1).
+GAMEPLAY: Smite card nerfed 12 -> 10. 
+GAMEPLAY: Smite+ nerfed 16 -> 13.
+GAMEPLAY: Windup card is deprecated.
+
+07-13-2019
+ART: Adding placeholder character select screen bg image for Watcher. 
+BUG FIX: If width or height is set lower than minimum allowed, your display config resolution is reset.
+CONTENT: Adding Brilliance card. Rare Skill.
+CONTENT: Adding Purple Cards mod. 
+CONTENT: Adding Sands of Time card. Uncommon Attack.
+GAMEPLAY: Ceramic Fish relic buffed 5 -> 7 gold. 
+GAMEPLAY: Controlled Change card gains +1 Block and upgrades by 2 now.
+GAMEPLAY: Crescendo card nerfed. Now exhausts on use.
+GAMEPLAY: Diverse Mod doesn't show Purple cards if Watcher is locked now.
+GAMEPLAY: Diverse mod now includes Purple cards.
+GAMEPLAY: Eternal Feather relic is now Uncommon. 
+GAMEPLAY: Flurry of Blows is now cost 1 and deals less damage.
+GAMEPLAY: Lizard Tail relic is now Rare.
+GAMEPLAY: Meditate card reworked slightly. Now Exhaust 'up to' 2(3) cards. 
+GAMEPLAY: Meditate+ no longer costs 0.
+GAMEPLAY: Protect card buffed 12 -> 15.
+GAMEPLAY: Purple cards mod doesn't show up in custom modes if watcher is locked now.
+GAMEPLAY: Spirit Shield card reworked, now gives Block per card in hand (block amount lowered).
+GAMEPLAY: Step and Strike's stance changes now include exiting stances. 
+GAMEPLAY: Watcher is now available for Custom Runs. 
+GAMEPLAY: Watcher now requires unlocking for access (non-Alpha).
+GAMEPLAY: Watcher now unlocks if all 3 chars are unlocked + all 3 Act 3 bosses are defeated.
+LOC: Adding some strings for console UI.
+LOC: Updates for EPO.
+UX: Minor lore update for character description: deity -> ascetic.
+RENAME: Irritation card -> Consecrate.
+UX: Adding lock/unlocked assets and logic into character select screen.
+UX: Adding small card outline color for Watcher.
+UX: Adding unlock requirement text (only seen in non-alpha).
+UX: Creating purple energy gain vfx.
+UX: Removing watcher energy tip from single card view screen (same as other chars.)
+UX: Statistics screen set up for the Watcher.
+UX: Updating card trail color for Watcher.
+WORDING: Fiend Fire made more consistent with Second Wind wording.
+WORDING: Heart now has appropriate text for the Watcher.
+WORDING: More Fiend Fire wording improvements.
+WORDING: Sensory Stone event now has Watcher text.
+WORDING: Vampire event now has correct wording for The Watcher.
+
+07-10-2019
+BUG FIX: Fixed issue where playtimes and some character data was copied to a new save slot.
+BUG FIX: Fixed Playtime being copied from current slot to new profile whenever a new slot is created.
+BUG FIX: Fixed run save files not being deleted when deleting slots, allowing continuing of runs from deleted profiles.
+BUG FIX: Fixed unnecessary dispose() calls on monster assets.
+BUG FIX: Fixing double tap req for touchscreens.
+LOC: JPN now uses old line break method and center aligned descriptions.
+LOC: Updates for DUT, EPO, KOR, UKR.
+LOC: Updates TUR credits.
+
+07-09-2019
+GAMEPLAY: Divinity reworked. Now gives 3 energy on enter, 3x damage and exits next turn.
+GAMEPLAY: Mantra Power now requires 10 to enter Divinity.
+BUG FIX: Bowling Bash was counting dead enemies.
+CONTENT: Adding Big Brain card. Common Skill.
+CONTENT: Adding card Worship. Uncommon Skill.
+GAMEPLAY: Battle Hymn card buffed. Gives 2 more Vigor than before.
+GAMEPLAY: Blessed card deprecated.
+GAMEPLAY: Contentment card deprecated. 
+GAMEPLAY: Follow-Up card damage nerfed 7 -> 5.
+GAMEPLAY: Minor rework to Omniscience+. No longer innate, costs 1 on upgrade.
+GAMEPLAY: Perseverance gets a minor buff (Block +1).
+GAMEPLAY: Prostrate card buffed (gives 2 Mantra now).
+GAMEPLAY: Protect card buffed 10 -> 12 Block.
+GAMEPLAY: Restraining Palm card buffed. Damage +1.
+GAMEPLAY: Retribution card gets nerfed 10 -> 9 damage.
+GAMEPLAY: Signature Move card damage nerfed 36 -> 30.
+GAMEPLAY: Signature Move+ card nerfed 50 -> 40.
+GAMEPLAY: Toy Ornithopter relic is now Common (was Shop).
+GAMEPLAY: Yin relic deprecated.
+RENAME: Divine Discipline -> Cleanse the Wicked.
+RENAME: Retribution card renamed to Eruption.
+UX: Signature Move card now has a gold border when playable. 
+
+07-08-2019
+ART: Adding rest site asset for Watcher.
+ART: Adding Watcher corpse placeholder asset.
+BUG FIX: Fixed issue where playtime and some character data was copied to a new save slot.
+BUG FIX: Fixed Playtime being copied from current slot to new profile whenever a new slot is created.
+CONTENT: Adding boss relic Slaver's Collar.
+CONTENT: Adding card Bowling Bash. Common Attack.
+CONTENT: Adding common relic, Ceramic Fish.
+CONTENT: Adding rare relic Cloak Clasp.
+CONTENT: Adding uncommon relic Strike Dummy.
+CONTENT: Adding Unraveling card. Rare Skill.
+GAMEPLAY: Flurry of Blows nerfed. 3 x 3 damage -> 10 damage. Similar change to upgrade.
+GAMEPLAY: Judgement card is now a skill. 
+GAMEPLAY: Meal Ticket relic is now common (was Shop).
+GAMEPLAY: Ragnarok card is now a rare.
+GAMEPLAY: Sacred Bark relic reworked.
+GAMEPLAY: Shop relics are cheaper. 200 -> 150 gold.
+GAMEPLAY: Talk to the Hand nerfed. 3 -> 2 Block.
+GAMEPLAY: Third Eye card buffed. 2 -> 3 Scry. 
+LOC: JPN now uses old line break method and center aligned descriptions.
+LOC: Updates for UKR.
+
+07-03-2019
+CONTENT: Adding Master Reality card. Rare Power.
+GAMEPLAY: Blasphemy now kills you at the start of your next turn.
+GAMEPLAY: Retribution+ nerfed: Cost no longer decreases. Damage increased.
+GAMEPLAY: Vigilance+ nerfed: Cost no longer decreases. Card draw increases.
+
+07-03-2019
+BUG FIX: Reticle on boss node no longer persists on screen.
+BUG FIX: When sorting deck view screen quickly, the game could crash.
+LOC: Community Localized JPN for non-Console builds.
+LOC: Updates for DEU, GRE, ITA, JPN, THA, TUR, SPA.
+RENAME: Steroid Potion -> Flex Potion. Say no to drugs.
+UX: While the potion popup is open, the potion's info/tip is still displayed now.
+
+07-02-2019
+ART: Updates to Watcher idle asset (near final)
+BUG FIX: Emotional Turmoil+ description updated.
+CONTENT: Adding Flying Sleeves card. Common Attack.
+CONTENT: Adding Protect card. Common Skill.
+GAMEPLAY: Deprecating Awakened Strike card.
+GAMEPLAY: Follow-Up card rarity lowered to Common.
+GAMEPLAY: Omniscience card now costs 2.
+GAMEPLAY: Reach Heaven card updated: Uncommon -> Rare.
+UX: Increased the scroll bounds for Relic Library (as more relics were added).
+
+06-30-2019
+BUG FIX: Potential fix for Deck view screen sort header.
+LOC: Updates for DUT, SPA.
+VFX: Long-press bar remains and fades away, rather than shrink away if long-press turn end.
+
+06-29-2019 (Alpha)
+BUG FIX: Fixed Omniscience showing you cards in the reverse order (compared to Cut Through Fate, Reprogram).
+BUG FIX: Pray wording fixed and now shuffles the correct Miracle in.
+BUG FIX: Vigor works with multi-hits cards like Ragnarok now.
+GAMEPLAY: Crush Joints buffed: 7 -> 9 damage. 
+GAMEPLAY: Crush Joints+ buffed: 9 -> 12 damage.
+GAMEPLAY: Cut Thrrough Fate nerfed from 7(10) Scry 3(5) -> 7(9) Scry 2(4).
+GAMEPLAY: Deprecating Flare card.
+GAMEPLAY: Deus Ex Machina is now Unplayable.
+GAMEPLAY: Emotional Turmoil now Exhausts.
+GAMEPLAY: Emotional Turmoil+ does not exhaust and is now cost 0 -> 1.
+GAMEPLAY: Eruption card is deprecated. 
+GAMEPLAY: Flow card is deprecated. 
+GAMEPLAY: Retribution now costs 2 and deals 10 damage. 
+GAMEPLAY: Retribution+ costs 1 and deals 13 damage.
+GAMEPLAY: Serenity card is deprecated.
+GAMEPLAY: Vigilance+ now costs 1 and draws 2 cards.
+
+06-29-2019
+BUG FIX: Adding null check for rendering Merchant, potentially preventing crashes.
+BUG FIX: Adding null check to sort header in deck view screen, potentially preventing crashes.
+BUG FIX: Adding null check when rendering cards in Single Card view, potentially preventing crashes.
+BUG FIX: Fixed a potential crash when navigating to certain rooms on a second playthrough without restarting.
+BUG FIX: Making card reward and shop screens' card inspection work again via right click.
+LOC: Updates for DUT, EPO, IND, KOR, SPA.
+LOC: Updated credits for SPA.
+
+06-27-2019
+BUG FIX: Block Return power (Talk to the Hand) is now a debuff. 
+BUG FIX: Fixed energy tip logic for colorless cards.
+CONTENT: Adding Crush Joints card. Common Attack.
+CONTENT: Adding Omniscience card. Rare Skill.
+CONTENT: Adding Sanctity card. Common Skill.
+CONTENT: Adding Swivel card.
+CONTENT: Adding Teardrop Locket relic. Uncommon Watcher relic.
+CONTENT: Adding Turn Evil card. Uncommon Skill.
+GAMEPLAY: Meditate+ card rework: Exhaust remains 2. Cost 1 -> 0.
+PERF: Removing unnecessary variables from 2 powers.
+PERF: Removing unnecessary variables from 26 cards.
+UX: Updating descriptions for Vigilance, Empty Mind, and Deus Ex Machina for improved legibility.

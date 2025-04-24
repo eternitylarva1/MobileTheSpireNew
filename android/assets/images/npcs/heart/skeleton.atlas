@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bgvent
+  rotate: true
+  xy: 2, 69
+  size: 175, 365
+  orig: 175, 365
+  offset: 0, 0
+  index: -1
+images/bodyleft
+  rotate: true
+  xy: 383, 781
+  size: 230, 394
+  orig: 230, 394
+  offset: 0, 0
+  index: -1
+images/bodyright
+  rotate: false
+  xy: 2, 246
+  size: 260, 425
+  orig: 260, 425
+  offset: 0, 0
+  index: -1
+images/dangle
+  rotate: false
+  xy: 675, 554
+  size: 129, 166
+  orig: 129, 166
+  offset: 0, 0
+  index: -1
+images/frontvent
+  rotate: false
+  xy: 264, 286
+  size: 200, 385
+  orig: 200, 385
+  offset: 0, 0
+  index: -1
+images/lumpright
+  rotate: true
+  xy: 779, 844
+  size: 167, 239
+  orig: 167, 239
+  offset: 0, 0
+  index: -1
+images/midvent
+  rotate: false
+  xy: 2, 673
+  size: 379, 338
+  orig: 379, 338
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 383, 722
+  size: 371, 57
+  orig: 371, 57
+  offset: 0, 0
+  index: -1
+images/veinleft
+  rotate: false
+  xy: 584, 420
+  size: 89, 300
+  orig: 89, 300
+  offset: 0, 0
+  index: -1
+images/veinmiddle
+  rotate: false
+  xy: 466, 422
+  size: 116, 298
+  orig: 116, 298
+  offset: 0, 0
+  index: -1
+images/veinright
+  rotate: false
+  xy: 2, 2
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1

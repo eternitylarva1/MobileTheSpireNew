@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/armleft
+  rotate: false
+  xy: 148, 59
+  size: 17, 44
+  orig: 17, 44
+  offset: 0, 0
+  index: -1
+images/armright
+  rotate: true
+  xy: 97, 2
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+images/body
+  rotate: false
+  xy: 118, 49
+  size: 28, 54
+  orig: 28, 54
+  offset: 0, 0
+  index: -1
+images/eyes
+  rotate: false
+  xy: 213, 100
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+images/head
+  rotate: false
+  xy: 167, 73
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+images/hornleft
+  rotate: false
+  xy: 118, 38
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+images/hornright
+  rotate: false
+  xy: 167, 56
+  size: 29, 15
+  orig: 29, 15
+  offset: 0, 0
+  index: -1
+images/legleft
+  rotate: true
+  xy: 187, 113
+  size: 13, 65
+  orig: 13, 65
+  offset: 0, 0
+  index: -1
+images/legright
+  rotate: false
+  xy: 97, 37
+  size: 19, 66
+  orig: 19, 66
+  offset: 0, 0
+  index: -1
+images/neck
+  rotate: false
+  xy: 196, 93
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 97, 105
+  size: 88, 21
+  orig: 88, 21
+  offset: 0, 0
+  index: -1
+images/shield
+  rotate: false
+  xy: 2, 3
+  size: 93, 123
+  orig: 93, 123
+  offset: 0, 0
+  index: -1

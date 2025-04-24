@@ -1,0 +1,1166 @@
+12-18-2022
+BUG FIX: Fixed crash on start for Windows usernames with non-English characters
+
+12-01-2022
+BUG FIX: Fixed skills/powers becoming unplayable if you enter/exit controller mode during combat
+
+10-04-2022
+BUG FIX: Fixed crash introduced in OSX 12.6.
+LOC: Updates for FIN, SPA
+
+03-07-2022
+UX: Changed Steamworks4j to use the newly released 1.9.0 version.
+BUG FIX: Fixed issue where game was crashing for 32bit OS users.
+LOC: Updates for EPO.
+
+02-25-2022
+UX: Added Steam Deck support.
+UX: Added Steam Input support.
+BUG FIX: Removed excessive display config loading.
+LOC: Added Finnish and Serbian languages.
+LOC: Updates for DUT, EPO, FIN, ITA, JPN, POL, RUS, SPA, SRB, SRP, TUR, VIE.
+
+12-22-2020
+BUG FIX: Fix for lowest resolution selected in settings for users on screens wider than 21:9.
+BUG FIX: Fix for some off by one letterboxes rendering when screen is wider than 21:9.
+BUG FIX: Fixed an issue where selecting borderless fullscreen may not show the native resolution in the resolution dropdown.
+
+12-13-2020
+BUG FIX: Fixed button placements for confirmation and rename popup UI in Ultrawide.
+BUG FIX: Fixed button prompt to open shop screen rendering behind merchant.
+BUG FIX: Fixed crash when pressing select button on controllers twice when selecting boss chest relics/blights.
+BUG FIX: Fixed LB/RB buttons in card library screen misplaced in Ultrawide.
+BUG FIX: Fixed placement for button prompt to access Map Legend.
+BUG FIX: Fixed save slots looking kinda tall. 
+UX: Allowing fullscreen resolutions to change the monitor's resolution. Previously, fullscreen was only for the current resolution.
+UX: Fullscreen resolutions now show the aspect ratio which the game will change to.
+UX: Resolution dropdowns now show all available resolutions based on which display mode you're toggled to.
+LOC: Updates for POL.
+
+11-30-2020
+BUG FIX: Fix for crash when playing in aspect ratios taller than 4:3 (such as 1280x1024).
+
+11-29-2020
+FEATURE: SteelSeries GameSense support in character select screen.
+FEATURE: Initial support for ultrawide aspect ratios (up to 21:9).
+GAMEPLAY: Accuracy card buffed. Damage increased from 3 -> 4.
+GAMEPLAY: Accuracy+ card buffed. Damage increased from 5 -> 6.
+GAMEPLAY: Aggregate card buffed. Energy gained every 6 -> 4 cards.
+GAMEPLAY: Aggregate+ card buffed. Energy gained every 5 -> 3 cards.
+GAMEPLAY: Blade Dance card buffed. 2 -> 3 shivs.
+GAMEPLAY: Blade Dance+ card buffed. 3 -> 4 shivs.
+GAMEPLAY: Bloodletting card buffed. Energy gain increased from 1 -> 2.
+GAMEPLAY: Bloodletting+ card buffed. Energy gain increased from 2 -> 3.
+GAMEPLAY: Dramatic Entrance card buffed. Damage increased from 6 -> 8.
+GAMEPLAY: Dramatic Entrance+ card buffed. Damage increased from 8 -> 12.
+GAMEPLAY: Eviscerate card buffed. Damage increased from 6 -> 7.
+GAMEPLAY: Eviscerate+ card buffed. Damage increased from 8 -> 9.
+GAMEPLAY: Good Instincts card buffed. Block increased from 5 -> 6.
+GAMEPLAY: Good Instincts+ card buffed. Block increased from 8 -> 9.
+GAMEPLAY: Hemokinesis card buffed. Damage increased from 14 -> 15.
+GAMEPLAY: Hemokinesis card buffed. HP loss decreased from 3 -> 2.
+GAMEPLAY: Hemokinesis+ card buffed. Damage increased from 18 -> 20.
+GAMEPLAY: Phantasmal Killer card buffed. Cost reduced from 2 -> 1.
+GAMEPLAY: Phantasmal Killer+ card buffed. Cost reduced from 1 -> 0.
+GAMEPLAY: Reflex card buffed. Card draw increased from 1 -> 2.
+GAMEPLAY: Reflex+ card buffed. Card draw increased from 2 -> 3.
+GAMEPLAY: Reprogram card Focus loss decreased from 2 -> 1.
+GAMEPLAY: Reprogram+ card changed. Focus loss, Strength, and Dexterity changed from 1 -> 2.
+GAMEPLAY: Rupture+ card buffed. Strength gain increased from 1 -> 2.
+GAMEPLAY: Rupture+ card nerfed. Energy cost 0 -> 1.
+GAMEPLAY: Sadistic Nature card buffed. Damage increased from 3 -> 5.
+GAMEPLAY: Sadistic Nature+ card buffed. Damage increased from 4 -> 7.
+GAMEPLAY: Scrape card draws 3 -> 4 cards.
+GAMEPLAY: Scrape+ card buffed. Damage increased from 9 -> 10.
+GAMEPLAY: Scrape+ card draws 4 -> 5 cards.
+GAMEPLAY: Slice card buffed. Damage increased from 5 -> 6.
+GAMEPLAY: Slice+ card buffed. Damage increased from 8 -> 9.
+GAMEPLAY: Sneaky Strike card buffed. Damage increased from 10 -> 12.
+GAMEPLAY: Sneaky Strike+ card buffed. Damage increased from 14 -> 16.
+GAMEPLAY: Storm of Steel card buffed. Cost lowered from 2 -> 1.
+GAMEPLAY: Storm of Steel+ card buffed. Cost lowered from 2 -> 1.
+GAMEPLAY: Swift Strike card buffed. Damage increased from 6 -> 7.
+GAMEPLAY: Swift Strike+ card buffed. Damage increased from 9 -> 10.
+BUG FIX: Bursts can now be Bursted properly.
+BUG FIX: Fixed Dropkick card not glowing under some conditions.
+BUG FIX: Fixed Foreign Influence card messing up card rewards by affecting the seed.
+BUG FIX: Fixed Grand Finale card not glowing under some conditions.
+BUG FIX: Fixed Heel Hook card not glowing under some conditions.
+BUG FIX: Fixed issue where the line below scores were always rendered (instead of fading in).
+BUG FIX: Fixed issue where Watcher couldn't receive Stuffed or Well Fed bonus scores.
+BUG FIX: Fixed No Block power allowing players to gain Block with Dexterity.
+BUG FIX: Fixed Sneaky Strike card not glowing under some conditions.
+BUG FIX: Fixed Spirit Shield's Block value not changing under some conditions.
+BUG FIX: Keys for the final act could be skipped if you proceed extremely fast.
+UX: Increased line spacing in events when bigger text mode is on.
+UX: Main menu panel buttons now have a wider space for bigger and localized text to fit.
+UX: Adjusted various fonts to improve legibility.
+PERF: Merged and adjusted fonts to improve performance and memory usage.
+PERF: When closing a Single Card popup or Single Relic popup, the font texture is cleared to save memory.
+PERF: When closing the Leaderboard screen, the font texture is cleared to save memory.
+REFACTOR: Some code cleanup/sharing for death and victory screens.
+LOC: Updates for DEU, EPO, FRA, JPN, POL, SPA, TUR, VIE.
+
+07-30-2020
+COMPATIBILITY: MacOS notarization updates so future builds will run on MacOS Catalina and beyond.
+BUG FIX: Fix for Mac audio crashes on Mac OS versions earlier than 10.15.
+BUG FIX: Fixed bug where continuing a save at the event after the 3rd boss would resume the game timer if not going to the final act.
+BUG FIX: Fixed bug where Controlled Chaos mod would give you Unknown cards.
+BUG FIX: Fixed issue where Watcher data may not delete properly upon deleting a profile slot.
+BUG FIX: Fixed letterboxing asset placed above Gremlin Wheel spin button.
+BUG FIX: Fixing highlight asset for View Upgrade button in card library when using controllers.
+BUG FIX: If Bigger Text mode is on, the main tutorial's text is raised slightly so it is not behind the Next button.
+UX: In touchscreen mode, certain strings now say tap instead of click.
+UX: In touchscreen mode, main menu text buttons are now larger and spaced twice as far apart.
+UX: In touchscreen mode, target-based cards are in targeting mode, they are now rendered larger and slightly higher.
+UX: In touchscreen mode, when dragging cards- the cards are now offset from the touchpoint.
+UX: Dropdowns in Run History screen are now left aligned so it works with Bigger Text mode better.
+UX: Locked characters are now displayed in grayscale in custom mode screen.
+UX: Re-adding longpress support for mouse and touchscreen modes (enabled in Settings), off by default.
+UX: Seed shown in the Run History Screen is now anchored in a specific location.
+UX: Shifted much of the Run History screen slightly right so it's more spacious for some languages.
+UX: Updating credits screen timing as there's more credits.
+UX: Updating Gremlin Wheel event so arrow is placed better based on certain aspect ratios.
+UX: Updating rich presence string so that Ascension and Floor number can be seen.
+LOC: Indonesian is now available for non-beta builds.
+LOC: Increasing card width space for CJK languages in Bigger Text mode.
+LOC: Updates for all available languages.
+LOC: Updated credits for most languages.
+
+01-27-2020
+UX: Removing Upgraded tooltip from Cunning Potion as the Upgraded keyword isn't in the description.
+BUG FIX: Fixed Vietnamese displaying Ukrainian in the main branch.
+LOC: Adding updated logic so Fasting power's description works properly in various languages.
+LOC: Turkish now uses Kreon instead of Roboto font.
+LOC: Updated the main English font from Kreon v1 to Kreon v2.
+LOC: Updates for ITA, POL, PTB, TUR.
+
+01-21-2020
+BUG FIX: Weave is no longered the unlocked card in the second set of cards.
+BUG FIX: Foreign Influence is now properly counted for stats screens in unlock count.
+LOC: Updates for ITA, JPN, TUR, 
+
+01-20-2020
+ART: New power icons for Fasting and Pressure Points. Thanks Kassyndra!
+BUG FIX: Fixing total unlock count for cards and relics on the stats screen (didn't count for Watcher).
+GAMEPLAY: Weave card is now locked for the Watcher as the second set of unlocks contained a deprecated card.
+LOC: Turkish is now available for the new content. A huge thanks to Ertürk Yılmaz who helped out.
+LOC: Updating credits for Turkish.
+
+01-16-2020
+GAMEPLAY: Amethyst achievement now unlocks if you achieved Amethyst+ via opening Stats screen.
+GAMEPLAY: If AMETHYST+ achievement is unlocked, Amethyst is now also unlocked simultaneously.
+MODDABILITY: Adding back old ExhaustAction constructors (backwards mod compatibility). 
+MODDABILITY: Adding getColor() helper method for CardHelper.
+LOC: Adding localization support for Brazilian Portuguese.
+LOC: Updates for THA, RUS.
+
+01-14-2020
+Patch V2.0 adds a new character, additional content, balance changes, and a few card reworks.
+There's also quality of life changes, performance improvements, and bug fixes.
+
+CONTENT: Watcher only, Starter Relic: Pure Water
+CONTENT: Watcher only, Common Relic: Damaru
+CONTENT: Watcher only, Uncommon Relic: Duality
+CONTENT: Watcher only, Uncommon Relic: Teardrop Locket
+CONTENT: Watcher only, Rare Relic: Cloak Clasp
+CONTENT: Watcher only, Rare: Relic Golden Eye
+CONTENT: Watcher only, Boss Relic: Holy Water
+CONTENT: Watcher only, Boss Relic: Violet Lotus
+CONTENT: Watcher only, Shop Relic: Melange
+CONTENT: Common Relic: Akabeko
+CONTENT: Common Relic: Ceramic Fish
+CONTENT: Uncommon Relic: Horn Cleat
+CONTENT: Uncommon Relic: Ink Bottle
+CONTENT: Uncommon Relic: Strike Dummy
+CONTENT: Rare Relic: Tungsten Rod
+CONTENT: Rare Relic: Captain's Wheel
+CONTENT: Boss Relic: Sacred Bark
+CONTENT: Boss Relic: Slaver's Collar
+CONTENT: Ironclad only, Uncommon Potion: Elixir
+CONTENT: Ironclad only, Rare Potion: Heart of Iron
+CONTENT: Silent only, Uncommon Potion: Cunning Potion
+CONTENT: Defect only, Uncommon Potion: Potion of Capacity
+CONTENT: Defect only, Rare Potion: Essence of Darkness
+CONTENT: Watcher only, Common Potion: Bottled Miracle
+CONTENT: Watcher only, Uncommon Potion: Stance Potion
+CONTENT: Watcher only, Rare Potion: Ambrosia
+CONTENT: Common Potion: Blessing of the Forge
+CONTENT: Common Potion: Colorless Potion
+CONTENT: Uncommon Potion: Distilled Chaos
+CONTENT: Uncommon Potion: Duplication Potion
+CONTENT: Uncommon Potion: Liquid Memories
+CONTENT: Rare Potion: Cultist Potion
+CONTENT: Added Amethyst achievement.
+CONTENT: Added Amethyst+ achievement.
+GAMEPLAY: Calling Bell relic reworked.
+GAMEPLAY: Hovering Kite relic reworked.
+GAMEPLAY: Tiny Chest relic reworked.
+GAMEPLAY: Shop rarity relics base price reduced from 200 -> 150.
+GAMEPLAY: Black Blood relic buffed. Heal incrased from 10 -> 12.
+GAMEPLAY: Eternal Feather relic rarity changed from Boss -> Uncommon.
+GAMEPLAY: Lizard Tail relic rarity changed from Boss -> Rare.
+GAMEPLAY: Meal Ticket relic rarity changed from Shop -> Common.
+GAMEPLAY: Orrery relic rarity changed from Boss -> Shop.
+GAMEPLAY: Toolbox relic buffed. Choose 1 of 3 Colorless cards instead of obtaining a random one.
+GAMEPLAY: Toy Ornithopter relic rarity changed from Shop -> Common.
+GAMEPLAY: White Beast Statue relic rarity changed from Boss -> Uncommon.
+GAMEPLAY: Wrist Blade relic buffed. Additional damage increased from 3 -> 4.
+GAMEPLAY: Fire Breathing card reworked.
+GAMEPLAY: Reprogram card reworked.
+GAMEPLAY: Sever Soul+ card buffed. Damage increased from 20 -> 22.
+GAMEPLAY: Well Laid Plans card cost increased from 0 -> 1.
+GAMEPLAY: Powers that gain Block at end of turn activate before cards like Burn play themselves.
+GAMEPLAY: Common potion droprate decreased from 70% -> 65%.
+GAMEPLAY: Rare potion droprate increased from 5% -> 10%.
+GAMEPLAY: Snecko Oil reworked.
+GAMEPLAY: Blood Potion healing buffed from 10% -> 20%.
+GAMEPLAY: Blood Potion rarity changed f rom Uncommon -> Common.
+GAMEPLAY: Fairy in the Bottle healing buffed from 10% -> 30% HP.
+GAMEPLAY: Focus Potion rarity changed from Uncommon -> Common.
+GAMEPLAY: Ghost in a Jar rarity changed from Uncommon -> Rare.
+GAMEPLAY: Poison Potion is now Silent only.
+GAMEPLAY: Face Trader event can no longer appear past Act 2.
+GAMEPLAY: Neow Colorless card choices now let the player choose 1 of 3 colorless cards.
+GAMEPLAY: Plated Armor power now caps at 999.
+GAMEPLAY: Mods for Custom Mode have been updated to account for the Watcher.
+GAMEPLAY: Eternal One achievement now require Amethyst & Amethyst+ achievements.
+UX: 4:3 aspect ratio support has been added.
+UX: Adding SFX for Spit Web attack by Louse enemy.
+UX: Bigger Text mode is now available in the Settings. This increases the font size slightly everywhere.
+UX: Card preview tips now allow you to see cards such as Dazed when viewing Reckless Charge.
+UX: Cards/powers/potions that generate Upgraded Cards now just describe them with a + in their name.
+UX: Champ boss now recognizes if you have his belt.
+UX: Fatal keyword added for cards which have effects upon killing a non-Minion enemy.
+UX: Increased font size of tip text when unlocking cards/relics.
+UX: Increased scroll speed by 3x when using mousewheel to scroll for Input Settings screen.
+UX: Peek button has been added, allowing you to peek at the combat while a selection screen is up.
+UX: Pressing 0 - 9 keys in some relic view screens now play some SFX.
+UX: Pressing ESC no longer exits the card reward screen from another menu.
+UX: Relics whose effects only trigger once per combat or run now gray out when inactive.
+UX: Repositioned the 'Restart game for changes' text when changing various options in Settings screen.
+UX: Scrollable dropdowns such as Run History can now be scrolled using scrollwheel and arrow keys.
+UX: Several potions now have updated potion bottle assets.
+UX: Some potions are rainbow colored now. It's groovy.
+UX: Uncommon potions now have small circle particle effects.
+UX: Rare potions now have gold sparkly visual effects.
+UX: Several power icons have been cleaned up.
+UX: Several relic assets have been cleaned up and have high resolution versions when viewing them.
+UX: Speed of several cards/relics have been increased and normalized across similar items.
+UX: Various cards with special requirements now emit a gold glow (like Dropkick).
+UX: When hovering Map Legend icons, tips now appear in a fixed position, no longer obscuring the map.
+UX: Wording updated for several relics, cards, potions, and powers to improve clarity.
+UX: Fixed card descriptions being initialized twice. Improving game start up time.
+UX: Deleted several unused font files, reducing memory usage and start up time.
+UX: Relics which gray out are now grayed out using a shader, rather than a grayscale image.
+BUG FIX: Custom Mode now unlocks even if you play a Daily Climb offline now.
+BUG FIX: Dropkick card now resolves its actions in order of its description.
+BUG FIX: Egg relics now update card rewards in reward screens upon pickup.
+BUG FIX: Egg relics update card previews on Pandora's Box confirmation screen.
+BUG FIX: Entropic Brew can now be used outside of combat.
+BUG FIX: Fixed Armaments card not updating descriptions of upgraded cards.
+BUG FIX: Fixed bug where after defeating certain enemies, Block would not work against thorn-like powers.
+BUG FIX: Fixed Card Library scrolling up slightly when opened initially.
+BUG FIX: Fixed cards sometimes glowing even when they cannot be played.
+BUG FIX: Fixed Confirm/Cancel buttons requiring two taps in touchscreen mode for Rename Panel.
+BUG FIX: Fixed Discovery card showing skip button when reopening screen from another menu.
+BUG FIX: Fixed double-played Sunder gaining energy twice on Darklings and Awakened One.
+BUG FIX: Fixed egg relics not upgrading card received from A Note To Yourself.
+BUG FIX: Fixed elites slain scores not showing up properly in Endless mode.
+BUG FIX: Fixed Entropic Brew filling potions slots with Sozu.
+BUG FIX: Fixed ESC buttons causing unusual behavior on card reward screens (blank maps, hiding the reward screen).
+BUG FIX: Fixed Escape Plan gaining Block when card drawn is blocked by No Draw power.
+BUG FIX: Fixed Fear No Evil + Mental Fortress not gaining Block before Beat of Death.
+BUG FIX: Fixed Juggernaut damage not changing targets if original target is dead.
+BUG FIX: Fixed Mayhem, Havoc, Distilled Chaos, and Omniscience sometimes not playing cards if original target is dead.
+BUG FIX: Fixed memory leak when initializing Merchant assets.
+BUG FIX: Fixed memory leaks when initializing blights for Endless mode.
+BUG FIX: Fixed on-enter-room relics activating again when loading a game to a post-combat rewards screen.
+BUG FIX: Fixed Pocketwatch relic activating too early for effects like Foresight.
+BUG FIX: Fixed Rebound card not working with Strange Spoon relic.
+BUG FIX: Fixed Tingsha relic damage not changing targets if original target is dead.
+BUG FIX: Heel Hook card now resolves its actions in order of its description.
+BUG FIX: Slime and Heart enemy SFX no longer play when game is backgrounded.
+BUG FIX: Stasis move from Bronze Automaton's Orbs is now seeded.
+BUG FIX: Transmorgrifier event's options are now seeded.
+BUG FIX: The Designer event's options are now seeded.
+LOC: Vietnamese support has been added.
+LOC: Several strings such as time/date formatting is now localized.
+LOC: Added various logic to improve card descriptions for CJK languages.
+LOC: Updates for DUT, EPO, FRA, DEU, ITA, JPN, KOR.
+LOC: Updates for POL, RUS, ZHS, ZHT, SPA, THA, UKR.
+
+07-17-2019
+BUG FIX: Exit Game button now changes button asset if the button is remapped.
+BUG FIX: Fix for issue where Save Slot 0 wasn't reloaded upon deleting a different Save Slot.
+BUG FIX: Fix for non-Steam builds always showing 0 damage at the heart.
+BUG FIX: Fixed issue where playtimes and some character data was copied to a new save slot.
+BUG FIX: Fixed run save files not being deleted when deleting slots, allowing continuing of runs from deleted profiles.
+BUG FIX: Fixed unnecessary dispose() calls on monster assets.
+BUG FIX: Fixing touchscreens requiring you to double tap to do anything.
+BUG FIX: If width or height is set lower than minimum allowed, your display config resolution is now reset.
+LOC: JPN now uses old line break method and center aligned descriptions.
+LOC: Updates for DEU, DUT, EPO, GRE, ITA, JPN, KOR, POL, UKR, RUS, SPA, THA ZHS, ZHT.
+LOC: Updates for EPO credits.
+
+07-05-2019
+UX: While the potion popup is open, the potion's tip is now displayed.
+LOC: JPN reverted to previous JPN translation.
+LOC: Updates for GRE, ITA, and SPA.
+LOC: Updates for TUR credits.
+
+07-01-2019
+CONTENT: Added Eternal One achievement, unlocked when all other achievements are unlocked.
+GAMEPLAY: Berserk card buffed. Self Vulnerable 3 -> 2.
+GAMEPLAY: Blood Potion buffed to heal 10% -> 25%.
+GAMEPLAY: Bottled Flame no longer appears if all of your Attacks are starter cards.
+GAMEPLAY: Bottled Lightning no longer appears if all of your Skills are starter cards.
+GAMEPLAY: Heel Hook+ card buffed. 7 -> 8 damage.
+GAMEPLAY: Bullseye card buffed. Lock-On 1 -> 2.
+GAMEPLAY: Bullseye+ card buffed. Damage 10 -> 11.
+GAMEPLAY: Colosseum event now appears only at the top half of Act 2.
+GAMEPLAY: You no longer run into The Cleric or Beggar events if you do not have enough gold.
+UX: Patch Notes screen is back.
+UX: Touchscreen Mode can now be enabled in the Input Settings (at the bottom).
+UX: End Turn button can now utilize long-press confirmations for controllers and keyboard (not mouse). Turn on/off in Game Settings.
+UX: Improved trackpad support for laptops.
+UX: Potion menu is way bigger now (easier to click on for mouse/touchscreen).
+UX: Top panel's floor number indicator is now an icon + number.
+UX: Top panel gold icon, health icon, potion slots, and modifiers now scale up when hovered.
+UX: Top panel elements gets their spacing updated.
+UX: Adding a right stick button asset when highlighting volume sliders via controller.
+UX: Ascension description tips are now numbered in English.
+UX: Ascension level is now an icon + number in the top panel (gold when max level).
+UX: Black screen when viewing a grid of cards (such as removing a card from deck) is now darker (50% -> 70% opacity).
+UX: Boss node on map now has a hover reticle when using controller.
+UX: Campfire sleep VFX is now slightly darker.
+UX: Cards with glowing effects now have a border that appears instantly along with the VFX.
+UX: Cleaning up the tick asset used on various checkboxes and dropdowns.
+UX: Combat reward screen's items now get a reticle when hovered/highlighted. Much more noticeable.
+UX: Completion percentages in save slot view do not show tenths place if 0% or 100% now.
+UX: Confirm buttons now place the controller prompt icon dynamically, preventing text overlap.
+UX: Credits screen can now be scrolled up/down using controller.
+UX: Custom Mode screen's modifiers are now more obviously hovered/highlighted.
+UX: Defect gets a glow-version asset at Rest Site like Ironclad/Silent. 
+UX: Disabling particle effects now disables the particles which appear upon applying buffs/debuffs.
+UX: Fixing some grammar and typos in Potion popup text.
+UX: Game and Input Settings tabs get larger hitboxes.
+UX: Game Saved VFX now appears below the top panel if more than 3 game modifiers are enabled.
+UX: Grand Finale card is now 0.3s faster in Fast Mode.
+UX: Highlight box now resizes so text isn't blocked when highlighting view upgrade option in Card Library.
+UX: Highlighted cards in RunHistoryScreen are now more obvious when using controllers.
+UX: Letterboxing for unsupported aspect ratios no longer have a 1px gap.
+UX: Line spacing in Menu Panel headers reduced by 15%.
+UX: Lose HP action is now much faster in Fast Mode.
+UX: No Run Histories found text is now centered and has improved line spacing.
+UX: Offering card is now faster in Fast Mode.
+UX: Options in Custom Mode screen are now more obviously highlighted.
+UX: Plated Armor power description is more accurate now.
+UX: Removed the 'Build:' text on version number as it's unnecessary.
+UX: Rich Presence now contains Ascension level (unless 0).
+UX: Seek card now organizes cards by rarity and alphabetically.
+UX: Silent's starting Strikes are put before Defends (to be consistent with other characters)
+UX: Sort button's highlight UI when using controllers are now dynamically sized based on text length.
+UX: Static Discharge card now clarifies that it triggers when you receive unblocked attack damage.
+UX: Text in Game Preferences settings now aligns better with checkboxes.
+UX: Tips for boss relics are now offset so they can no longer cover a relic when hovered/highlighted using controller.
+UX: Tips for potions now show up when hovered in Reward screens and Shops (not just in the Potion panel after acquisition).
+UX: Vampires and Council of Ghosts events now show how much Max HP is lost (rather than showing %)
+UX: Well Laid Plans card plays slightly faster now.
+UX: When hovering various tips in the Game Settings, they're now rendered on the left side instead of at cursor position.
+UX: When previewing card for upgrade via controller, the upgrade result is now hovered, no longer obscuring your view.
+UX: When viewing your deck, you can now sort it by obtained order, alphabetical, rarity, and cost.
+UX: With controllers, end turn now disables cards from being hovered, so cards don't obscure enemies.
+PERF: Card UI elements now utilize a texture atlas (uses less VRAM and improves performance)
+PERF: Compressed lots of images.
+PERF: Fixed memory leaks in several monsters, events, ui, and other objects.
+PERF: Flame Particles and Lightning Orb VFX assets are now pre-loaded.
+PERF: Font generators are now cached better, improving load time and reducing memory usage.
+PERF: Hexaghost and Lagavulin enemies now pre-cache music so there's no lag when music starts mid-combat.
+PERF: Improving render performance of several UI, VFX, and Fonts.
+PERF: Merged 3 identical fonts, reducing memory usage and improving load up time.
+PERF: Removed dual initialization of several assets.
+PERF: Removed a lot of unused assets.
+PERF: Many VFX assets are now pre-cached, preventing stutter when certain cards or moves occur.
+BUG FIX: Fixed card and relics unlocking earlier than they're supposed to.
+BUG FIX: All-Out Attack, Madness, and Reboot cards no longer affect Card Rewards when used (rng issue).
+BUG FIX: Astrolabe relic now works even if your deck contains 3 cards or less.
+BUG FIX: Back button is now hidden in Save Slots screen if all saves are deleted.
+BUG FIX: Blank The Evil's bug fix for Card Reward screen non-skip issue.
+BUG FIX: Bottled Cards upgraded from Mind Bloom event have their description updated correctly.
+BUG FIX: Can no longer accidentally bring up the rename screen with controller when navigating through Settings.
+BUG FIX: Changed Input settings are now correctly retained when changing save slots.
+BUG FIX: Darkstone Periapt relic now works with Hoarder mod.
+BUG FIX: Empty Cage relic now works with 1 or less valid cards in your deck.
+BUG FIX: Envenom's Poison is now applied immediately after the damage occurs.
+BUG FIX: Fix for Cost X cards utilizing extra energy when playing quickly.
+BUG FIX: Fix for crash when pressing RIGHT using controller when viewing 5 cards in grid card select screen.
+BUG FIX: Fix for Map and View Deck top panel buttons sometimes skipping card rewards.
+BUG FIX: Fix for part of the map UI remaining on the screen after hitting Return in certain circumstances.
+BUG FIX: Fix for thank you message in credits displaying prematurely.
+BUG FIX: Fixed Automaton's orbs preventing scaling of Genetic Algorithm and Ritual Dagger.
+BUG FIX: Fixed Bag of Preparation not drawing cards affected by Confusion power.
+BUG FIX: Fixed bug where a certain set of actions could disable tips for a card for the rest of combat.
+BUG FIX: Fixed bug where deleting a save slot would generate dummy files in a ghost slot.
+BUG FIX: Fixed bug where dialog bubbles moved faster if higher resolution.
+BUG FIX: Fixed bug where Exhaust Pile can be viewed using controller even if it's empty.
+BUG FIX: Fixed bug where screenshake and SFX were played when navigating to locked character select option via controller.
+BUG FIX: Fixed card tips that remained on screen when you died.
+BUG FIX: Fixed a bug that let certain Status and Curses use their effect when played via Blue Candle/Medical Kit.
+BUG FIX: Fixed crash when attempting to hover view upgrade in Card Library using controller. 
+BUG FIX: Fixed crash when highlighting mods in top panel using controller.
+BUG FIX: Fixed crash when navigating left on controller when colorless cards are sold out.
+BUG FIX: Fixed crash when opening deck view if you have 0 cards (e.g. when you start a run with the Draft modifier)
+BUG FIX: Fixed crash when pressing down on controller on 3rd option at Rest Site if you have 4 options.
+BUG FIX: Fixed crash when pressing right on controller in Run History with 0 runs.
+BUG FIX: Fixed damage and block values showing green increased values when the end value was the same.
+BUG FIX: Fixed enemies not applying powers if they died in the process (e.g. Thorns).
+BUG FIX: Fixed enemy order issues in Slime Boss, Gremlin Leader, and Reptomancer encounters.
+BUG FIX: Fixed Enlightenment+ not reducing cost of cards with 1 or 0 cost for turn.
+BUG FIX: Fixed errors with moving around relic compendium screen with a controller for Event relics.
+BUG FIX: Fixed exploit of playing Normality while already having played 3+ cards.
+BUG FIX: Fixed Fission+ evoking Orbs in reverse order.
+BUG FIX: Fixed non-Steam platforms showing 0 total damage dealt on the victory screen.
+BUG FIX: Fixed inability to inspect relics when Shopscreen is open via controller.
+BUG FIX: Fixed incorrect scaling on draw and discard piles making them very large on high resolution.
+BUG FIX: Fixed Invincible power with interactions such as The Boot and Block.
+BUG FIX: Fixed issue where ending turn with Retain while hovering the player could make the leftmost card act strangely via controller.
+BUG FIX: Fixed issue where if you end turn with Codex before enemy dies and queued cards are to kill the enemy, Codex opens cards and causes issues.
+BUG FIX: Fixed issue where map can be opened during room transitions, cancelling certain functionality.
+BUG FIX: Fixed issue where moving cursor to bottom of window would cause cards in hands to bounce indefinitely.
+BUG FIX: Fixed issue where Rest Site option text wasn't placed correctly (scaling).
+BUG FIX: Fixed issue where tips weren't appearing correctly in single relic popup view.
+BUG FIX: Fixed issue where up/down on controller in potion drink/discard also navigated to monsters/cards during combat.
+BUG FIX: Fixed issue where you briefly see the map when you start a run due to its default transparency.
+BUG FIX: Fixed lingering campfire sounds from rest sites.
+BUG FIX: Fixed Machine Learning card affecting hand size even when negated.
+BUG FIX: Fixed Meal Ticket not working on Shops from ? rooms.
+BUG FIX: Fixed Nemesis gaining Intangible too early and messing up damage from Thorns.
+BUG FIX: Fixed Normality card not stopping cards affected by Setup and Forethought.
+BUG FIX: Fixed Regret causing less HP loss than normal if other cards played themselves first.
+BUG FIX: Fixed Reptomancer not triggering some important logic after death.
+BUG FIX: Fixed Rip and Tear, Sword Boomerang, and Thunder Strike continuing its hits over Thorns and Shifting powers.
+BUG FIX: Fixed Second Wind doing its effects in reverse and only gaining one instance of block.
+BUG FIX: Fixed slash attack VFX used by some enemies being the wrong size in high resolutions.
+BUG FIX: Fixed Spit Web move's VFX appearing from wrong spot in high resolutions.
+BUG FIX: Fixed the opening of Input Settings allowing skipping of unskippable screens and potentially getting to an unplayable state.
+BUG FIX: Fixed the seedSet flag not resetting, preventing Achievements from unlocking in subsequent runs before game is reloaded.
+BUG FIX: Fixed Wrist Blade not affecting Sword Boomerang, Rip and Tear, and Thunder Strike.
+BUG FIX: Game and Input Settings panels are now taller so the input rows stay within the panel.
+BUG FIX: Improved precision of volume sliders with a controller so that values can be set precisely back to 50%.
+BUG FIX: Knowing Skull event can no longer give you a potion if you have the Sozu relic.
+BUG FIX: Leaderboard filters labels are now displayed for the options selected when opening the screen.
+BUG FIX: Library event can no longer contain duplicate cards.
+BUG FIX: Neow's Lament relic now grays out when it is used up.
+BUG FIX: No longer possible to interact with the map with a controller while single card view screen is open.
+BUG FIX: Relic Collection menu no longer scrolls erratically in some cases when using controller.
+BUG FIX: Removed note about Leaderboards being reset weekly as Early Access is over.
+BUG FIX: Reptomancer no longer creates daggers with more HP than intended.
+BUG FIX: Reset To Defaults option in Option Menu now resets akk controller mappings properly.
+BUG FIX: Run History screen's cards and floor nodes can navigated easier with controllers.
+BUG FIX: Shop and Boss BGM now correctly mutes when game is minimized with the Mute While in BG option on.
+BUG FIX: Slider in the Character Stats menu no longer gets stuck before reaching the bottom with a controller.
+BUG FIX: Torch particles in Exordium now rise at the same speed on all resolutions.
+BUG FIX: Twitch plugin now works if language isn't English and system encoding isn't set to UTF-8.
+BUG FIX: Various card selection effects that don't update RNG are now seeded. 
+BUG FIX: When a dropdown menu is open in RunHistory screen, the controller up/down no longer affects selection outside the dropdown menu.
+BUG FIX: WobblyLine VFX used in Snecko's glare is now larger and scales correctly with resolution.
+REFACTOR: Confusion and Corruption cards utilize improved hooks.
+REFACTOR: Improved lifesteal logic for Reaper and Shelled Parasite.
+REFACTOR: Refactored Hologram card to not have to verify number of cards in the card itself.
+REFACTOR: Specimen relic now uses the same code as other relics for applying its effect.
+REFACTOR: Unhardcoded various cards, relics, and enemies.
+LOC: Thai and Turkish are now available!
+LOC: Portuguese Brazilian was out-of-date so it has been removed from main branch. (find it in beta branch!)
+LOC: JPN translation overhaul by Kakehashi Games.
+LOC: JPN and THA now have translated Merchant Shop images.
+LOC: THA fonts updated.
+LOC: Updated credits for JPN, POL, THA, and TUR.
+LOC: Added logic to disallow periods to cause line breaks in Asian languages.
+LOC: Rewrote how Asian languages are rendered, fixing several formatting issues.
+LOC: Asian languages now utilize lineSpacing variable in renderSmartText.
+LOC: Asian languages no longer have A~Z sorting filters in Card Library screen.
+LOC: JPN renders card descriptions from left to right.
+LOC: Rest Site options' rest option info text now uses localized period character.
+LOC: Run History and Daily Screens now use YEAR/MONTH/DAY by default for dates except in English.
+LOC: Run History date format in JPN utilizes localized AM/PM.
+
+01-23-2019
+BUG FIX: Adding a null check for a rare NPE that happens under unknown circumstances in the relic view screen.
+BUG FIX: Adding safety logic to prevent hand size from going over >10 in rare cases.
+BUG FIX: Fixed issue where Prismatic Shard can return cards which were not yet unlocked.
+BUG FIX: Fixed issue where upon launching the game, the next unlock level's content was available for all characters.
+BUG FIX: Fixing rare crash on startup caused by modified save files.
+BUG FIX: Fixing rare crash when using controllers on death and victory screens.
+BUG FIX: Obtaining keys are now faster so they can't fail to be obtained if the players leaves very quickly.
+BUG FIX: Preventing a rare act transition crash most likely linked to old saves.
+GAMEPLAY: Colossuem Nob fight ordering swapped so that the Nob can apply Vulnerable.
+LOC: Updates for POL, PTB, SPA.
+UX: Early Access and Beta popups removed from the game.
+UX: EARLY_ACCESS -> V1.0 (Version 1.0) for version number string.
+UX: Increasing scroll bounds by 150px in stats screen for the bottom.
+UX: Main Menu items appear 0.25s faster (reducing wait).
+UX: The post-credits Neow cutscene can now be sped up if you click 5 times during the cutscene.
+VFX: Swift Strike's VFX is now a blunt VFX rather than slice VFX.
+
+01-17-2019
+GAMEPLAY: Book of Stabbing enemy's multi-stab attack strikes 1 less time on Ascension 18.
+GAMEPLAY: Colosseum event's second fight is now a Gremlin Nob + Taskmaster (rather than 2 Gremlin Nobs)
+GAMEPLAY: Gambling Chip relic now triggers after card-draw based relics such as Ring of Serpent.
+GAMEPLAY: Spire Growth's constrict power nerfed 15 -> 12 on Ascension 18.
+GAMEPLAY: Writhing Mass' strong hit damage nerfed 34 -> 32. 40 -> 38 (Ascension 2)
+VFX: Adding a VFX for cards when they are removed from your deck.
+UX: A Thousand Cuts now activates 0.3s faster in Fast Mode and 0.2s faster without.
+UX: Adding controller support for death and victory screens. Allows players to see score bonus info.
+UX: (Controllers) Button prompt for Singing Bowl's +2 Max HP button now dynamically placed so it doesn't overlap text.
+UX: Cards now fade out slightly faster when they're removed from decks (0.5s -> 0.33s)
+UX: Draw and Discard piles are now visible during hand card select screens as they can be interacted with.
+UX: Map Legend no longer moves slightly upon scrolling.
+UX: Map Legend placed slightly higher so cursor doesn't hover Map Legend icons after pressing Proceed to open a map.
+UX: Piercing Wail card is now 1.2s faster with Fast Mode.
+UX: Rest option now becomes disabled if you can't Rest (Coffee Dripper relic).
+UX: Smith option now becomes disabled rather then disappearing when using Midas mod or Fusion Hammer relic.
+UX: Updated assets for the Wheel of Change event.
+BUG FIX: Fixed issue where card rewards via Prismatic Shard could contain duplicates.
+BUG FIX: Fix for crash issues with Note For Yourself event and modded cards.
+BUG FIX: Fixed issue where certain game modes became unavailable after switching profiles until restarted.
+BUG FIX: Fixed issue where opening map during death fadeout starts the next run with an empty map on screen.
+LOC: Updates for EPO, DEU, DUT, IND, POL.
+
+01-10-2019
+BUG FIX: Fixed issue where facing too many elites causes a crash (due to modifiers/Endless).
+BUG FIX: Fixed issue where restocked cards via Courier were hard to select using controller.
+BUG FIX: Fixed issue which allowed you to cancel selecting a card to bottle by interacting with the top menu.
+BUG FIX: Fixed evoked Orbs affecting card reward outcome (affects seeded runs).
+BUG FIX: Shifting power no longer triggers when Transient receives 0 damage.
+GAMEPLAY: Meal Ticket relic buffed. Heals 10 -> 15.
+GAMEPLAY: Meal Ticket relic no longer spawns beyond floor 48 (unless Endless mode).
+GAMEPLAY: Reaper card now heals the correct amount if the player has The Boot relic. 
+GAMEPLAY: Stone Calendar relic buffed. Damage 50 -> 52 for flavor.
+GAMEPLAY: The Bomb card damage buffed from 30 -> 40.
+UX: Draw, Discard, and Exhaust piles can now be viewed during Codex/Discovery card selection.
+UX: Improvements to counter on Stone Calendar to make it more obvious when it will trigger.
+UX: Rich Presence support added. Allows users to see more detailed info in Friends list while playing.
+VFX: Adding VFX for the Heart's buff move.
+VFX: Adding VFX for Heart's debuff move.
+VFX: Adding VFX for Hemokinesis card.
+VFX: Adding VFX for Reaper card.
+PERF: Improved retroactive unlock to prevent unnecessary saving if there are no retroactive unlocks.
+REFACTOR: Organizing monster initialization code within Acts so it's easier to parse and modify.
+LOC: Updates for DEU, DUT, EPO, ITA, JPN, RUS, SPA, ZHS, ZHT.
+
+01-03-2019v4
+BUG FIX: Fixing one more edge case.
+
+01-03-2019v3
+BUG FIX: Fixed issue where pressing Cancel/Return button in map/deck/settings screen could cause odd screen states.)
+
+01-03-2019v2
+BUG FIX: Fixed issue caused on certain screens by opening deck -> settings, then closing settings such as Card Reward screen.
+
+01-03-2019
+ART: Updated relic asset for Blood Vial.
+BUG FIX: Adding a null check for a Cancel button (Safer for Modders!)
+BUG FIX: Adding a null check for a potential game exit crash instead of returning to menu.
+BUG FIX: Adding logic so Beyond elites score increments more accurately in case of future/custom Acts.
+BUG FIX: Blight rolling now increments relic rng seeds correctly (consistency on save/load)
+BUG FIX: Fix Run History corruption due to save/load (again). 
+BUG FIX: Fixed card randomization inconsistencies caused by save/load.
+BUG FIX: Fixed events which sometimes rerolled when loading a save after an event-based combat.
+BUG FIX: Fixed instances where certain screens could be opened while on that screen, causing visual issues. 
+BUG FIX: Fixed issue where a non-dismissable Map could be dismissed by navigating menus in a specific order.
+BUG FIX: Fixed issue where Blood Potion wouldn't heal the player if used immediately after combat.
+BUG FIX: Fixed issue where City and Beyond Elites killed score bonuses weren't showing up if you won/lost in The Ending.
+BUG FIX: Fixed issue where Entropic Brew did not give players potions if used post-combat.
+BUG FIX: Fixed issue where opening deck/map/settings and returning would enable cancelling out of certain screens (like choosing cards for bottles).
+BUG FIX: Fixed issue where opening deck/map/settings during Card Removal Service caused the card to not remove unless you access the shop again.
+BUG FIX: Fixed issue where potion seeds weren't persistent on save/load.
+BUG FIX: Fixed issue where Toy Ornithopter relic wouldn't trigger outside of combat.
+BUG FIX: Fixed issues where navigating from screen -> map/deck -> settings would dismiss some screens such as Sealed Deck.
+BUG FIX: Fixed issues where some monsters dealt the incorrect damage with Philosopher's Stone on turn 1.
+BUG FIX: Note For Yourself event no longer crashes with modded cards.
+BUG FIX: Opening Settings during Draft mod now properly hides the top banner.
+BUG FIX: Potential fix for Prismatic Shard returning duplicate cards on rare occasions.
+BUG FIX: Prevent Run History corruption when loading saves in Event rooms.
+BUG FIX: The Specialized Mod now gives you 5 of a random card and works with mods Draft and Sealed Deck.
+BUG FIX: Tingsha, Sword Boomerang, Bouncing Flask, Rip and Tear, Thunder Orbs, Havoc, and Juggernaut now utilize seeded enemy target randomization.
+GAMEPLAY: A Note For Yourself event is now available if you aren't playing your highest ascension AND the ascension level is 14 or less.
+GAMEPLAY: If you have unlocked The Ending achievement, you can now enable the final act in custom mode.
+GAMEPLAY: Stone Calendar relic damage buffed 40 -> 50.
+GAMEPLAY: The Specialized Daily Mod now allows Alchemize (was restricted because the mod Brewmaster used to exist)
+PERF: Reduced some unnecessary saving when encountering bosses.
+UX: Improved controller navigation of Rest Site options when there are 5 options.
+UX: Recall option now appears in Run History screens when hovering a rest site room node.
+UX: Smiling Mask relic stops flashing if Card Removal Service has been utilized.
+UX: The Input Settings menu button now utilizes a different image.
+UX: The Standard play menu button now utilizes a different image.
+VFX: Removed flame VFX that appeared when Reptomancer was defeated.
+LOC: Adding shop assets for EPO.
+LOC: Updates for EPO, DEU, DUT, EPO, FRA, ITA, KOR, RUS, SPA, UKR, ZHS, ZHT.
+CREDITS: Credits updated and improved timing for the Thanks for Playing message.
+
+12-20-2018
+ART: Updated relic asset for Bird-Faced Urn.
+ART: Updated relic asset for Eternal Feather.
+BUG FIX: Ascension 20 achievement not unlocking if you die on Act 4 on A20.
+BUG FIX: Beat of Death Power now damages you after a card's actions completely resolve.
+BUG FIX: Clicking two cards quickly when choosing one to discard will no longer discard the wrong card.
+BUG FIX: Crash fix when looking at Deck, Map, or Settings after getting Pandora's Box at Neow.
+BUG FIX: Fix for Egg relics causing an issue with cards in the Library event screen.
+BUG FIX: Fixed issue where a pre-battle action would sometimes not trigger when continuing a run.
+BUG FIX: Fixed issue where evoked Dark Orbs wouldn't switch targets if the first target died when multi-casting.
+BUG FIX: Fixing black map bug when pressing ESC in certain situations.
+BUG FIX: Invincible Power tooltip now correctly matches the icon and shows the correct amount.
+BUG FIX: Opening map/deck/setting on certain screens no longer forfeits an upgrade, boss relic, or blessing.
+BUG FIX: Spire Spear was incorrectly buffed on Ascension 17 instead of 18.
+BUG FIX: Timer no longer stops at the end of Act 3 if you meet the conditions to reach Act 4.
+BUG FIX: You can no longer Toke bottled cards.
+UX: Hovering over an icon in the Map Legend now highlights all rooms of that type on the map.
+UX: Made in-game tips pop in from the bottom instead of just being there so it's slightly more noticeable.
+VFX: Adding a VFX for Entangle by Red Slaver (NON-Fast Mode only)
+VFX: Adding a VFX for Sweeping Beam card.
+VFX: Busted Crown relic now flashes when its effect is triggered.
+LOC: Updates for DEU, EPO, ITA, SPA, and ZHT.
+LOC: Updates for DUT and credits updates for DUT.
+
+12-13-2018
+ART: Updated relic asset for Ancient Tea Set.
+ART: Updated relic asset for Pandora's Box.
+ART: Updated relic asset for Red Skull.
+ART: Updated relic asset for Regal Pillow.
+ART: Updated relic asset for Strange Spoon.
+ART: Updated relic asset for Sundial.
+ART: Updated relic asset for The Specimen.
+ART: Updated relic asset for Toolbox.
+ART: Updated relic asset for Tough Bandages.
+BUG FIX: Duplicate cards will no longer appear on reward screens with Prismatic Shard.
+BUG FIX: Enchiridion relic now triggers earlier so its card is prioritized over some other relics.
+BUG FIX: Fixed crashes when reassigning various hotkeys. 
+BUG FIX: Fixed issue that allowed player to throw Smoke Bomb in some rooms to no effect.
+BUG FIX: Fixed issue that caused Frail and Dexterity to inconsistently interact with each other.
+BUG FIX: Fixed issue that caused Shovel, Girya, and Peace Pipe to incorrectly spawn when they should not.
+BUG FIX: Fixed issue where Beta Art toggle sometimes appeared in the incorrect spot.
+BUG FIX: Fixed issue where Beta Art toggle was available for cards which did not have Beta Art access.
+BUG FIX: Fixed issue where cards from Unceasing Top were offset on the far left if using a controller.
+BUG FIX: Fixed issue where highlighted room in map screen changed if you scrolled up using controller.
+BUG FIX: Fixed issue where navigating up/down on the dungeon map using controller can move your cursor out of the game window.
+BUG FIX: Fixed issue where Pandora's Box relic couldn't transform cards to Rare.
+BUG FIX: Fixed issue where Save & Quit via controller also ended the turn if you were in combat.
+BUG FIX: If you Save & Quit then immediately continue using a controller, the audio no longer bugs out.
+GAMEPLAY: Maw Bank relic will no longer spawn at Shops.
+LOC: Updates for DUT, FRA, IND, JPN, KOR.
+UI: ESC button can cancel out of several screens again.
+UI: Twitch integration icon moved to a location that does not overlap the Timer.
+UX: Adding support for LS, RS button assets when remapping controller inputs. 
+UX: Adding support for Right Stick up down left right assets when remapping controller inputs.
+UX: Inputs that have crossover between keyboard/controller can now be remapped without crashing.
+VFX: Adding VFX for Clash card.
+VFX: Adding VFX for Feed card.
+
+12-06-2018
+ART: Adding beta art for Bane, Charge Battery, Fission, Choke, Corpse Explosion, and Equilibrium.
+ART: Updated relic art for Bag of Preparation.
+ART: Updated relic art for Mark of Pain.
+ART: Updated relic art for Orichalcum.
+ART: Updated relic art for Ring of the Serpent.
+ART: Updated relic art for Ring of the Snake.
+ART: Updated relic art for Whetstone.
+BUG FIX: Accuracy power now correctly works with Shivs played from the top of the deck via cards like Mayhem or Havoc.
+BUG FIX: Burn cards no longer trigger Time Eater's ability at end of turn.
+BUG FIX: Fix crash issue when viewing run history if a run utilized the the deprecated Colossus modifier.
+BUG FIX: Fix some situations where run history would display incorrect rooms.
+BUG FIX: Fixed a false Unlock option which appeared on death if Defect was not yet unlocked.
+BUG FIX: Fixed Corpse Explosion card's portrait using incorrect card type. 
+BUG FIX: Fixed issue when Writhing Mass enemy would sometimes not change its intent when hit.
+BUG FIX: Fixed issue where Black Star relic was always returning two relics of the same rarity.
+BUG FIX: Fixed issue where Jaxxed achievement was obtained when enemies gained 50 Strength.
+BUG FIX: Fixed issue where stacked Thorns on Spiker enemies was not interacting correctly with relics and powers.
+BUG FIX: Fixed issue where starter cards weren't be marked as seen.
+BUG FIX: Fixed Panache Power not exhausting.
+BUG FIX: Fixed Self-Forming Clay relic triggering incorrectly off of prevented damage from Buffer power.
+BUG FIX: Fixing memory leak caused by undisposed textures for several VFX.
+BUG FIX: Medical Kit relic will no longer cause Slimed cards to glow as if they could be played when you have no energy.
+BUG FIX: Medical Kit will no longer allow the player to sometimes play Slimed when out of energy.
+BUG FIX: Muzzle blight was applying twice to Lizard Tail and Fairy Potion.
+BUG FIX: Negative Strength power typo fix.
+BUG FIX: Nloth's Gift was flashing at incorrect times.
+BUG FIX: Rebound card no longer puts Burns on top of your deck.
+BUG FIX: Reptomancer's Daggers and Philosopher's Stone relic now correctly interact.
+BUG FIX: Secret Portal event no longer says Ignored in run history. Run history rows capped at 20 elements.
+BUG FIX: Spire Shield's intent was incorrect for one of its moves. Attack -> Attack + Debuff.
+BUG FIX: Throwing a Smoke Bomb at the Final Act boss no longer crashes the game.
+BUG FIX: Typo fix in Augmenter event.
+BUG FIX: Wing Boot relics were still spawning beyond certain floors when they should not.
+GAMEPLAY: Ascension no longer increments if the run was seeded.
+GAMEPLAY: Darkstone Periapt relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Dream Catcher relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Egg relics no longer spawn beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Girya relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Juzu Bracelet relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Matryoshka relic no longer spawns beyond floor 40 (excludes Endless mode).
+GAMEPLAY: Maw Bank relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Old Coin relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Omamori relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Peace Pipe relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Playtester Art toggle added in Settings menu (Accessible after "The Ending" achievement is unlocked).
+GAMEPLAY: Potion Belt relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Prayer Wheel relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Preserved Insect relic can still spawn up till the Act 4 shop now.
+GAMEPLAY: Preserved Insect relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Question Card relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Regal Pillow relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Shovel relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Singing Bowl relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Smiling Mask relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: The Courier relic no longer spawns beyond floor 48 (excludes Endless mode).
+GAMEPLAY: Tiny Chest relic no longer spawns beyond floor 40 (excludes Endless mode).
+GAMEPLAY: Writhing Mass enemy's attacks deal slightly less damage.
+PERF: Compressing a few card ui assets.
+UX: Capitalization consistency improvements for messages when choosing cards from hand.
+UX: Capitalization consistency improvements for some run mods.
+UX: Capitalization fixes for Magnetism power description.
+UX: Courier relic description clarified.
+UX: Disabling particle effects now hides the runic objects in the Beyond.
+UX: Foreground elements for the Beyond's bg are now colored similarly to the bg's color randomization. 
+UX: If a high res beta card portrait is missing, now the low res version is rendered scaled up in single card view screens.
+UX: Increasing distance between bonus label and its amount in score screen to accommodate wordier languages.
+UX: Minor text cleanup for Augmenter event.
+UX: Minor text cleanup for Face Trader event.
+UX: Minor text cleanup for Vampires event.
+UX: No longer rendering a relic's counter when viewing them on a Reward screen.
+UX: Plated Armor power wording improved when enemies have the power.
+UX: Removed extra space on flavor description for Eternal Feather.
+UX: Reworded Emotion Chip relic to be more accurate with its actual behavior.
+UX: Upon sorting by A-Z, the first click is now ascending order.
+UX: Wording improvements when relics or UI mention the Merchant.
+VFX: Added a max cap of 2 for bg  objects that float around in the Beyond.
+VFX: Floating background objects in the Beyond are now animated.
+VFX: Floating background objects in the Beyond are now colored similarly to the bg's color randomization.
+LOC: Adding Dutch language (DUT) + credits.
+LOC: Portrait frames now dynamically resize if the card type name is long (affects non-English).
+LOC: Updates for EPO, DEU, DUT, EPO, FRA, ITA, POL, RUS, SPA, UKR, ZHS, ZHT.
+
+11-15-2018
+CONTENT: The Final Act is now available. Figure out how to reach it!
+CONTENT: Adding Art, Lore, Sounds, Achievements, and Despair.
+CONTENT: Clearing the final act now gives a special ending for each character.
+CONTENT: Clearing the final act allows players to toggle on/off beta art for individual cards through single card view.
+
+BUG FIX: Ascension 20 now correctly works on Endless mode.
+BUG FIX: Awakened One and Orb Walkers were not shuffling their status cards into the player's draw pile, but into a fixed position.
+BUG FIX: Damage taken per turn checks for cards like Masterful Stab were not correctly resetting.
+BUG FIX: Fix for Mummified Hand relic targeting cards with costs lowered by Setup or Forethought.
+BUG FIX: Fixed issue where Nloth's Face relic consumed both relics from Matryoshka.
+BUG FIX: Fixed issue where the seed wasn't displaying after it was set in Char Select and Custom Mode screens.
+BUG FIX: Fixed issue where viewing relics with Nilrys Codex' popup caused issues with controllers.
+BUG FIX: Fixed softlock caused if you can't remove cards in: Back to Basics, Cleric, and Living Wall events.
+BUG FIX: HP loss amount is now blue for Neow's Lament relic description.
+BUG FIX: Red Skull relic's Strength gain is now correctly applied to the cards in your hand at start of combats.
+BUG FIX: Turnip and Ginger relics now prevent Artifact from triggering when they nullify debuffs.
+CONTENT: A Note For Yourself event is now out of beta (had forgotten...)
+GAMEPLAY: Daily mods that alter the starting deck like Sealed Deck and Draft now eliminate Pandora's Box as it does nothing.
+GAMEPLAY: Wing Boots relic no longer appers after floor 40 (except with the Endless mod on).
+UX: Controllers can now view Exhausted cards during combat.
+UX: Controllers have better behavior when navigating up/down when viewing card screens like Draw and Discard piles.
+UX: Energy icon now rendered on Single Card View screen for Curses with energy costs.
+UX: ESC key now closes the map and deck view screens again (if able).
+UX: Exhaust Pile now uses a scroll bar when there are enough exhausted cards.
+UX: Hovering room elements in Run History now make them 2x size rather than 1.5x.
+UX: Icons used in Run History screen's path nodes are now sharper.
+UX: Regret card wording improved to clarify interactions with cards like Rupture.
+UX: The term Orb Slot(s) within descriptions is now lowercased to Orb slot(s).
+UX: Title capitalization for Cloak And Dagger -> Cloak and Dagger.
+UX: Title capitalization for Hand Of Greed -> Hand of Greed.
+UX: Title capitalization for Riddle With Holes -> Riddle with Holes.
+UX: Updating elite path node icon in Run History screen. Now color blind accessible.
+VFX: Claw card gets VFX.
+VFX: Maw enemy's bite attack gets VFX.
+VFX: Rip and Tear card gets VFX.
+VFX: Scrape card gets VFX.
+VFX: The Champ's sword attacks get VFX.
+LOC: Reorganizing RUS credits a bit.
+LOC: Updates for DEU, EPO, FRA, IND, JPN, POL, RUS, SPA, ZHS, ZHT.
+
+11-08-2018
+BUG FIX: Adding some error handling for a specific controller initialization crash potentially cuased by unique mouse software.
+
+11-08-2018
+GAMEPLAY: Philosopher's Stone buffed: Enemies gain 2 Strength -> 1 Strength.
+GAMEPLAY: Removing Careless daily mod.
+BUG FIX: Adding a new line so Innate keyword is on its own line for Machine Learning+.
+BUG FIX: Colorless card mod now correctly interacts with Shiny mod.
+BUG FIX: Colorless card mod was causing colorless cards to be added to the card pool twice as often as they should.
+BUG FIX: Dead Adventurer event was not giving the gold correctly (just showing the effect).
+BUG FIX: Fix for boss treasure rooms incorrectly showing in the run history screen.
+BUG FIX: Fixed cards like Blood for Blood and Masterful Stab being affected outside of combat.
+BUG FIX: Fixed issue where Ambient SFX in the main menu played double upon loading a profile.
+BUG FIX: Fixed issue where you couldn't Retain if it was your only card (controllers).
+BUG FIX: Fixing several display issues with the run history screen.
+BUG FIX: Mind Blast card now correctly works with Controlled Chaos mod.
+BUG FIX: Minor Snecko Eye description fix.
+BUG FIX: Painful Stabs power will no longer give wounds if the damage was prevented by Buffer.
+BUG FIX: Potential fix for card + end turn button hover causing an annoying sound issue.
+BUG FIX: Preventing crashes for saves that used deprecated run mods like Careless or Colossus.
+BUG FIX: Reptomancer enemy was receiving the Ascension 18 boost at Ascension 17.
+BUG FIX: The Flight daily mod now properly works with controllers.
+BUG FIX: Top Panel heal effect will no longer play when enemies heal or gain max HP.
+BUG FIX: Wheel of Change event no longer makes you stuck if the only removable cards in your deck are bottled.
+UX: Philosopher's Stone wording improvements.
+UX: Can now open the Settings menu while in special card obtaining screens like from Calling Bell or All Star daily mod.
+LOC: Updates for DEU, EPO, ITA, KOR, POL, RUS, ZHS, and ZHT.
+LOC: Updating credits for RUS, and ZHS.
+
+11-01-2018
+GAMEPLAY: Removing the Colossus mod to be reworked.
+BUG FIX: Added logic to remove the Strike tip from Pandora's box (attempt 2).
+BUG FIX: Bonfire Spirits event now works if the only remaining cards are bottled.
+BUG FIX: Capitalization fix: Jack Of All Trades -> Jack of All Trades.
+BUG FIX: Certain enemies no longer gain extra strength when removing Piercing Wail or Dark Shackles from themselves.
+BUG FIX: Electrodynamics' passively triggered Orbs now resolve in the correct order and flash the orbs
+BUG FIX: Fixed issue where Bottled icon wasn't showing in card upgrade screens. 
+BUG FIX: Fixed issue where Dagger Spray VFX wasn't spawning in the right spot for some resolutions. 
+BUG FIX: Fixed issue where Maw enemy was considered elite in the back end.
+BUG FIX: Fixed issue where relic outlines were rendered twice in reward screens.
+BUG FIX: Fixed issue where seeds stopped working after completing a run until restarting client.
+BUG FIX: Fixed several events modifying eventRNG values, causing future events to be inconsistent.
+BUG FIX: Fixing some errors with event logging in Run History.
+BUG FIX: Gold Shrine was logging an incorrect amount of gold received on A15+ for Run History.
+BUG FIX: Grammar: Aside -> Beside for Black Star's flavor text.
+BUG FIX: Insanity and Diverse mods now work together.
+BUG FIX: Resolution fallback now affects Fullscreen only, allowing higher resolutions for vertical multi-monitor setups.
+BUG FIX: Shiny mod and Diverse now work together correctly.
+BUG FIX: The Lab event now shows up correctly in the Run History.
+LOC: Adding a name to DEU credits.
+LOC: Updates for DEU, EPO, FRA, IND, ITA, JPN, KOR, POL, RUS, SPA, ZHS, and ZHT.
+LOC: Updating REFERENCES.txt
+PERF: Compressing various over-the-shoulder and character corpse assets.
+PERF: Removed various unused assets.
+UX: Adjust margin for run history's path elements to match relics and cards.
+UX: Blizzard VFX is now cast on the left side during a Surrounded combat with only the left enemy remaining.
+UX: Checkbox to view upgrade in single card view is now much larger.
+UX: Thousand Cuts power' now displays its VFX faster (0.25s -> 0.2s and 0.25s -> 0.1s FAST MODE).
+VFX: Blizzard gets improved size, velocity, and SFX pitch scaling logic (now up to 50 Frost). 
+VFX: Improved Dagger Spray VFX readability and no longer flashes a sprite for 1 frame at the start.
+
+10-25-2018v2
+BUG FIX: Fixed issue where incorrect RNG was utilized to create reward cards.
+BUG FIX: Fixed issue where daily scores weren't uploading.
+
+10-25-2018
+ART: Adding a hit react animation for the Ironclad.
+ART: Adding an updated idle animation for the Ironclad.
+ART: Adding VFX for Blizzard Card (scales with Frost channeled).
+ART: Ironclad's combat sprite updated (more color and contrast).
+ART: Updating VFX for Searing Blow card (now scales with upgrade count).
+GAMEPLAY: Council of Ghosts event now only gives 3 Apparition on Ascension 15+.
+GAMEPLAY: Prismatic Shard now sets your max orbs to 1 only if you have 0 max orbs and you aren't the Defect.
+GAMEPLAY: Smiling Mask relic will no longer spawn on Hoarder daily mod.
+GAMEPLAY: Standard Runs with set seeds now always give you Neow's Blessing.
+GAMEPLAY: Wing Boots relic will no longer spawn on Certain Future daily mod.
+UX: Adding 0.1s animation blend between Hit and Idle animations for Ironclad, Silent, and Defect. 
+UX: Closing out of a Card Reward screen using controller will now reset your selection position for combat reward screens, hand position, etc.
+UX: Custom mods no longer have overlapping hitboxes, this allowed the player to select two at once.
+UX: Evoking Orbs is now 0.15s faster per orb in Fast Mode.
+UX: The Silent's idle animation speed is slowed by 10%.
+UX: Updated description for Preserved Insect for clarity.
+BUG FIX: Adding more information to bottled card saves to prevent incorrect card being bottled when loading a save.
+BUG FIX: Defect and The Silent unlocks now reuse existing character instances.
+BUG FIX: Fix for a scenario which upgrading cards affected by Snecko Eye would sometimes give negative cost cards.
+BUG FIX: Fixed a memory leak whenever player returned to the main menu.
+BUG FIX: Fixed bug where playing Mayhem card would alter your card rewards.
+BUG FIX: Fixed issue where displayed seed value was calculated every frame.
+BUG FIX: Fixed issue where Neow did not give anything to players who first encountered her.
+BUG FIX: Fixed issue where seeded runs allowed ascension unlocks and uploading to leaderboards.
+BUG FIX: Fixed issue where The Specimen's Poison transfer failed if the target died before the transfer.
+BUG FIX: Fixed issue where True Grit card was not behaving correctly with seeded runs.
+BUG FIX: Fixing issues with Writhing Mass displaying the incorrect intent on turn 1.
+BUG FIX: Game now handles monitor resolution changes more gracefully.
+BUG FIX: Mind Bloom event combat now correctly gives appropriate gold for the battle.
+BUG FIX: Poison transfer target for The Specimen is now seeded random. 
+BUG FIX: Random Curse generating effects were marking the wrong curse as seen in the card library.
+BUG FIX: Reboot and Deep Breath cards no longer trigger shuffle-based relics twice.
+BUG FIX: Relics with counters like Pen Nib and Girya no longer display the counter offset incorrectly when the player has too many relics.
+BUG FIX: Thank you message in the credits was appearing at the wrong time.
+BUG FIX: The discard pile will no longer incorrectly shuffle into the draw pile when having a full hand prevents all of the card draw.
+BUG FIX: Typo fixed in Colossus mod's name (extra space)
+BUG FIX: Typo fixed in We Meet Again event.
+BUG FIX: Updated energy orb rendering logic on cards to scale properly for high res monitors.
+BUG FIX: Vintage modifier now correctly drops cards on bosses.
+MODDING: Fusion card works better for modders now
+PERF: Removed rendundant dungeon scene foreground rendering.
+LOC: Updates for DEU, EPO, ITA, KOR, POL, RUS, SPA, TUR, ZHS, and ZHT.
+
+10-18-2018
+ART: Adding VFX for Adrenaline card.
+ART: Adding VFX for Grand Finale card.
+ART: Adding VFX for Offering card.
+ART: Adding VFX for Rainbow card.
+ART: Adding VFX for Searing Blow card.
+ART: Adding VFX for Spit Web attack by Louse enemy.
+ART: Adding VFX for Whirlwind card.
+ART: The Defect gets a hit react animation.
+ART: The Silent gets a hit react animation.
+ART: The Silent gets an updated idle animation.
+BUG FIX: Energy orb now rotates at fast speed when it has energy.
+BUG FIX: Feed now correctly works on the Awakened One when it is in its second form.
+BUG FIX: Fix for proper behavior when duplicating cards like Rampage and Genetic Algorithm with effects like Echo Form.
+BUG FIX: Fix for Saving and Loading on Elites in event rooms with Deadly Events mod.
+BUG FIX: Fixed issue where health bar of bosses remain after they're defeated.
+BUG FIX: Fixed issue where Transient had HP/damage buffs at incorrect Ascension levels.
+BUG FIX: Fixed punctuation in Augmenter event.
+BUG FIX: Fixed various save bugs when saving and loading at Neow.
+BUG FIX: Hitting ESC with Singing Bowl no longer automatically chooses the Singing Bowl option on card select screens.
+BUG FIX: Hitting ESC with Singing Bowl when viewing an upgraded card in a reward screen no longer causes softlock.
+BUG FIX: Preserved Insect and Sling should now work in all elite combats including elite battles from events (like dead adventurer event).
+BUG FIX: Purchasing Bottle relics after removing the last possible card to bottle out of your deck will no longer softlock.
+BUG FIX: The Bomb card's buff icon now correctly displays numbers in blue.
+BUG FIX: The game is no longer stuck in a continue/abandon loop after changing slots and winning a run.
+BUG FIX: When viewing old run histories of runs with Brewmaster, the game will no longer crash.
+CONTENT: A horde of Jaw Worms can now be encountered in Act 3.
+CONTENT: A Writhing Mass wriggles into Act 3.
+CONTENT: Adding a Neow blessing: Obtain 2 random uncommon colorless cards + 1 downside.
+CONTENT: Adding a Neow blessing: Obtain a random uncommon colorless card.
+GAMEPLAY: Ascension 16 shop price increase lowered from +15% -> +10%.
+GAMEPLAY: Colorless cards price decrease. 1.3x -> 1.2x price compared to regular cards.
+GAMEPLAY: Deflect+ card buff: 6 -> 7 Block.
+GAMEPLAY: Double Orb Walker elite encounter removed from the game.
+GAMEPLAY: Experimenting with how Neow reacts to the player not reaching the boss.
+GAMEPLAY: Good Instincts card buff: 4 -> 5 Block. Good Instincts+: 7 -> 8 Block.
+GAMEPLAY: Grand Finale card buff: 40 -> 50 damage. Grand Finale+: 50 -> 60 damage.
+GAMEPLAY: Hand Of Greed card buff: 15 -> 20 damage. Hand of Greed+: 20 -> 25 damage.
+GAMEPLAY: Reptomancer and her daggers receives various buffs and is now an Elite encounter.
+GAMEPLAY: Reptomancer's heal move is replaced by a high damage attack.
+GAMEPLAY: Swift Strike card buff: 5 -. 6 damage. Swift Strike+ buff: 8 -> 9 damage.
+GAMEPLAY: The Bomb+ card buff: 36 -> 40 damage.
+GAMEPLAY: The Mysterious Sphere event in Act 3 now uses the Double Orb Walker combat.
+LOC: Updates for DEU, EPO, IND, ITA, KOR, POL, RUS, SPA, UKR, ZHS, ZHT.
+LOC: Updating POL credits.
+UX: Forethought card wording improvements.
+UX: Heart icon in top panel now pulses if HP < 25%.
+UX: Improved performance for text rendering. (Greatly reduces idle CPU load)
+UX: Purity card wording improvements.
+UX: Run History can now show what happened in events. (Only for future runs)
+UX: Run History path now displays 1 Act per row.
+UX: Sped up boss death timings in fast mode.
+UX: When the Colossus daily mod is active, enemies are rendered 30% larger.
+UX: When using Preserved Insect, affected enemies are rendered 30% smaller. 
+UX: Whenever the player heals, the heart icon in top panel now flashes green.
+
+10-11-2018
+UX: Midas mod wording made to be more consistent with Fusion Hammer relic.
+UX: Particle effects can now be disabled in the Settings. (disables environmental effects)
+BUG FIX: All Out Attack card's discards now utilize seeds.
+BUG FIX: Confusion power will now work on Curses and Status cards that have costs.
+BUG FIX: Defect's starting relic is marked as seen.
+BUG FIX: Diverse mod and Colorless Cards mod now can correctly work together in Custom Mode and Dailies.
+BUG FIX: Draw Pile no longer indicates that it is a shuffled view order when viewing it with Frozen Eye.
+BUG FIX: Fix a bug where setting a card's cost to 0 wouldn't work on 0 cost cards.
+BUG FIX: Fix for colorless cards appearing too frequently for Colorless Cards mod.
+BUG FIX: Fixed exploit that allowed player to circumvent hand card confirmations (like Survivor).
+BUG FIX: Fixed issue that made enemies more common in ? rooms since some new mods were introduced.
+BUG FIX: Fixed Run History screen crash if the run contained 0 relics.
+BUG FIX: Fixes for how Eviscerate incorrectly worked with cost reduction effects like Enlightenment.
+BUG FIX: Flight's power description now correctly resets at the start of turn.
+BUG FIX: Neow max HP gain and take damage option no longer overlap (dealt lots of damage).
+BUG FIX: Neow's transform options now utilize seeds.
+BUG FIX: Some events like Pleading Vagrant did not correctly remove remaining event choices when selecting the leave option.
+LOC: Improvements for rendering energy orbs and icons for JPN, ZHS, and ZHT (notable Run History)
+LOC: Updates for DEU, EPO, ITA, KOR, RUS, SPA, UKR, ZHS, ZHT.
+
+10-04-2018v2
+BUG FIX: Fixed a save incompatibility crash for some custom runs.
+BUG FIX: Certain score bonuses and achievements are no longer checked when beating the first final boss on Ascension 20, but correctly check after the second final boss is defeated.
+BUG FIX: Curl Up power on Louse was displaying incorrect text.
+BUG FIX: Red Skull relic now correctly loses bonus strength when healing above 50% HP.
+BUG FIX: Timer no longer stops on beating the first final boss on Ascension 20.
+UX: Reverting wording for cards, powers, relics: At the start of each turn -> At the start of your turn due to feedback.
+WORDING: Frozen Core description coloring is now consistent with other starter replacement boss relics.
+WORDING: Improving consistency for Flame Barrier and Thorns wording.
+
+10-04-2018
+BUG FIX: Adding controller support for Wing Boots relic map navigation.
+BUG FIX: Bonfire Spirits event now correctly handles offering them a card with the Special rarity (like Bite, or Apparition).
+BUG FIX: Colorless Cards mod now correctly interacts with shops. Prevents Courier causing cards to appear in incorrect places on the shop screen.
+BUG FIX: Corruption and other cost reducing cards no longer make X cost cards like Transmutation and Malaise display cost 0.
+BUG FIX: Diverse mod and Red/Green/Blue mods in custom mode now exclude each other when choosing them.
+BUG FIX: Effects that trigger on damage like Masterful Stab now interacts properly with damage prevention effects like Buffer.
+BUG FIX: Fix for crash caused when entering the DAILYMODS seed.
+BUG FIX: Fix for issues caused by using the Sealed Deck mod several times in a row.
+BUG FIX: Fixed an exploit that allowed playing the same card multiple times using controller or keyboard.
+BUG FIX: Gremlin Wheel event no longer causes you to get stuck if you have no cards to remove.
+BUG FIX: If you have nothing to offer the Bonfire Spirits, the game will no longer crash. The Spirits will just be sad.
+BUG FIX: Keyboard confirm button now works in card selection screens (like choosing what to discard).
+BUG FIX: Mushroom event now correctly shows card preview for Parasite curse.
+BUG FIX: Saving and Loading with Membership Card relic no longer generates a new map.
+CONTENT: New Custom Mod - Daily Mods. Allows starting a run with 3 random daily mods.
+CONTENT: New Daily Mod - Colossus. Enemies have bonus HP but drop better rewards.
+CONTENT: New Daily Mod - Controlled Chaos. Start with Frozen Eye. At the start of your turn, add 10 random cards to the bottom of your draw pile.
+CONTENT: New Daily Mod - Deadly Events. ? Rooms can now contain Elites but Treasure room chance is increased.
+GAMEPLAY: All sources of random temporary card generation in combat (like Dead Branch) can no longer generate cards that provide healing.
+GAMEPLAY: Augmenter event transform option now allows choosing 2 cards to Transform instead of selecting 3 at random.
+GAMEPLAY: Book of Stabbing enemy on Ascension 18+ now does a single stab sometimes, but still increases its multi-stab count.
+GAMEPLAY: Brimstone relic buffed. Now gives the player 2 Strength and enemies 1 Strength.
+GAMEPLAY: Meal Ticket relic buff: Heals 7 HP -> 10 HP.
+GAMEPLAY: Membership Card relic nerf: Only applies a discount now.
+LOC: '.' can now be localized (for Asian languages) and fixes issues where those languages used an english '.'.
+LOC: Mutagenic Strength, Meal Ticket, and Abacus now support more flexible descriptions.
+LOC: Updates for DEU, EPO, IND, ITA, JPN, KOR, RUS, SPA, ZHS, ZHT.
+UX: 250+ Consistency and wording improvements for cards, powers, relics, and events.
+UX: New tip added to indicate that healing cards cannot be generated randomly during combat.
+
+09-27-2018v2
+ART: Adding icon for Blue cards mod.
+ART: Adding icon for Colorless cards mod.
+ART: Adding icon for Flight mod.
+ART: Adding icon for Green cards mod.
+ART: Adding icon for Red cards mod.
+ART: Adding icon for Sealed Deck mod.
+BUG FIX: Red/Green/Blue/Colorless Daily mods will now correctly work on Daily and Custom modes.
+
+09-27-2018
+ART: Adding icon for Chimera Daily Mod.
+BUG FIX: Can no longer skip cards when choosing a card via Discovery.
+BUG FIX: Fixed issue where bottled relic UI caused a memory leak on the deck view screen.
+BUG FIX: Fixed issue where items restocked via Courier weren't applied discounts.
+BUG FIX: Fixed issue where loading a save after beating a boss you have never seen before would crash.
+BUG FIX: In Custom Mode, fixed issue where Ascension was on if not set to level 0. (Even if toggled off)
+BUG FIX: Mind Bloom event now correctly shows curse previews for its event options.
+BUG FIX: Viewing a relic popup no longer has memory leaks.
+CONTENT: Colorless Cards Mod is now a Daily Mod.
+CONTENT: New Daily & Custom Mod - Careless.
+CONTENT: New Daily & Custom Mod - Chimera.
+CONTENT: New Daily & Custom Mod - Flight.
+CONTENT: New Daily & Custom Mod - Sealed Deck.
+CONTENT: Red/Green/Blue Cards Mod are now Daily Mods.
+GAMEPLAY: A Daily Climb now always consists of a card-related mod, system changing mod, and a difficulty altering mod.
+GAMEPLAY: Prismatic Shard now gives 1 empty orb slot to non-Defect characters.
+GAMEPLAY: Prismatic Shard relic no longer spawns when the Diverse daily is activated.
+GAMEPLAY: Removed Brewmaster mod.
+GAMEPLAY: Specialized daily mod now allow cards of any rarity.
+LOC: Updates for DEU, EPO, FRA, IND, ITA, KOR, RUS, ZHS, and ZHT.
+PERF: Large relic assets are no longer pre-loaded, slightly increasing load times.
+UX: Bottled relic images in deck view screen now scale with the card scaling.
+UX: Reducing the volume of the card draw SFX from 70% -> 25%.
+UX: Removing card hover SFX from the game.
+
+09-20-2018
+ART: Updating icon for Amplify power.
+ART: Updating icon for Berserk power.
+ART: Updating icon for Brutality power.
+ART: Updating icon for Burst power.
+ART: Updating icon for Curl Up power.
+ART: Updating icon for Double Damage power.
+ART: Updating icon for Double Tap power.
+ART: Updating icon for Envenom power.
+ART: Updating icon for Infinite Blades power.
+ART: Updating icon for Intangible power.
+ART: Updating icon for Juggernaut power.
+ART: Updating icon for Magnetism power.
+ART: Updating icon for Malleable power.
+ART: Updating icon for Nightmare power.
+ART: Updating icon for No Block power.
+ART: Updating icon for Noxious Fumes power.
+ART: Updating icon for Panache power.
+ART: Updating icon for Pen Nib power.
+ART: Updating icon for Phantasmal Killer power.
+ART: Updating icon for Rupture power.
+ART: Updating icon for Sadistic power.
+ART: Updating icon for Shifting power.
+ART: Updating icon for Slow power.
+ART: Updating icon for Thousand Cuts power.
+ART: Updating icon for Tools of the Trade power.
+AUDIO: Adding ambient SFX for Living Wall event. 
+AUDIO: Adding ambient SFX for Mausoleum event. 
+AUDIO: Adding ambient SFX for Sensory Stone event.
+AUDIO: Adding ambient SFX for Sssserpent event.
+AUDIO: Adding ambient SFX for Winding Halls event.
+AUDIO: Adding ambient SFX to Council of Ghosts event.
+AUDIO: Adding ambient sounds for N'Loth event.
+AUDIO: Adding page turn SFX to Cursed Tome event.
+AUDIO: Adding SFX for Book of Stabbing attacks.
+AUDIO: Adding SFX for Byrd peck attack.
+AUDIO: Adding SFX for card draw. This is a commonly used, let us know what you think!
+AUDIO: Adding SFX for hovering cards in draw, discard, grid select, and view deck screens.
+AUDIO: Adding SFX for Poison Power.
+AUDIO: Adding SFX for Snecko's glare. 
+AUDIO: Adding SFX for Whirlwind card + Guardian enemy.
+AUDIO: Adding SFX when extinguishing torches in Act 1.
+AUDIO: Adding special BGM when fighting a boss via Mind Bloom event.
+AUDIO: Updating SFX for Awakened One's pounce attack.
+AUDIO: Updating SFX for Bronze Automaton summoning an Orb.
+AUDIO: Updating SFX for card exhaust.
+AUDIO: Updating SFX for Champ charging up.
+AUDIO: Updating SFX for Champ Slap.
+AUDIO: Updating SFX for Collector Debuff and Summon.
+AUDIO: Updating SFX for Confusion Power.
+AUDIO: Updating SFX for Constricted Power.
+AUDIO: Updating SFX for Dexterity Power.
+AUDIO: Updating SFX for Donu Buff.
+AUDIO: Updating SFX for Entangle Power.
+AUDIO: Updating SFX for Flame Barrier Power.
+AUDIO: Updating SFX for Flight and Focus Powers.
+AUDIO: Updating SFX for Guardian Destroy dialog. 
+AUDIO: Updating SFX for Metallicize Power.
+AUDIO: Updating SFX for Piercing Wail.
+AUDIO: Updating SFX for Plated Armor Power.
+AUDIO: Updating SFX for Slimed Attack.
+AUDIO: Updating SFX for Time Warp Power.
+AUDIO: Updating SFX for Vampire Bite.
+BUG FIX: Added loc support for two more deprecated encounters in the run history screen.
+BUG FIX: Date toggle arrows for DailyScreen are now positioned dynamically based on the length of the date text.
+BUG FIX: Fix for Berserk card crash.
+BUG FIX: Fixed case where a card's keyword tips appeared without hovering when drawing cards.
+BUG FIX: Fixed issue where Lagavulin would come out of its shell with Neow's Lament or Preserved Insect.
+BUG FIX: Fixed issue where sound settings were loaded several times.
+BUG FIX: Fixed issue where upgraded card from Warped Tongs wasn't showing the correct value if you had Strength/Dexterity.
+BUG FIX: Fixed Ritual Dagger card portrait shape.
+BUG FIX: Hand of Greed card now gives gold instantly, rather than through VFX (triggered Bloody Idol).
+BUG FIX: Orb VFX no longer render in the background of the Colosseum event.
+BUG FIX: Updating anti-dupe logic for card rewards for Prismatic Shard relic.
+LOC: Languages that wrap via character (ZHS, ZHT, JPN) now support TAB spacing in certain areas. (Run History)
+LOC: Updates for DEU, EPO, FRA, IND, ITA, JPN, KOR, RUS, SPA, ZHS, and ZHT.
+LOC: Updating SPA credits.
+UX: Adding a used up image for Wing Boots relic.
+UX: Adding a VFX for when your turn ends due to Time Warp power.
+UX: Adding card, potion, relic, and heart icons that can appear in tips now. Used on Run History screen. 
+UX: Equilibrium Power's icon is now the same as Retain Power (used icon for Blur previously).
+UX: Sentry elite enemies attack and debuff faster in Fast Mode now.
+UX: Update for Warped Tongs relic description to infer non-permanent upgrade.
+UX: Using more noticable flashy VFX for cards upgraded via Armaments or Warped Tongs.
+
+09-06-2018
+AUDIO: 2 more SFX for Awakened One's attacks.
+AUDIO: Added additional SFX for Byrd's peck attack.
+AUDIO: Added SFX for Minion spawn and Debuff attack for the Collector.
+AUDIO: Adding an additional Orb spawn SFX.
+AUDIO: Adding SFX for Byrd cawing.
+AUDIO: Adding SFX for Champ's Slap.
+AUDIO: Adding SFX to Donu's buff.
+AUDIO: Champ gets a new SFX when charging up.
+BUG FIX: Colosseum Nobs no longer play double music. 
+BUG FIX: Deprecated Flame Bruiser enemy now appears for Run History screen.
+BUG FIX: Fixed bug causing block to maintain between colosseum combats.
+BUG FIX: Fixed Smoke Bomb and Colosseum bug that caused the player to go invisible. 
+BUG FIX: Killing a Colosseum Nob no longer causes the music to stop.
+BUG FIX: Red Skull relic should now correctly deactivate when healing in all scenarios.
+BUG FIX: Reptomancer enemy was sometimes not spawning new daggers.
+BUG FIX: Run History Screen now correctly uses localized monster names for what killed you. 
+BUG FIX: The word 'exhausts' now shows the Exhaust hover tip (Blue Candle, etc).
+CONTENT: New Common Relic: Preserved Insect.
+CONTENT: New Event Relic: Warped Tongs.
+CONTENT: New Rare Relic: Fossilized Helix.
+CONTENT: New Rare Relic: Pocketwatch.
+CONTENT: New Rare Relic: Winged Greaves.
+CONTENT: New Shop Relic: Brimstone.
+CONTENT: New Shop Relic: Prismatic Shard.
+GAMEPLAY: Accursed Blacksmith reworked to give you a unique event relic rather than a random relic.
+GAMEPLAY: Accursed Blacksmith's curse penalty reduced from Normality -> Pain.
+GAMEPLAY: Fission now costs 0.
+GAMEPLAY: Fission+ now Evokes all orbs rather than removing.
+LOC: Update for SPA credits.
+LOC: Updates for DEU, EPO, IND, ITA, JPN, KOR, SPA, ZHS, ZHT.
+LOCALIZATION: Monsters fought and event encountered in run history screen is now localized and using proper naming.
+UX: Ascension level choosing in custom mode now allows looping around to choose your ascension level quicker.
+UX: Character select screen will now remember your last Ascension level for a character unless you have just unlocked a new Ascension level.
+WORDING: Fixed naming on N'Loth's Hungry Face to be consistent with other usages of N'Loth's name.
+WORDING: Several consistency improvements to event choice wording.

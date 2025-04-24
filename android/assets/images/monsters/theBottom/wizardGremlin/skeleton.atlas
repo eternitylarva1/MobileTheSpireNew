@@ -1,0 +1,90 @@
+
+skeleton.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/armleft
+  rotate: true
+  xy: 305, 8
+  size: 27, 55
+  orig: 27, 55
+  offset: 0, 0
+  index: -1
+images/armright
+  rotate: true
+  xy: 169, 2
+  size: 16, 74
+  orig: 16, 74
+  offset: 0, 0
+  index: -1
+images/body
+  rotate: true
+  xy: 169, 20
+  size: 41, 95
+  orig: 41, 95
+  offset: 0, 0
+  index: -1
+images/eyelids
+  rotate: false
+  xy: 447, 23
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+images/eyes
+  rotate: false
+  xy: 245, 2
+  size: 46, 16
+  orig: 46, 16
+  offset: 0, 0
+  index: -1
+images/fingers
+  rotate: true
+  xy: 293, 14
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+images/head
+  rotate: true
+  xy: 266, 25
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+images/horns
+  rotate: false
+  xy: 362, 9
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+images/leftleg
+  rotate: false
+  xy: 486, 20
+  size: 15, 41
+  orig: 15, 41
+  offset: 0, 0
+  index: -1
+images/rightleg
+  rotate: true
+  xy: 404, 22
+  size: 13, 41
+  orig: 13, 41
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 305, 37
+  size: 179, 24
+  orig: 179, 24
+  offset: 0, 0
+  index: -1
+images/staff
+  rotate: false
+  xy: 2, 4
+  size: 165, 57
+  orig: 165, 57
+  offset: 0, 0
+  index: -1

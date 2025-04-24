@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/arm
+  rotate: false
+  xy: 2, 2
+  size: 56, 27
+  orig: 56, 27
+  offset: 0, 0
+  index: -1
+images/body
+  rotate: false
+  xy: 2, 116
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+images/jaw
+  rotate: false
+  xy: 2, 31
+  size: 129, 37
+  orig: 129, 37
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 2, 70
+  size: 270, 44
+  orig: 270, 44
+  offset: 0, 0
+  index: -1
+images/shoulder
+  rotate: true
+  xy: 260, 147
+  size: 45, 28
+  orig: 45, 28
+  offset: 0, 0
+  index: -1
+images/tentacleback
+  rotate: false
+  xy: 260, 194
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+images/tentaclemid
+  rotate: false
+  xy: 133, 35
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1

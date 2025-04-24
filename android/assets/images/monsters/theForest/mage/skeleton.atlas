@@ -1,0 +1,104 @@
+
+snakeMage.png
+size: 519,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 273, 60
+  size: 80, 118
+  orig: 80, 118
+  offset: 0, 0
+  index: -1
+eyes_closed
+  rotate: false
+  xy: 354, 6
+  size: 29, 15
+  orig: 29, 15
+  offset: 0, 0
+  index: -1
+hair_bg
+  rotate: true
+  xy: 69, 18
+  size: 16, 42
+  orig: 16, 42
+  offset: 0, 0
+  index: -1
+hair_fg
+  rotate: false
+  xy: 449, 55
+  size: 35, 85
+  orig: 35, 85
+  offset: 0, 0
+  index: -1
+hat_bg
+  rotate: false
+  xy: 486, 72
+  size: 31, 68
+  orig: 31, 68
+  offset: 0, 0
+  index: -1
+hat_fg
+  rotate: true
+  xy: 393, 55
+  size: 85, 54
+  orig: 85, 54
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 354, 23
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+left-leg
+  rotate: true
+  xy: 2, 36
+  size: 104, 116
+  orig: 104, 116
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 292, 6
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1
+left_forearm
+  rotate: true
+  xy: 486, 7
+  size: 63, 27
+  orig: 63, 27
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 2, 2
+  size: 65, 32
+  orig: 65, 32
+  offset: 0, 0
+  index: -1
+right_forearm
+  rotate: true
+  xy: 389, 11
+  size: 42, 70
+  orig: 42, 70
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: true
+  xy: 120, 60
+  size: 80, 151
+  orig: 80, 151
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 120, 9
+  size: 170, 49
+  orig: 170, 49
+  offset: 0, 0
+  index: -1

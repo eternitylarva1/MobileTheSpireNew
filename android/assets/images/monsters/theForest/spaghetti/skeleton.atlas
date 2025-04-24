@@ -1,0 +1,69 @@
+
+writhingMass.png
+size: 644,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgColor
+  rotate: true
+  xy: 70, 209
+  size: 318, 262
+  orig: 318, 262
+  offset: 0, 0
+  index: -1
+centerEye
+  rotate: false
+  xy: 213, 120
+  size: 94, 87
+  orig: 94, 87
+  offset: 0, 0
+  index: -1
+innerMass
+  rotate: true
+  xy: 70, 63
+  size: 144, 141
+  orig: 144, 141
+  offset: 0, 0
+  index: -1
+leftEye
+  rotate: true
+  xy: 608, 172
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+leftMass
+  rotate: false
+  xy: 334, 256
+  size: 306, 271
+  orig: 306, 271
+  offset: 0, 0
+  index: -1
+rightEye
+  rotate: true
+  xy: 608, 204
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+rightMass
+  rotate: true
+  xy: 334, 28
+  size: 226, 272
+  orig: 226, 272
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 24
+  size: 503, 66
+  orig: 503, 66
+  offset: 0, 0
+  index: -1
+topEye
+  rotate: true
+  xy: 70, 2
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1

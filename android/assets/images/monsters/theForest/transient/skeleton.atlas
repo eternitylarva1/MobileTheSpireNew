@@ -1,0 +1,62 @@
+
+transient.png
+size: 902,154
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: true
+  xy: 309, 4
+  size: 31, 105
+  orig: 31, 105
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 820, 11
+  size: 80, 141
+  orig: 80, 141
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 572, 10
+  size: 133, 142
+  orig: 133, 142
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: true
+  xy: 400, 37
+  size: 115, 170
+  orig: 115, 170
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 707, 27
+  size: 111, 125
+  orig: 111, 125
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: true
+  xy: 223, 37
+  size: 115, 175
+  orig: 115, 175
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 305, 32
+  orig: 305, 32
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 2, 36
+  size: 116, 219
+  orig: 116, 219
+  offset: 0, 0
+  index: -1

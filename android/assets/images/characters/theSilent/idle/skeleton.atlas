@@ -1,0 +1,104 @@
+
+theSilent.png
+size: 468,201
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 413, 105
+  size: 53, 94
+  orig: 53, 94
+  offset: 0, 0
+  index: -1
+cape_left
+  rotate: false
+  xy: 2, 34
+  size: 157, 165
+  orig: 157, 165
+  offset: 0, 0
+  index: -1
+cape_right
+  rotate: true
+  xy: 161, 2
+  size: 137, 155
+  orig: 137, 155
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 400, 129
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 125, 4
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 400, 24
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 2, 7
+  size: 25, 83
+  orig: 25, 83
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 361, 6
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 439, 30
+  size: 25, 21
+  orig: 25, 21
+  offset: 0, 0
+  index: -1
+kris
+  rotate: false
+  xy: 400, 53
+  size: 64, 50
+  orig: 64, 50
+  offset: 0, 0
+  index: -1
+neck_spine
+  rotate: true
+  xy: 87, 4
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 161, 141
+  size: 250, 58
+  orig: 250, 58
+  offset: 0, 0
+  index: -1
+skull
+  rotate: true
+  xy: 318, 24
+  size: 115, 80
+  orig: 115, 80
+  offset: 0, 0
+  index: -1
+tail_spine
+  rotate: false
+  xy: 318, 8
+  size: 41, 14
+  orig: 41, 14
+  offset: 0, 0
+  index: -1

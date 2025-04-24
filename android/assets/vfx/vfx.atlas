@@ -1,0 +1,803 @@
+
+vfx.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack/blunt_heavy
+  rotate: false
+  xy: 1546, 436
+  size: 196, 189
+  orig: 512, 512
+  offset: 157, 175
+  index: -1
+attack/blunt_light
+  rotate: false
+  xy: 1870, 1371
+  size: 135, 134
+  orig: 512, 512
+  offset: 198, 182
+  index: -1
+attack/fire
+  rotate: false
+  xy: 1427, 70
+  size: 194, 188
+  orig: 512, 512
+  offset: 170, 176
+  index: -1
+attack/poison
+  rotate: false
+  xy: 1656, 1557
+  size: 229, 206
+  orig: 512, 512
+  offset: 151, 154
+  index: -1
+attack/shield
+  rotate: false
+  xy: 1900, 669
+  size: 136, 153
+  orig: 512, 512
+  offset: 186, 178
+  index: -1
+attack/slash1
+  rotate: false
+  xy: 1267, 289
+  size: 227, 174
+  orig: 512, 512
+  offset: 148, 163
+  index: -1
+attack/slash2
+  rotate: false
+  xy: 1496, 260
+  size: 227, 174
+  orig: 512, 512
+  offset: 148, 163
+  index: -1
+attack/slash_heavy
+  rotate: false
+  xy: 1284, 627
+  size: 361, 195
+  orig: 512, 512
+  offset: 105, 169
+  index: -1
+attack/slash_horizontal
+  rotate: false
+  xy: 728, 17
+  size: 294, 35
+  orig: 512, 512
+  offset: 119, 238
+  index: -1
+attack/slash_light
+  rotate: false
+  xy: 1284, 465
+  size: 260, 160
+  orig: 512, 512
+  offset: 124, 175
+  index: -1
+attack/slash_vertical
+  rotate: false
+  xy: 1230, 308
+  size: 35, 294
+  orig: 512, 512
+  offset: 239, 119
+  index: -1
+blurRing
+  rotate: false
+  xy: 1744, 461
+  size: 189, 189
+  orig: 256, 256
+  offset: 34, 33
+  index: -1
+borderGlow
+  rotate: false
+  xy: 2, 1326
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+borderGlow2
+  rotate: false
+  xy: 2, 604
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+buffVFX1
+  rotate: false
+  xy: 1835, 2
+  size: 30, 29
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+buffVFX2
+  rotate: false
+  xy: 2026, 637
+  size: 20, 30
+  orig: 32, 32
+  offset: 5, 1
+  index: -1
+buffVFX3
+  rotate: false
+  xy: 1870, 1529
+  size: 23, 26
+  orig: 32, 32
+  offset: 4, 6
+  index: -1
+combat/battleStartSword
+  rotate: false
+  xy: 1144, 241
+  size: 84, 361
+  orig: 200, 400
+  offset: 58, 18
+  index: -1
+combat/biteBot
+  rotate: false
+  xy: 1230, 182
+  size: 195, 105
+  orig: 278, 278
+  offset: 40, 23
+  index: -1
+combat/biteTop
+  rotate: false
+  xy: 1570, 1226
+  size: 238, 131
+  orig: 278, 278
+  offset: 24, 128
+  index: -1
+combat/blurDot
+  rotate: false
+  xy: 1985, 347
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 1
+  index: -1
+combat/blurDot2
+  rotate: false
+  xy: 1774, 137
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+combat/blurDot3
+  rotate: false
+  xy: 2038, 1801
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+combat/blurWave
+  rotate: false
+  xy: 1024, 17
+  size: 126, 35
+  orig: 128, 128
+  offset: 1, 43
+  index: -1
+combat/corruption
+  rotate: false
+  xy: 1656, 1765
+  size: 267, 281
+  orig: 512, 512
+  offset: 129, 149
+  index: -1
+combat/defect/l_orb1
+  rotate: false
+  xy: 1623, 70
+  size: 101, 43
+  orig: 157, 45
+  offset: 28, 1
+  index: -1
+combat/defect/l_orb2
+  rotate: false
+  xy: 1925, 1791
+  size: 111, 43
+  orig: 157, 45
+  offset: 23, 1
+  index: -1
+combat/defect/l_orb3
+  rotate: false
+  xy: 1725, 249
+  size: 112, 42
+  orig: 157, 45
+  offset: 23, 1
+  index: -1
+combat/defect/l_orb4
+  rotate: false
+  xy: 1226, 64
+  size: 124, 41
+  orig: 157, 45
+  offset: 18, 2
+  index: -1
+combat/defect/l_orb5
+  rotate: false
+  xy: 1230, 143
+  size: 143, 37
+  orig: 157, 45
+  offset: 11, 3
+  index: -1
+combat/defect/l_orb6
+  rotate: false
+  xy: 1226, 107
+  size: 135, 34
+  orig: 157, 45
+  offset: 13, 6
+  index: -1
+combat/empowerCircle1
+  rotate: false
+  xy: 1838, 122
+  size: 56, 56
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+combat/empowerCircle2
+  rotate: false
+  xy: 1835, 33
+  size: 39, 39
+  orig: 64, 64
+  offset: 13, 12
+  index: -1
+combat/flame4
+  rotate: false
+  xy: 2006, 1064
+  size: 29, 78
+  orig: 128, 128
+  offset: 48, 5
+  index: -1
+combat/flame5
+  rotate: false
+  xy: 1843, 290
+  size: 75, 119
+  orig: 128, 128
+  offset: 46, 8
+  index: -1
+combat/flame6
+  rotate: false
+  xy: 2007, 1388
+  size: 36, 117
+  orig: 128, 128
+  offset: 50, 1
+  index: -1
+combat/flask
+  rotate: false
+  xy: 1152, 151
+  size: 76, 88
+  orig: 128, 128
+  offset: 27, 21
+  index: -1
+combat/lightning
+  rotate: false
+  xy: 1284, 1214
+  size: 284, 832
+  orig: 300, 850
+  offset: 8, 18
+  index: -1
+combat/moveNameBg
+  rotate: false
+  xy: 1744, 411
+  size: 169, 48
+  orig: 199, 60
+  offset: 14, 5
+  index: -1
+combat/orbFlareInner
+  rotate: false
+  xy: 2006, 992
+  size: 22, 70
+  orig: 96, 96
+  offset: 37, 13
+  index: -1
+combat/orbFlareOuter
+  rotate: false
+  xy: 2006, 1144
+  size: 40, 95
+  orig: 96, 96
+  offset: 28, 1
+  index: -1
+combat/spike
+  rotate: false
+  xy: 1427, 38
+  size: 128, 30
+  orig: 128, 128
+  offset: 0, 49
+  index: -1
+combat/spike2
+  rotate: false
+  xy: 1557, 38
+  size: 124, 30
+  orig: 256, 128
+  offset: 128, 49
+  index: -1
+combat/stake
+  rotate: false
+  xy: 1925, 1836
+  size: 120, 210
+  orig: 256, 256
+  offset: 68, 5
+  index: -1
+combat/stance/eye0
+  rotate: false
+  xy: 1895, 1214
+  size: 62, 25
+  orig: 64, 64
+  offset: 1, 18
+  index: -1
+combat/stance/eye1
+  rotate: false
+  xy: 1427, 261
+  size: 64, 26
+  orig: 64, 64
+  offset: 0, 18
+  index: -1
+combat/stance/eye2
+  rotate: false
+  xy: 1708, 117
+  size: 64, 32
+  orig: 64, 64
+  offset: 0, 16
+  index: -1
+combat/stance/eye3
+  rotate: false
+  xy: 1905, 242
+  size: 64, 38
+  orig: 64, 64
+  offset: 0, 13
+  index: -1
+combat/stance/eye4
+  rotate: false
+  xy: 1839, 245
+  size: 64, 43
+  orig: 64, 64
+  offset: 0, 10
+  index: -1
+combat/stance/eye5
+  rotate: false
+  xy: 1838, 74
+  size: 64, 46
+  orig: 64, 64
+  offset: 0, 9
+  index: -1
+combat/stance/eye6
+  rotate: false
+  xy: 1894, 192
+  size: 64, 48
+  orig: 64, 64
+  offset: 0, 8
+  index: -1
+combat/streak
+  rotate: false
+  xy: 2, 19
+  size: 724, 33
+  orig: 1024, 1024
+  offset: 109, 490
+  index: -1
+combat/strikeLine2
+  rotate: false
+  xy: 1402, 19
+  size: 122, 17
+  orig: 128, 128
+  offset: 2, 54
+  index: -1
+combat/strikeLine3
+  rotate: false
+  xy: 1647, 633
+  size: 37, 17
+  orig: 128, 128
+  offset: 45, 54
+  index: -1
+combat/tinyStar
+  rotate: false
+  xy: 1986, 315
+  size: 30, 30
+  orig: 32, 32
+  offset: 1, 1
+  index: -1
+combat/tinyStar2
+  rotate: false
+  xy: 1683, 33
+  size: 36, 35
+  orig: 48, 48
+  offset: 6, 7
+  index: -1
+combat/verticalAura
+  rotate: false
+  xy: 1895, 1507
+  size: 151, 256
+  orig: 256, 256
+  offset: 47, 0
+  index: -1
+combat/verticalImpact
+  rotate: false
+  xy: 1570, 1363
+  size: 84, 683
+  orig: 100, 702
+  offset: 8, 10
+  index: -1
+combat/weightyImpact
+  rotate: false
+  xy: 1647, 652
+  size: 251, 170
+  orig: 256, 256
+  offset: 5, 0
+  index: -1
+combat/wobblyLine
+  rotate: false
+  xy: 1935, 436
+  size: 67, 231
+  orig: 256, 256
+  offset: 101, 12
+  index: -1
+cone5
+  rotate: false
+  xy: 2, 88
+  size: 1139, 106
+  orig: 1140, 300
+  offset: 1, 97
+  index: -1
+cone6
+  rotate: false
+  xy: 2, 54
+  size: 1135, 32
+  orig: 1140, 100
+  offset: 5, 34
+  index: -1
+cone8
+  rotate: false
+  xy: 2, 196
+  size: 1140, 406
+  orig: 1140, 420
+  offset: 0, 7
+  index: -1
+copperCoin
+  rotate: false
+  xy: 1925, 1769
+  size: 25, 20
+  orig: 32, 32
+  offset: 3, 6
+  index: -1
+copperCoin2
+  rotate: false
+  xy: 1959, 1223
+  size: 25, 16
+  orig: 32, 32
+  offset: 3, 7
+  index: -1
+env/death1
+  rotate: false
+  xy: 1838, 180
+  size: 54, 63
+  orig: 64, 64
+  offset: 6, 1
+  index: -1
+env/death2
+  rotate: false
+  xy: 1726, 59
+  size: 53, 56
+  orig: 64, 64
+  offset: 9, 2
+  index: -1
+env/death3
+  rotate: false
+  xy: 1904, 81
+  size: 48, 53
+  orig: 64, 64
+  offset: 8, 5
+  index: -1
+env/death4
+  rotate: false
+  xy: 1218, 2
+  size: 64, 60
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+env/death5
+  rotate: false
+  xy: 1284, 3
+  size: 60, 59
+  orig: 64, 64
+  offset: 0, 4
+  index: -1
+env/death6
+  rotate: false
+  xy: 1781, 29
+  size: 52, 49
+  orig: 64, 64
+  offset: 9, 5
+  index: -1
+env/dust1
+  rotate: false
+  xy: 1900, 652
+  size: 11, 15
+  orig: 32, 32
+  offset: 6, 10
+  index: -1
+env/dust2
+  rotate: false
+  xy: 1352, 75
+  size: 9, 8
+  orig: 32, 32
+  offset: 2, 19
+  index: -1
+env/dust3
+  rotate: false
+  xy: 1725, 418
+  size: 17, 16
+  orig: 32, 32
+  offset: 10, 7
+  index: -1
+env/dust4
+  rotate: false
+  xy: 2, 4
+  size: 29, 13
+  orig: 32, 32
+  offset: 2, 9
+  index: -1
+env/dust5
+  rotate: false
+  xy: 2007, 1374
+  size: 18, 12
+  orig: 32, 32
+  offset: 5, 10
+  index: -1
+env/dust6
+  rotate: false
+  xy: 1986, 1226
+  size: 18, 13
+  orig: 32, 32
+  offset: 5, 12
+  index: -1
+env/dustCloud
+  rotate: false
+  xy: 1346, 2
+  size: 54, 57
+  orig: 64, 64
+  offset: 6, 3
+  index: -1
+env/fire1
+  rotate: false
+  xy: 1971, 262
+  size: 11, 18
+  orig: 32, 32
+  offset: 11, 7
+  index: -1
+env/fire2
+  rotate: false
+  xy: 1525, 436
+  size: 10, 27
+  orig: 32, 32
+  offset: 11, 1
+  index: -1
+env/fire3
+  rotate: false
+  xy: 2006, 968
+  size: 13, 22
+  orig: 32, 32
+  offset: 10, 2
+  index: -1
+env/lightFlare1
+  rotate: false
+  xy: 1896, 136
+  size: 55, 54
+  orig: 64, 64
+  offset: 6, 5
+  index: -1
+env/lightFlare2
+  rotate: false
+  xy: 1781, 80
+  size: 55, 55
+  orig: 64, 64
+  offset: 4, 5
+  index: -1
+env/smoke1
+  rotate: false
+  xy: 1920, 282
+  size: 64, 63
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+env/smoke2
+  rotate: false
+  xy: 1985, 379
+  size: 43, 55
+  orig: 64, 64
+  offset: 10, 1
+  index: -1
+env/smoke3
+  rotate: false
+  xy: 1375, 126
+  size: 50, 54
+  orig: 64, 64
+  offset: 7, 1
+  index: -1
+env/torch
+  rotate: false
+  xy: 1267, 574
+  size: 14, 28
+  orig: 64, 64
+  offset: 26, 9
+  index: -1
+eventBgParticle1
+  rotate: false
+  xy: 1810, 1214
+  size: 83, 143
+  orig: 104, 168
+  offset: 3, 13
+  index: -1
+eventBgParticle2
+  rotate: false
+  xy: 1623, 115
+  size: 83, 143
+  orig: 104, 168
+  offset: 3, 13
+  index: -1
+exhaust/bigBlur
+  rotate: false
+  xy: 1895, 1241
+  size: 123, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: -1
+exhaust/smallBlur
+  rotate: false
+  xy: 1363, 61
+  size: 62, 63
+  orig: 64, 64
+  offset: 1, 0
+  index: -1
+exhaust/wavy
+  rotate: false
+  xy: 1790, 137
+  size: 46, 110
+  orig: 128, 128
+  offset: 38, 9
+  index: -1
+glowSpark
+  rotate: false
+  xy: 1920, 347
+  size: 63, 87
+  orig: 110, 110
+  offset: 23, 11
+  index: -1
+glowSpark2
+  rotate: false
+  xy: 1143, 68
+  size: 81, 81
+  orig: 100, 100
+  offset: 10, 8
+  index: -1
+shine1
+  rotate: false
+  xy: 1152, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+shine2
+  rotate: false
+  xy: 1708, 151
+  size: 80, 96
+  orig: 128, 128
+  offset: 24, 18
+  index: -1
+shineLines
+  rotate: false
+  xy: 1496, 436
+  size: 27, 27
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+tinyOval
+  rotate: false
+  xy: 2038, 1811
+  size: 8, 23
+  orig: 32, 32
+  offset: 12, 5
+  index: -1
+ui/hammerImprint
+  rotate: false
+  xy: 1656, 1359
+  size: 212, 196
+  orig: 256, 256
+  offset: 22, 30
+  index: -1
+ui/impactLineThick
+  rotate: false
+  xy: 2004, 544
+  size: 20, 123
+  orig: 128, 128
+  offset: 54, 1
+  index: -1
+ui/p1
+  rotate: false
+  xy: 2037, 1129
+  size: 9, 13
+  orig: 32, 32
+  offset: 6, 4
+  index: -1
+ui/p2
+  rotate: false
+  xy: 1915, 437
+  size: 18, 22
+  orig: 32, 32
+  offset: 9, 5
+  index: -1
+ui/p3
+  rotate: false
+  xy: 1352, 85
+  size: 9, 20
+  orig: 32, 32
+  offset: 11, 5
+  index: -1
+ui/p4
+  rotate: false
+  xy: 1402, 41
+  size: 13, 18
+  orig: 32, 32
+  offset: 6, 4
+  index: -1
+ui/p5
+  rotate: false
+  xy: 2004, 524
+  size: 10, 18
+  orig: 32, 32
+  offset: 9, 6
+  index: -1
+ui/p6
+  rotate: false
+  xy: 1230, 289
+  size: 13, 17
+  orig: 32, 32
+  offset: 9, 7
+  index: -1
+ui/topDownFader
+  rotate: false
+  xy: 1284, 824
+  size: 720, 388
+  orig: 720, 396
+  offset: 0, 8
+  index: -1
+whiteRing
+  rotate: false
+  xy: 1725, 293
+  size: 116, 116
+  orig: 128, 128
+  offset: 6, 6
+  index: -1
+
+vfx2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+combat/cleave
+  rotate: false
+  xy: 2, 2
+  size: 964, 100
+  orig: 1024, 1024
+  offset: 13, 446
+  index: -1
+combat/laserThick
+  rotate: false
+  xy: 2, 207
+  size: 982, 146
+  orig: 1920, 213
+  offset: 938, 34
+  index: -1
+combat/laserThin
+  rotate: false
+  xy: 2, 104
+  size: 981, 101
+  orig: 1920, 156
+  offset: 934, 28
+  index: -1
+cone7
+  rotate: false
+  xy: 2, 355
+  size: 1058, 214
+  orig: 1140, 300
+  offset: 82, 43
+  index: -1
+cone9
+  rotate: false
+  xy: 2, 571
+  size: 1140, 352
+  orig: 1140, 420
+  offset: 0, 34
+  index: -1

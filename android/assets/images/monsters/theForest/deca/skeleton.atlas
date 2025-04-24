@@ -1,0 +1,48 @@
+
+Deca.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l
+  rotate: false
+  xy: 329, 368
+  size: 36, 111
+  orig: 36, 111
+  offset: 0, 0
+  index: -1
+arm_r
+  rotate: false
+  xy: 2, 2
+  size: 38, 107
+  orig: 38, 107
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 162
+  size: 325, 317
+  orig: 325, 317
+  offset: 0, 0
+  index: -1
+leg_l
+  rotate: false
+  xy: 42, 13
+  size: 37, 96
+  orig: 37, 96
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: false
+  xy: 367, 379
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 111
+  size: 316, 49
+  orig: 316, 49
+  offset: 0, 0
+  index: -1

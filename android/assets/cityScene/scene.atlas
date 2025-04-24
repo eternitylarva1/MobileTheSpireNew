@@ -1,0 +1,258 @@
+
+scene.jpg
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1016
+  orig: 1920, 1016
+  offset: 0, 0
+  index: -1
+
+scene2.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+campfire
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene3.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+event
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/bg1
+  rotate: false
+  xy: 2, 1200
+  size: 1920, 501
+  orig: 1920, 1136
+  offset: 0, 445
+  index: -1
+mod/ceiling
+  rotate: false
+  xy: 2, 994
+  size: 1920, 204
+  orig: 1920, 1136
+  offset: 0, 932
+  index: -1
+mod/fg
+  rotate: false
+  xy: 2, 344
+  size: 1920, 648
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+mod/fgGlow
+  rotate: false
+  xy: 2, 2
+  size: 1920, 340
+  orig: 1920, 1080
+  offset: 0, 64
+  index: -1
+
+scene2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/floor
+  rotate: false
+  xy: 2, 937
+  size: 1920, 460
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+mod/mg1
+  rotate: false
+  xy: 2, 2
+  size: 1920, 933
+  orig: 1920, 1136
+  offset: 0, 147
+  index: -1
+
+scene3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/bg1Glow
+  rotate: false
+  xy: 2, 2
+  size: 1861, 658
+  orig: 1920, 1136
+  offset: 59, 285
+  index: -1
+mod/mg2
+  rotate: false
+  xy: 2, 662
+  size: 1920, 914
+  orig: 1920, 1136
+  offset: 0, 166
+  index: -1
+
+scene4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/bg2
+  rotate: false
+  xy: 2, 2
+  size: 1280, 513
+  orig: 1920, 1136
+  offset: 580, 441
+  index: -1
+mod/bgGlow
+  rotate: false
+  xy: 2, 1050
+  size: 1861, 652
+  orig: 1920, 1080
+  offset: 59, 285
+  index: -1
+mod/bgGlowv2
+  rotate: false
+  xy: 2, 1050
+  size: 1861, 652
+  orig: 1920, 1080
+  offset: 59, 285
+  index: -1
+mod/bgGlowBlur
+  rotate: false
+  xy: 2, 517
+  size: 1769, 531
+  orig: 1920, 1080
+  offset: 42, 424
+  index: -1
+
+scene5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/bg2Glow
+  rotate: false
+  xy: 2, 441
+  size: 982, 389
+  orig: 1920, 1136
+  offset: 757, 511
+  index: -1
+mod/campfireGlow
+  rotate: false
+  xy: 1097, 1716
+  size: 716, 272
+  orig: 960, 568
+  offset: 244, 0
+  index: -1
+mod/campfireKindling
+  rotate: false
+  xy: 2, 832
+  size: 1029, 487
+  orig: 1920, 1136
+  offset: 869, 0
+  index: -1
+mod/chains
+  rotate: false
+  xy: 2, 2
+  size: 586, 437
+  orig: 1920, 1080
+  offset: 1140, 382
+  index: -1
+mod/chainsGlow
+  rotate: false
+  xy: 1020, 25
+  size: 232, 709
+  orig: 1920, 1080
+  offset: 1386, 371
+  index: -1
+mod/fgHideWindow
+  rotate: false
+  xy: 1815, 1840
+  size: 138, 148
+  orig: 1920, 1080
+  offset: 1782, 251
+  index: -1
+mod/mg1Glow
+  rotate: false
+  xy: 590, 70
+  size: 428, 369
+  orig: 1920, 1136
+  offset: 45, 280
+  index: -1
+mod/p1
+  rotate: false
+  xy: 1783, 652
+  size: 249, 648
+  orig: 1920, 1136
+  offset: 295, 361
+  index: -1
+mod/p2
+  rotate: false
+  xy: 1484, 125
+  size: 124, 609
+  orig: 1920, 1136
+  offset: 689, 389
+  index: -1
+mod/p3
+  rotate: false
+  xy: 1610, 138
+  size: 116, 596
+  orig: 1920, 1136
+  offset: 980, 402
+  index: -1
+mod/p4
+  rotate: false
+  xy: 1254, 41
+  size: 228, 693
+  orig: 1920, 1136
+  offset: 1175, 303
+  index: -1
+mod/p5
+  rotate: false
+  xy: 1728, 51
+  size: 116, 599
+  orig: 1920, 1136
+  offset: 1521, 398
+  index: -1
+mod/throne
+  rotate: false
+  xy: 1097, 736
+  size: 684, 978
+  orig: 1920, 1080
+  offset: 1185, 0
+  index: -1
+mod/throneGlow
+  rotate: false
+  xy: 1783, 1302
+  size: 262, 412
+  orig: 1920, 1080
+  offset: 1396, 344
+  index: -1
+mod/wall
+  rotate: false
+  xy: 2, 1321
+  size: 1093, 667
+  orig: 1920, 1136
+  offset: 827, 275
+  index: -1

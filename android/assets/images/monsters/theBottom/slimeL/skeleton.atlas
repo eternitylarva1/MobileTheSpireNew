@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/body
+  rotate: false
+  xy: 2, 27
+  size: 267, 148
+  orig: 267, 148
+  offset: 0, 0
+  index: -1
+images/drop1
+  rotate: false
+  xy: 353, 236
+  size: 32, 18
+  orig: 32, 18
+  offset: 0, 0
+  index: -1
+images/drop2
+  rotate: true
+  xy: 369, 205
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+images/drop3
+  rotate: false
+  xy: 325, 167
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/eye1
+  rotate: false
+  xy: 53, 9
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+images/eye2
+  rotate: false
+  xy: 413, 242
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+images/eye3
+  rotate: false
+  xy: 271, 130
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+images/eye4
+  rotate: false
+  xy: 353, 204
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+images/eye5
+  rotate: false
+  xy: 66, 16
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+images/eye6
+  rotate: false
+  xy: 353, 193
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+images/eye7
+  rotate: false
+  xy: 428, 246
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+images/eyeshadow1
+  rotate: true
+  xy: 2, 2
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+images/eyeshadow2
+  rotate: false
+  xy: 23, 9
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+images/eyeshadow3
+  rotate: false
+  xy: 353, 218
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+images/eyeshadow4
+  rotate: false
+  xy: 271, 157
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+images/eyeshadow5
+  rotate: false
+  xy: 387, 240
+  size: 24, 14
+  orig: 24, 14
+  offset: 0, 0
+  index: -1
+images/eyeshadow6
+  rotate: false
+  xy: 271, 143
+  size: 25, 12
+  orig: 25, 12
+  offset: 0, 0
+  index: -1
+images/eyeshadow7
+  rotate: false
+  xy: 303, 164
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 2, 177
+  size: 349, 77
+  orig: 349, 77
+  offset: 0, 0
+  index: -1

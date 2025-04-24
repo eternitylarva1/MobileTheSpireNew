@@ -1,0 +1,34 @@
+
+spireGrowth.png
+size: 770,249
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tentacle_center
+  rotate: true
+  xy: 2, 68
+  size: 179, 766
+  orig: 179, 766
+  offset: 0, 0
+  index: -1
+tentacle_left
+  rotate: true
+  xy: 405, 2
+  size: 64, 220
+  orig: 64, 220
+  offset: 0, 0
+  index: -1
+tentacle_right
+  rotate: true
+  xy: 627, 23
+  size: 43, 127
+  orig: 43, 127
+  offset: 0, 0
+  index: -1
+tentacle_shadow
+  rotate: false
+  xy: 2, 10
+  size: 401, 56
+  orig: 401, 56
+  offset: 0, 0
+  index: -1

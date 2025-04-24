@@ -1,0 +1,76 @@
+
+ShellMonster.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+leftLeg
+  rotate: true
+  xy: 304, 97
+  size: 84, 94
+  orig: 84, 94
+  offset: 0, 0
+  index: -1
+lowerBody
+  rotate: false
+  xy: 317, 183
+  size: 153, 69
+  orig: 153, 69
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 166, 105
+  size: 136, 90
+  orig: 136, 90
+  offset: 0, 0
+  index: -1
+rightLeg
+  rotate: false
+  xy: 166, 2
+  size: 111, 101
+  orig: 111, 101
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 197
+  size: 313, 55
+  orig: 313, 55
+  offset: 0, 0
+  index: -1
+tentacleHorn1
+  rotate: false
+  xy: 2, 10
+  size: 91, 26
+  orig: 91, 26
+  offset: 0, 0
+  index: -1
+tentacleHorn2
+  rotate: false
+  xy: 400, 166
+  size: 41, 15
+  orig: 41, 15
+  offset: 0, 0
+  index: -1
+tentacleHorn3
+  rotate: false
+  xy: 472, 220
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+tentacleHorn4
+  rotate: false
+  xy: 279, 84
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+upperBody
+  rotate: false
+  xy: 2, 38
+  size: 162, 157
+  orig: 162, 157
+  offset: 0, 0
+  index: -1

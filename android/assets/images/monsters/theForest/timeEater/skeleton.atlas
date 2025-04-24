@@ -1,0 +1,90 @@
+
+TimeEater.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ant2_bg
+  rotate: false
+  xy: 206, 15
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+ant2_fg
+  rotate: false
+  xy: 347, 54
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+ant_bg
+  rotate: false
+  xy: 238, 94
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+ant_fg
+  rotate: true
+  xy: 127, 18
+  size: 34, 77
+  orig: 34, 77
+  offset: 0, 0
+  index: -1
+arm_bg
+  rotate: true
+  xy: 400, 252
+  size: 119, 64
+  orig: 119, 64
+  offset: 0, 0
+  index: -1
+arm_fg
+  rotate: true
+  xy: 2, 54
+  size: 93, 234
+  orig: 93, 234
+  offset: 0, 0
+  index: -1
+cloak_bg
+  rotate: false
+  xy: 400, 116
+  size: 37, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1
+cloak_fg
+  rotate: false
+  xy: 2, 149
+  size: 306, 352
+  orig: 306, 352
+  offset: 0, 0
+  index: -1
+clock
+  rotate: true
+  xy: 238, 17
+  size: 75, 107
+  orig: 75, 107
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 400, 373
+  size: 128, 84
+  orig: 128, 84
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 310, 98
+  size: 403, 88
+  orig: 403, 88
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 2, 2
+  size: 123, 50
+  orig: 123, 50
+  offset: 0, 0
+  index: -1

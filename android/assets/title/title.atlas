@@ -1,0 +1,252 @@
+
+title.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mg2
+  rotate: false
+  xy: 2, 1144
+  size: 1920, 789
+  orig: 1920, 848
+  offset: 0, 0
+  index: -1
+mg3Bot
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1140
+  orig: 1920, 1140
+  offset: 0, 0
+  index: -1
+
+title2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mg3Top
+  rotate: false
+  xy: 2, 860
+  size: 1920, 1140
+  orig: 1920, 1140
+  offset: 0, 0
+  index: -1
+topCloud7
+  rotate: false
+  xy: 2, 2
+  size: 1920, 856
+  orig: 1920, 1266
+  offset: 0, 173
+  index: -1
+
+title3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+midCloud13
+  rotate: false
+  xy: 2, 378
+  size: 1683, 1035
+  orig: 1920, 1266
+  offset: 112, 0
+  index: -1
+midCloud9
+  rotate: false
+  xy: 2, 1415
+  size: 1686, 581
+  orig: 1920, 1266
+  offset: 41, 390
+  index: -1
+topCloud2
+  rotate: false
+  xy: 2, 2
+  size: 1561, 374
+  orig: 1920, 1266
+  offset: 118, 398
+  index: -1
+
+title4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mg1
+  rotate: false
+  xy: 2, 1680
+  size: 1535, 277
+  orig: 1920, 332
+  offset: 0, 0
+  index: -1
+mg3BotGlow
+  rotate: false
+  xy: 2, 354
+  size: 1358, 727
+  orig: 1920, 1140
+  offset: 0, 413
+  index: -1
+midCloud12
+  rotate: false
+  xy: 2, 1083
+  size: 1519, 595
+  orig: 1920, 1266
+  offset: 342, 232
+  index: -1
+topCloud3
+  rotate: false
+  xy: 2, 2
+  size: 1299, 350
+  orig: 1920, 1266
+  offset: 257, 182
+  index: -1
+
+title5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fg
+  rotate: false
+  xy: 2, 1302
+  size: 1294, 604
+  orig: 1920, 626
+  offset: 626, 0
+  index: -1
+midCloud11
+  rotate: false
+  xy: 2, 2
+  size: 1237, 638
+  orig: 1920, 1266
+  offset: 637, 190
+  index: -1
+midCloud5
+  rotate: false
+  xy: 2, 642
+  size: 1252, 284
+  orig: 1920, 1266
+  offset: 376, 52
+  index: -1
+midCloud8
+  rotate: false
+  xy: 2, 928
+  size: 1293, 372
+  orig: 1920, 1266
+  offset: 558, 86
+  index: -1
+
+title6.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo2
+  rotate: false
+  xy: 2, 61
+  size: 639, 550
+  orig: 680, 550
+  offset: 20, 0
+  index: -1
+mg3TopGlow1
+  rotate: false
+  xy: 1831, 138
+  size: 158, 289
+  orig: 1920, 1140
+  offset: 225, 0
+  index: -1
+mg3TopGlow2
+  rotate: false
+  xy: 1877, 674
+  size: 153, 330
+  orig: 1920, 1140
+  offset: 234, 0
+  index: -1
+midCloud1
+  rotate: false
+  xy: 1423, 621
+  size: 452, 165
+  orig: 1920, 1266
+  offset: 582, 740
+  index: -1
+midCloud10
+  rotate: false
+  xy: 643, 264
+  size: 635, 341
+  orig: 1920, 1266
+  offset: 473, 498
+  index: -1
+midCloud2
+  rotate: false
+  xy: 915, 788
+  size: 856, 216
+  orig: 1920, 1266
+  offset: 445, 740
+  index: -1
+midCloud3
+  rotate: false
+  xy: 2, 613
+  size: 775, 203
+  orig: 1920, 1266
+  offset: 535, 751
+  index: -1
+midCloud4
+  rotate: false
+  xy: 779, 607
+  size: 642, 179
+  orig: 1920, 1266
+  offset: 554, 760
+  index: -1
+midCloud6
+  rotate: false
+  xy: 2, 2
+  size: 272, 57
+  orig: 1920, 1266
+  offset: 665, 651
+  index: -1
+midCloud7
+  rotate: false
+  xy: 2, 818
+  size: 911, 186
+  orig: 1920, 1266
+  offset: 506, 46
+  index: -1
+topCloud1
+  rotate: false
+  xy: 1280, 429
+  size: 558, 176
+  orig: 1920, 1266
+  offset: 811, 807
+  index: -1
+topCloud4
+  rotate: false
+  xy: 1244, 81
+  size: 585, 181
+  orig: 1920, 1266
+  offset: 1199, 677
+  index: -1
+topCloud5
+  rotate: false
+  xy: 643, 111
+  size: 599, 151
+  orig: 1920, 1266
+  offset: 10, 445
+  index: -1
+topCloud6
+  rotate: false
+  xy: 643, 12
+  size: 411, 97
+  orig: 1920, 1266
+  offset: 95, 872
+  index: -1
+
+title.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+jpg/sky
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1469
+  orig: 1920, 1469
+  offset: 0, 0
+  index: -1

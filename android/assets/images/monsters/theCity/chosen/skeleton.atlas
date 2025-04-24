@@ -1,0 +1,97 @@
+
+chosen.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm (right)
+  rotate: false
+  xy: 238, 103
+  size: 82, 56
+  orig: 82, 56
+  offset: 0, 0
+  index: -1
+detail1
+  rotate: false
+  xy: 354, 184
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+detail2
+  rotate: false
+  xy: 484, 234
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+detail3
+  rotate: false
+  xy: 2, 2
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+detail4
+  rotate: false
+  xy: 400, 224
+  size: 48, 30
+  orig: 48, 30
+  offset: 0, 0
+  index: -1
+glowy eye
+  rotate: false
+  xy: 321, 177
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+hand (left)
+  rotate: true
+  xy: 329, 206
+  size: 48, 69
+  orig: 48, 69
+  offset: 0, 0
+  index: -1
+hand (right)
+  rotate: false
+  xy: 238, 161
+  size: 81, 58
+  orig: 81, 58
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 450, 222
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hood
+  rotate: false
+  xy: 148, 111
+  size: 88, 108
+  orig: 88, 108
+  offset: 0, 0
+  index: -1
+robe
+  rotate: false
+  xy: 2, 21
+  size: 144, 233
+  orig: 144, 233
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 148, 221
+  size: 179, 33
+  orig: 179, 33
+  offset: 0, 0
+  index: -1
+skin
+  rotate: false
+  xy: 148, 30
+  size: 68, 79
+  orig: 68, 79
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+AwakenedOne.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ankle_f
+  rotate: false
+  xy: 423, 2
+  size: 117, 52
+  orig: 117, 52
+  offset: 0, 0
+  index: -1
+arm_f
+  rotate: true
+  xy: 933, 203
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+beak
+  rotate: false
+  xy: 542, 2
+  size: 31, 52
+  orig: 31, 52
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 47
+  size: 419, 207
+  orig: 419, 207
+  offset: 0, 0
+  index: -1
+dagger
+  rotate: true
+  xy: 105, 14
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 546, 61
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+eyelid
+  rotate: true
+  xy: 682, 77
+  size: 15, 24
+  orig: 15, 24
+  offset: 0, 0
+  index: -1
+feathers
+  rotate: false
+  xy: 62, 12
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+forearm_f
+  rotate: true
+  xy: 2, 11
+  size: 34, 58
+  orig: 34, 58
+  offset: 0, 0
+  index: -1
+hand_b
+  rotate: false
+  xy: 896, 102
+  size: 45, 75
+  orig: 45, 75
+  offset: 0, 0
+  index: -1
+hand_f
+  rotate: false
+  xy: 933, 179
+  size: 37, 22
+  orig: 37, 22
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 682, 94
+  size: 83, 107
+  orig: 83, 107
+  offset: 0, 0
+  index: -1
+leg_b
+  rotate: true
+  xy: 791, 101
+  size: 76, 103
+  orig: 76, 103
+  offset: 0, 0
+  index: -1
+leg_f
+  rotate: true
+  xy: 546, 74
+  size: 103, 134
+  orig: 103, 134
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 423, 56
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+lowBeak
+  rotate: true
+  xy: 146, 16
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 423, 179
+  size: 508, 75
+  orig: 508, 75
+  offset: 0, 0
+  index: -1

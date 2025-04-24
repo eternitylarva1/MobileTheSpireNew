@@ -1,0 +1,195 @@
+
+GremlinLeader.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 28
+  size: 98, 168
+  orig: 98, 168
+  offset: 0, 0
+  index: -1
+coinStrap
+  rotate: false
+  xy: 596, 40
+  size: 14, 50
+  orig: 14, 50
+  offset: 0, 0
+  index: -1
+coins
+  rotate: false
+  xy: 612, 49
+  size: 17, 41
+  orig: 17, 41
+  offset: 0, 0
+  index: -1
+coinsShadow
+  rotate: true
+  xy: 880, 66
+  size: 20, 45
+  orig: 20, 45
+  offset: 0, 0
+  index: -1
+dagger
+  rotate: true
+  xy: 444, 2
+  size: 97, 48
+  orig: 97, 48
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 529, 26
+  size: 64, 35
+  orig: 64, 35
+  offset: 0, 0
+  index: -1
+key
+  rotate: true
+  xy: 927, 68
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+keyShadow
+  rotate: true
+  xy: 542, 2
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+keyStrap
+  rotate: true
+  xy: 793, 60
+  size: 66, 85
+  orig: 66, 85
+  offset: 0, 0
+  index: -1
+keyStrap2
+  rotate: true
+  xy: 109, 12
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+kunai
+  rotate: true
+  xy: 64, 7
+  size: 19, 43
+  orig: 19, 43
+  offset: 0, 0
+  index: -1
+kunaiShadow
+  rotate: true
+  xy: 494, 2
+  size: 22, 46
+  orig: 22, 46
+  offset: 0, 0
+  index: -1
+kunaiStrap
+  rotate: true
+  xy: 133, 15
+  size: 11, 22
+  orig: 11, 22
+  offset: 0, 0
+  index: -1
+leftArm
+  rotate: true
+  xy: 264, 3
+  size: 46, 77
+  orig: 46, 77
+  offset: 0, 0
+  index: -1
+leftArmShadow
+  rotate: true
+  xy: 880, 88
+  size: 38, 77
+  orig: 38, 77
+  offset: 0, 0
+  index: -1
+leftEye
+  rotate: false
+  xy: 157, 15
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+leftHorn
+  rotate: false
+  xy: 494, 26
+  size: 33, 73
+  orig: 33, 73
+  offset: 0, 0
+  index: -1
+leftLeg
+  rotate: false
+  xy: 566, 35
+  size: 28, 55
+  orig: 28, 55
+  offset: 0, 0
+  index: -1
+rightArm
+  rotate: true
+  xy: 671, 84
+  size: 42, 120
+  orig: 42, 120
+  offset: 0, 0
+  index: -1
+rightArmShadow
+  rotate: true
+  xy: 532, 92
+  size: 34, 137
+  orig: 34, 137
+  offset: 0, 0
+  index: -1
+rightEye
+  rotate: false
+  xy: 631, 75
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+rightHorn
+  rotate: true
+  xy: 959, 91
+  size: 35, 52
+  orig: 35, 52
+  offset: 0, 0
+  index: -1
+rightLeg
+  rotate: true
+  xy: 2, 3
+  size: 23, 60
+  orig: 23, 60
+  offset: 0, 0
+  index: -1
+scarf
+  rotate: false
+  xy: 352, 2
+  size: 90, 97
+  orig: 90, 97
+  offset: 0, 0
+  index: -1
+scarfBg
+  rotate: true
+  xy: 172, 51
+  size: 75, 178
+  orig: 75, 178
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 352, 101
+  size: 178, 25
+  orig: 178, 25
+  offset: 0, 0
+  index: -1
+shirtBg
+  rotate: false
+  xy: 172, 2
+  size: 90, 47
+  orig: 90, 47
+  offset: 0, 0
+  index: -1

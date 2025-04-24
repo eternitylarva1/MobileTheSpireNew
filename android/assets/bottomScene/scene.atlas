@@ -1,0 +1,149 @@
+
+scene.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene2.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+campfire
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene3.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+event
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1136
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+
+scene.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/campfireKindling
+  rotate: false
+  xy: 2, 2
+  size: 1840, 496
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+mod/ceiling
+  rotate: false
+  xy: 2, 1553
+  size: 1920, 332
+  orig: 1920, 1136
+  offset: 0, 804
+  index: -1
+mod/fg
+  rotate: false
+  xy: 2, 1273
+  size: 1920, 278
+  orig: 1920, 1136
+  offset: 0, 0
+  index: -1
+mod/mg
+  rotate: false
+  xy: 2, 500
+  size: 1920, 771
+  orig: 1920, 1136
+  offset: 0, 365
+  index: -1
+
+scene2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mod/campfireGlow
+  rotate: false
+  xy: 2, 161
+  size: 697, 239
+  orig: 960, 568
+  offset: 263, 0
+  index: -1
+mod/ceilingMod1
+  rotate: false
+  xy: 1900, 727
+  size: 130, 247
+  orig: 1920, 1136
+  offset: 110, 776
+  index: -1
+mod/ceilingMod2
+  rotate: false
+  xy: 2, 118
+  size: 245, 41
+  orig: 1920, 1136
+  offset: 625, 1095
+  index: -1
+mod/ceilingMod3
+  rotate: false
+  xy: 1900, 544
+  size: 95, 181
+  orig: 1920, 1136
+  offset: 1197, 955
+  index: -1
+mod/ceilingMod4
+  rotate: false
+  xy: 1692, 320
+  size: 194, 207
+  orig: 1920, 1136
+  offset: 1301, 805
+  index: -1
+mod/ceilingMod5
+  rotate: false
+  xy: 2, 2
+  size: 198, 114
+  orig: 1920, 1136
+  offset: 632, 876
+  index: -1
+mod/ceilingMod6
+  rotate: false
+  xy: 1495, 318
+  size: 195, 209
+  orig: 1920, 1136
+  offset: 1563, 613
+  index: -1
+mod/midWall
+  rotate: false
+  xy: 1495, 529
+  size: 403, 445
+  orig: 1920, 1136
+  offset: 882, 447
+  index: -1
+mod/mod1
+  rotate: false
+  xy: 749, 426
+  size: 744, 548
+  orig: 1920, 1136
+  offset: 315, 434
+  index: -1
+mod/mod2
+  rotate: false
+  xy: 2, 402
+  size: 745, 572
+  orig: 1920, 1136
+  offset: 607, 423
+  index: -1

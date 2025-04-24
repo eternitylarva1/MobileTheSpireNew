@@ -1,0 +1,69 @@
+
+flying.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flying/clawleft
+  rotate: false
+  xy: 432, 92
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+flying/clawright
+  rotate: true
+  xy: 432, 67
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+flying/eye
+  rotate: false
+  xy: 140, 24
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+flying/legleft
+  rotate: true
+  xy: 2, 2
+  size: 18, 34
+  orig: 18, 34
+  offset: 0, 0
+  index: -1
+flying/legright
+  rotate: false
+  xy: 257, 57
+  size: 26, 37
+  orig: 26, 37
+  offset: 0, 0
+  index: -1
+flying/shadow
+  rotate: false
+  xy: 140, 96
+  size: 175, 29
+  orig: 175, 29
+  offset: 0, 0
+  index: -1
+flying/torso
+  rotate: true
+  xy: 2, 22
+  size: 103, 136
+  orig: 103, 136
+  offset: 0, 0
+  index: -1
+flying/wingleft
+  rotate: false
+  xy: 317, 67
+  size: 113, 58
+  orig: 113, 58
+  offset: 0, 0
+  index: -1
+flying/wingright
+  rotate: false
+  xy: 140, 31
+  size: 115, 63
+  orig: 115, 63
+  offset: 0, 0
+  index: -1
