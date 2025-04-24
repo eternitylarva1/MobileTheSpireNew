@@ -15,6 +15,9 @@ https://github.com/tldyl/ModbileTheSpire/wiki
 控制台mod(手机版):
 https://github.com/eternitylarva1/Devconsle
 
+快速slmod(手机版):
+https://github.com/eternitylarva1/QuickRestartMobile
+
 随机融合怪（手机版）：
 https://github.com/eternitylarva1/randomMonsterMoblie
 
@@ -46,9 +49,12 @@ https://github.com/eternitylarva1/BetterAnimationMobile
 
 3.页面展示
 
-（注：右边那个dev按钮是控制台mod提供的,没装这个mod的话不会有这个按钮）
+（注：右边那个dev按钮是控制台mod提供的,没装这个mod的话不会有这个按钮，快速重开按钮同理）
+
+
 ![目录4](images/2.jpg "4")
 ![目录4](images/3.jpg "4")
+![目录5](images/7.jpg "4")
 
 4.Mod安装位置：
 
