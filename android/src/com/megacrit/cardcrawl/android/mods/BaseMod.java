@@ -28,6 +28,7 @@ import com.megacrit.cardcrawl.android.mods.utils.Types;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.characters.CharacterManager;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -1040,6 +1041,9 @@ public class BaseMod {
     }
 
     public static void addCharacter(AbstractPlayer character, String selectButtonPath, String portraitPath, AbstractPlayer.PlayerClass characterID, String customModeButtonPath) {
+       if(CardCrawlGame.characterManager==null){
+           CardCrawlGame.characterManager = new CharacterManager();
+       }
         CardCrawlGame.characterManager.getAllCharacters().add(character);
         playerSelectButtonMap.put(characterID, selectButtonPath);
         customModeCharacterButtonMap.put(characterID, customModeButtonPath);
