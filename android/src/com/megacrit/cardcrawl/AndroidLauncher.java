@@ -154,7 +154,11 @@ public class AndroidLauncher extends AndroidApplication {
         field.setAccessible(true);
         return field.get(object);
     }
-
+    public static Object getField1(Class<?> cl, String fieldName, Object object) throws NoSuchFieldException, IllegalAccessException {
+        Field field = cl.getDeclaredField(fieldName);
+        field.setAccessible(true);
+        return field.get(object);
+    }
     /**
      * 通过反射设置对象的属性值
      */

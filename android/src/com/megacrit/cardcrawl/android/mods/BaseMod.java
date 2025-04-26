@@ -11,7 +11,9 @@ import com.badlogic.gdx.graphics.g3d.Environment;
 import com.badlogic.gdx.graphics.g3d.ModelBatch;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.glutils.FrameBuffer;
+import com.badlogic.gdx.utils.reflect.ReflectionException;
 import com.google.gson.Gson;
+import com.megacrit.cardcrawl.AndroidLauncher;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.android.SpireAndroidLogger;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomCard;
@@ -53,6 +55,8 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import static com.badlogic.gdx.utils.reflect.ClassReflection.getField;
 
 public class BaseMod {
     public static boolean modSettingsUp;
@@ -1054,12 +1058,22 @@ public class BaseMod {
         addCharacter(character, selectButtonPath, portraitPath, characterID, null);
     }
 
-    public static ArrayList<CharacterOption> generateCharacterOptions(String modId) {
+    public static ArrayList<CharacterOption> generateCharacterOptions(String modId) throws ReflectionException, NoSuchFieldException, IllegalAccessException {
         ArrayList<CharacterOption> options = new ArrayList<>();
         for (AbstractPlayer character : getModdedCharacters()) {
-            CharacterOption option = new CharacterOption(character.getLocalizedCharacterName(), CardCrawlGame.characterManager.recreateCharacter(character.chosenClass), AssetLoader.getTexture(modId, playerSelectButtonMap.get(character.chosenClass)), AssetLoader.getTexture(modId, playerPortraitMap.get(character.chosenClass)));
-            options.add(option);
+            CharacterOption option = new CharacterOption(character.getLocalizedCharacterName(), CardCrawlGame.characterManager.recreateCharacter(character.chosenClass),
+                    AssetLoader.getTexture(modId, playerSelectButtonMap.get(character.chosenClass)),
+                    AssetLoader.getTexture(modId, playerPortraitMap.get(character.chosenClass)));
+            if(AndroidLauncher.getField1(option.getClass(), "buttonImg", option)!=null) {
+                options.add(option);
+            }
         }
+        Collections.sort(options, new Comparator<CharacterOption>() {
+            @Override
+            public int compare(CharacterOption o1, CharacterOption o2) {
+                return o1.name.compareTo(o2.name);
+            }
+        });
         return options;
     }
 

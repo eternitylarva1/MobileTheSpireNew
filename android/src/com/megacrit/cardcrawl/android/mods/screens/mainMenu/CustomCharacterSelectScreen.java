@@ -3,6 +3,7 @@ package com.megacrit.cardcrawl.android.mods.screens.mainMenu;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.reflect.ReflectionException;
 import com.megacrit.cardcrawl.android.mods.BaseMod;
 import com.megacrit.cardcrawl.android.mods.Loader;
 import com.megacrit.cardcrawl.android.mods.ModInfo;
@@ -41,7 +42,15 @@ public class CustomCharacterSelectScreen extends CharacterSelectScreen {
 
         for (ModInfo info : Loader.MODINFOS) {
             if (info.isLoaded) {
-                this.options.addAll(BaseMod.generateCharacterOptions(info.modId));
+                try {
+                    this.options.addAll(BaseMod.generateCharacterOptions(info.modId));
+                } catch (ReflectionException e) {
+                    throw new RuntimeException(e);
+                } catch (NoSuchFieldException e) {
+                    throw new RuntimeException(e);
+                } catch (IllegalAccessException e) {
+                    throw new RuntimeException(e);
+                }
             }
         }
         this.options.sort(Comparator.comparing((o) -> o.name));
