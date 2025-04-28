@@ -1061,6 +1061,7 @@ public class BaseMod {
     public static ArrayList<CharacterOption> generateCharacterOptions(String modId) throws ReflectionException, NoSuchFieldException, IllegalAccessException {
         ArrayList<CharacterOption> options = new ArrayList<>();
         for (AbstractPlayer character : getModdedCharacters()) {
+
             CharacterOption option = new CharacterOption(character.getLocalizedCharacterName(), CardCrawlGame.characterManager.recreateCharacter(character.chosenClass),
                     AssetLoader.getTexture(modId, playerSelectButtonMap.get(character.chosenClass)),
                     AssetLoader.getTexture(modId, playerPortraitMap.get(character.chosenClass)));

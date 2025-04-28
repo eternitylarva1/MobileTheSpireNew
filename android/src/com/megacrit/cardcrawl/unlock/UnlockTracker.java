@@ -842,7 +842,9 @@ public class UnlockTracker {
                 }
                 if (tmpBundle.isEmpty()) {
                     logger.info("No custom unlock bundle found for " + c.toString());
-                    return null;
+                    tmpBundle.add(new HeavyBladeUnlock());
+                    tmpBundle.add(new SpotWeaknessUnlock());
+                    tmpBundle.add(new LimitBreakUnlock());
                 }
                 return tmpBundle;
         }
