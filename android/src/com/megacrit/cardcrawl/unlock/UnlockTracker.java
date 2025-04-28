@@ -840,6 +840,10 @@ public class UnlockTracker {
                 if (customUnlock != null) {
                     tmpBundle = customUnlock.getUnlockBundle(unlockLevel);
                 }
+                if (tmpBundle.isEmpty()) {
+                    logger.info("No custom unlock bundle found for " + c.toString());
+                    return null;
+                }
                 return tmpBundle;
         }
     }
