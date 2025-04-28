@@ -12,8 +12,14 @@ https://github.com/tldyl/ModbileTheSpire/wiki
 
 我写的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
 
+菜农mod(手机版):
+https://github.com/eternitylarva1/CainongMobile
+
 控制台mod(手机版):
 https://github.com/eternitylarva1/Devconsle
+
+灼热2048mod(手机版):
+https://github.com/eternitylarva1/2048
 
 快速slmod(手机版):
 https://github.com/eternitylarva1/QuickRestartMobile
