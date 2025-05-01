@@ -20,6 +20,7 @@ public class SpireAndroidLogger {
     public static SpireAndroidLogger getLogger(Class<?> cls) {
         if (!loggerMap.containsKey(cls)) {
             loggerMap.put(cls, new ApplicationLogger() {
+
                 private String tagName = cls.getName().replace("com.megacrit.cardcrawl.", "");
 
                 @Override

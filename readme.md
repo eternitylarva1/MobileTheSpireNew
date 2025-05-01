@@ -12,6 +12,9 @@ https://github.com/tldyl/ModbileTheSpire/wiki
 
 我写的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
 
+蕾忍mod(手机版)
+https://github.com/eternitylarva1/LeiRengMobile
+
 菜农mod(手机版):
 https://github.com/eternitylarva1/CainongMobile
 

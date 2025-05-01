@@ -27,6 +27,7 @@ import com.megacrit.cardcrawl.android.mods.interfaces.*;
 import com.megacrit.cardcrawl.android.mods.utils.EventUtils;
 import com.megacrit.cardcrawl.android.mods.utils.ReflectionHacks;
 import com.megacrit.cardcrawl.android.mods.utils.Types;
+import com.megacrit.cardcrawl.audio.SoundMaster;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
