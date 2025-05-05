@@ -10,7 +10,10 @@ https://github.com/tldyl/ModbileTheSpire/wiki
 
 细节可以参考我写的几个mod
 
-我写的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
+我移植的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
+
+魔理沙mod（手机版）
+https://github.com/eternitylarva1/MarisaMobile
 
 蕾忍mod(手机版)
 https://github.com/eternitylarva1/LeiRengMobile
