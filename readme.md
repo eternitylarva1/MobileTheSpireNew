@@ -8,9 +8,12 @@ https://github.com/tldyl/ModbileTheSpire/wiki
 
 <span style="color: red;">注意！！！电脑版mod和这个版本的mod并不通用！，请勿直接把电脑版mod放到这个版本</span>
 
-细节可以参考我写的几个mod
+想要移植的话，细节可以参考我写的几个mod
 
-我移植的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
+一些移植的mod:(可以在这个版本使用，可以在对应的github界面下载使用)
+
+崩坏-星穹铁道
+https://github.com/BowenJXD/HSRMod/releases/tag/latest
 
 魔理沙mod（手机版）
 https://github.com/eternitylarva1/MarisaMobile
