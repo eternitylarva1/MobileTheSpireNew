@@ -1,6 +1,6 @@
 android {
     buildToolsVersion '30.0.2'
-    compileSdkVersion 30
+    compileSdk 30
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -22,16 +22,10 @@ android {
     }
     defaultConfig {
         applicationId "com.megacrit.cardcrawl"
-        minSdkVersion 29
+        minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                includeCompileClasspath = true    //加上这行即可
-//            }
-//        }
-        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -50,7 +44,7 @@ android {
 // called every time gradle gets executed, takes the native dependencies of
 // the natives configuration, and extracts them to the proper libs/ folders
 // so they get packed with the APK.
-task copyAndroidNatives {
+tasks.register('copyAndroidNatives') {
     doFirst {
         file("libs/armeabi/").mkdirs()
         file("libs/armeabi-v7a/").mkdirs()
@@ -75,32 +69,9 @@ task copyAndroidNatives {
         }
     }
 }
-tasks.whenTaskAdded { packageTask ->
+
+tasks.configureEach { packageTask ->
     if (packageTask.name.contains("package")) {
         packageTask.dependsOn 'copyAndroidNatives'
     }
-}
-task run(type: Exec) {
-    def path
-    def localProperties = project.file("../local.properties")
-    if (localProperties.exists()) {
-        Properties properties = new Properties()
-        localProperties.withInputStream { instr ->
-            properties.load(instr)
-        }
-        def sdkDir = properties.getProperty('sdk.dir')
-        if (sdkDir) {
-            path = sdkDir
-        } else {
-            path = "$System.env.ANDROID_HOME"
-        }
-    } else {
-        path = "$System.env.ANDROID_HOME"
-    }
-
-    def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.megacrit.cardcrawl/com.megacrit.cardcrawl.AndroidLauncher'
-}
-eclipse.project.name = appName + "-android"
-dependencies {
 }

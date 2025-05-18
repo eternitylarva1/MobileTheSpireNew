@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.View;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.badlogic.gdx.backends.android.surfaceview.FillResolutionStrategy;
@@ -68,6 +69,11 @@ public class AndroidLauncher extends AndroidApplication {
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // 隐藏 Navigation Bar
+        View decorView = getWindow().getDecorView();
+        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
         super.onCreate(savedInstanceState);
               // 在 onCreate 中调用权限申请方法
         requestAllFilesAccess();

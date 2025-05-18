@@ -6,7 +6,7 @@ https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire&hl=zh
 ## Mod制作教程/编译教程请看
 https://github.com/tldyl/ModbileTheSpire/wiki
 
-<span style="color: red;">注意！！！电脑版mod和这个版本的mod并不通用！，请勿直接把电脑版mod放到这个版本</span>
+$${\color{red} \text{注意！！！电脑版mod和这个版本的mod并不通用！，请勿直接把电脑版mod放到这个版本}}$$
 
 想要移植的话，细节可以参考我写的几个mod
 
@@ -48,16 +48,16 @@ https://github.com/eternitylarva1/BetterAnimationMobile
 
 如图所示，点击下载，然后点击安装，安装完成之后，就可以打开
 
-![目录1](images/5.jpg "1")
+![目录1](docs/images/5.jpg)
 
 2.第一次打开前，建议先导入存档，能避免反复重开（这一步可以跳过，但是可能会比较麻烦）
 
 导入存档教程：
 
 1.下载这个
-![目录2](images/8.png "2")
+![目录2](docs/images/8.png)
 2.解压后，将其内容放到根目录下的同名文件夹中即可
-![目录3](images/9.jpg "3")
+![目录3](docs/images/9.jpg)
 
 3.打开之后
 
@@ -73,20 +73,20 @@ https://github.com/eternitylarva1/BetterAnimationMobile
 
 
 
-![目录2](images/6.jpg "2")
+![目录2](docs/images/6.jpg)
 
 3.页面展示
 
 （注：右边那个dev按钮是控制台mod提供的,没装这个mod的话不会有这个按钮，快速重开按钮同理）
 
 
-![目录4](images/2.jpg "4")
-![目录4](images/3.jpg "4")
-![目录5](images/7.jpg "4")
+![目录4](docs/images/2.jpg)
+![目录4](docs/images/3.jpg)
+![目录5](docs/images/7.jpg)
 
 4.Mod安装位置：
 
-![目录3](images/1.jpg "3")
+![目录3](docs/images/1.jpg)
 
 5.报错位置
 
