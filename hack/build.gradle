@@ -1,38 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
-
-
+    compileSdk 30
 
     defaultConfig {
         minSdkVersion 29
         targetSdkVersion 30
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
-
-    buildTypes {
-        release {
-            postprocessing {
-                removeUnusedCode false
-                removeUnusedResources false
-                obfuscate false
-                optimizeCode false
-                proguardFile 'proguard-rules.pro'
-            }
-        }
-    }
-
-}
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    //noinspection GradleCompatible
-    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:0.5'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
 }

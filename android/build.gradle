@@ -1,6 +1,6 @@
 android {
     buildToolsVersion '30.0.2'
-    compileSdkVersion 30
+    compileSdk 30
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -26,11 +26,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                includeCompileClasspath = true    //加上这行即可
-//            }
-//        }
     }
     buildTypes {
         release {
