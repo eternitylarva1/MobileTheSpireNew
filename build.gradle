@@ -18,8 +18,6 @@ buildscript {
 }
 
 allprojects {
-    apply plugin: "eclipse"
-
     version = '1.0'
     ext {
         appName = "Slay the Spire"
@@ -44,14 +42,12 @@ allprojects {
 }
 
 project(":android") {
-    apply plugin: 'idea'
     apply plugin: "android"
     apply plugin: Register
 
     configurations { natives }
 
     dependencies {
-        implementation project(":core")
         api "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
@@ -66,14 +62,5 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxFreeTypeVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxFreeTypeVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxFreeTypeVersion:natives-x86_64"
-    }
-}
-
-project(":core") {
-    apply plugin: "java-library"
-
-    dependencies {
-        //api "com.badlogicgames.gdx:gdx:$gdxVersion"
-        //api "com.badlogicgames.gdx:gdx-freetype:$gdxFreeTypeVersion"
     }
 }
