@@ -190,7 +190,7 @@ public class LocalizedStrings {
         achievements = gson.fromJson(loadJson(achievePath), achieveType);
         String lineBreakPath = langPackDir + File.separator + "line_break.json";
         if (Gdx.files.internal(lineBreakPath).exists()) {
-            break_chars = Gdx.files.internal(lineBreakPath).readString(String.valueOf(StandardCharsets.UTF_8));
+            break_chars = Gdx.files.internal(lineBreakPath).readString(StandardCharsets.UTF_8.name());
         }
         BaseMod.receiveEditStrings();
         BaseMod.initializeUnderscorePotionIDs();
@@ -338,7 +338,7 @@ public class LocalizedStrings {
     }
 
     private static String loadJson(String jsonPath) {
-        return Gdx.files.internal(jsonPath).readString(String.valueOf(StandardCharsets.UTF_8));
+        return Gdx.files.internal(jsonPath).readString(StandardCharsets.UTF_8.name());
     }
 }
 
