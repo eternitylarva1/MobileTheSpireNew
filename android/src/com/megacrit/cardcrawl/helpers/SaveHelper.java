@@ -200,7 +200,7 @@ public class SaveHelper {
 
     private static String loadJson(String filepath) {
         if (Gdx.files.external(filepath).exists()) {
-            return Gdx.files.external(filepath).readString(String.valueOf(StandardCharsets.UTF_8));
+            return Gdx.files.external(filepath).readString(StandardCharsets.UTF_8.name());
         } else {
             Map<String, String> map = new HashMap<>();
             Gson gson = new Gson();
